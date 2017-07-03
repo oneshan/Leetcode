@@ -528,20 +528,20 @@
 |           |032| Longest Valid Parentheses                                    |Hard   |
 |           |031| Next Permutation                                             |Medium |
 |           |030| Substring with Concatenation of All Words                    |Hard   |
-|           |029| Divide Two Integers                                          |Medium |
-|           |028| Implement strStr()                                           |Easy   |
-|           |027| Remove Element                                               |Easy   |
-|           |026| Remove Duplicates from Sorted Array                          |Easy   |
-|           |025| Reverse Nodes in k-Group                                     |Hard   |
-|           |024| Swap Nodes in Pairs                                          |Medium |
+|[:o:][a029]|029| Divide Two Integers                                          |Medium |
+|[:o:][a028]|028| Implement strStr()                                           |Easy   |
+|[:o:][a027]|027| Remove Element                                               |Easy   |
+|[:o:][a026]|026| Remove Duplicates from Sorted Array                          |Easy   |
+|           | Reverse Nodes in k-Group                                     |Hard   |
+|[:o:][a024]|024| Swap Nodes in Pairs                                          |Medium |
 |           |023| Merge k Sorted Lists                                         |Hard   |
-|           |022| Generate Parentheses                                         |Medium |
-|           |021| Merge Two Sorted Lists                                       |Easy   |
-|           |020| Valid Parentheses                                            |Easy   |
-|           |019| Remove Nth Node From End of List                             |Medium |
-|           |018| 4Sum                                                         |Medium |
-|           |017| Letter Combinations of a Phone Number                        |Medium |
-|           |016| 3Sum Closest                                                 |Medium |
+|[:o:][a022]|022| Generate Parentheses                                         |Medium |
+|[:o:][a021]|021| Merge Two Sorted Lists                                       |Easy   |
+|[:o:][a020]|020| Valid Parentheses                                            |Easy   |
+|[:o:][a019]|019| Remove Nth Node From End of List                             |Medium |
+|[:o:][a018]|018| 4Sum                                                         |Medium |
+|[:o:][a017]|017| Letter Combinations of a Phone Number                        |Medium |
+|[:o:][a016]|016| 3Sum Closest                                                 |Medium |
 |[:o:][a015]|015| 3Sum                                                         |Medium |
 |[:o:][a014]|014| Longest Common Prefix                                        |Easy   |
 |[:o:][a013]|013| Roman to Integer                                             |Easy   |
@@ -549,7 +549,7 @@
 |[:o:][a011]|011| Container With Most Water                                    |Medium |
 |           |010| Regular Expression Matching                                  |Hard   |
 |[:o:][a009]|009| Palindrome Number                                            |Easy   |
-|[:x:][a008]|008| String to Integer (atoi)                                     |Medium |
+|[:o:][a008]|008| String to Integer (atoi)                                     |Medium |
 |[:o:][a007]|007| Reverse Integer                                              |Easy   |
 |           |006| ZigZag Conversion                                            |Medium |
 |[:o:][a005]|005| Longest Palindromic Substring                                |Medium |
@@ -572,3 +572,16 @@
 [a013]:./accepted/013.roman-to-integer.py
 [a014]:./accepted/014.longest-common-prefix.py
 [a015]:./accepted/015.3sum.py
+[a016]:./accepted/016.3sum-closest.py
+[a017]:./accepted/017.letter-combinations-of-a-phone-number.py
+[a018]:./accepted/018.4sum.py
+[a019]:./accepted/019.remove-nth-node-from-end-of-list.py
+[a020]:./accepted/020.valid-parentheses.py
+[a021]:./accepted/021.merge-two-sorted-lists.py
+[a022]:./accepted/022.generate-parentheses.py
+[a024]:./accepted/024.swap-nodes-in-pairs.py
+[a026]:./accepted/026.remove-duplicates-from-sorted-array.py
+[a027]:./accepted/027.remove-element.py
+[a028]:./accepted/028.implement-strstr.py
+[a029]:./accepted/029.divide-two-integers.py
+
