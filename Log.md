@@ -1,5 +1,18 @@
 # Log
 
+## 2017.07.03   (Day 04)
+031.next-permutation.py 
+> ✔ 265/265 cases passed (68 ms)
+> For example: {4, 7, 5, 3, 1}
+>
+> Since {7, 5, 3, 1} are decreasing array, we need to swap 4 (nums[j-1]) and its successor 5 (nums[i])
+> And then reverse nums[j:] to get its next permutation {5, 1, 3 ,4, 7} 
+
+032.longest-valid-parentheses.py
+> ✔ 229/229 cases passed (68 ms)
+> - DP: `dp[i] = dp[i-1] + 2 (+ dp[i-dp[i]] )`
+> - Stack: store index of beginning of valid string
+
 ## 2017.07.02   (Day 03)
 
 016.3sum-closest.py

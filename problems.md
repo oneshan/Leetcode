@@ -525,14 +525,14 @@
 |           |035| Search Insert Position                                       |Easy   |
 |           |034| Search for a Range                                           |Medium |
 |           |033| Search in Rotated Sorted Array                               |Medium |
-|           |032| Longest Valid Parentheses                                    |Hard   |
-|           |031| Next Permutation                                             |Medium |
+|[:one:][a032-1][:two:][a032-2]|032| Longest Valid Parentheses                                    |Hard   |
+|[:o:][a031]|031| Next Permutation                                             |Medium |
 |           |030| Substring with Concatenation of All Words                    |Hard   |
 |[:o:][a029]|029| Divide Two Integers                                          |Medium |
 |[:o:][a028]|028| Implement strStr()                                           |Easy   |
 |[:o:][a027]|027| Remove Element                                               |Easy   |
 |[:o:][a026]|026| Remove Duplicates from Sorted Array                          |Easy   |
-|           | Reverse Nodes in k-Group                                     |Hard   |
+|           |025| Reverse Nodes in k-Group                                     |Hard   |
 |[:o:][a024]|024| Swap Nodes in Pairs                                          |Medium |
 |           |023| Merge k Sorted Lists                                         |Hard   |
 |[:o:][a022]|022| Generate Parentheses                                         |Medium |
@@ -584,4 +584,6 @@
 [a027]:./accepted/027.remove-element.py
 [a028]:./accepted/028.implement-strstr.py
 [a029]:./accepted/029.divide-two-integers.py
-
+[a031]:./accepted/031.next-permutation.py
+[a032-1]:./accepted/032.longest-valid-parentheses.dp.py
+[a032-2]:./accepted/032.longest-valid-parentheses.stack.py
