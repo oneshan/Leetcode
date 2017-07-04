@@ -516,15 +516,15 @@
 |           |044| Wildcard Matching                                            |Hard   |
 |           |043| Multiply Strings                                             |Medium |
 |           |042| Trapping Rain Water                                          |Hard   |
-|           |041| First Missing Positive                                       |Hard   |
-|           |040| Combination Sum II                                           |Medium |
-|           |039| Combination Sum                                              |Medium |
-|           |038| Count and Say                                                |Easy   |
-|           |037| Sudoku Solver                                                |Hard   |
-|           |036| Valid Sudoku                                                 |Medium |
-|           |035| Search Insert Position                                       |Easy   |
-|           |034| Search for a Range                                           |Medium |
-|           |033| Search in Rotated Sorted Array                               |Medium |
+|[:o:][a041]|041| First Missing Positive                                       |Hard   |
+|[:o:][a040]|040| Combination Sum II                                           |Medium |
+|[:o:][a039]|039| Combination Sum                                              |Medium |
+|[:o:][a038]|038| Count and Say                                                |Easy   |
+|[:o:][a037]|037| Sudoku Solver                                                |Hard   |
+|[:o:][a036]|036| Valid Sudoku                                                 |Medium |
+|[:o:][a035]|035| Search Insert Position                                       |Easy   |
+|[:o:][a034]|034| Search for a Range                                           |Medium |
+|[:one:][a033-1][:two:][a033-2]|033| Search in Rotated Sorted Array                               |Medium |
 |[:one:][a032-1][:two:][a032-2]|032| Longest Valid Parentheses                                    |Hard   |
 |[:o:][a031]|031| Next Permutation                                             |Medium |
 |           |030| Substring with Concatenation of All Words                    |Hard   |
@@ -587,3 +587,13 @@
 [a031]:./accepted/031.next-permutation.py
 [a032-1]:./accepted/032.longest-valid-parentheses.dp.py
 [a032-2]:./accepted/032.longest-valid-parentheses.stack.py
+[a033-1]:./accepted/033.search-in-rotated-sorted-array.py
+[a033-2]:./accepted/033.search-in-rotated-sorted-array.onepass.py
+[a034]:./accepted/034.search-for-a-range.py
+[a035]:./accepted/035.search-insert-position.py
+[a036]:./accepted/036.valid-sudoku.py
+[a037]:./accepted/037.sudoku-solver.py
+[a038]:./accepted/038.count-and-say.py
+[a039]:./accepted/039.combination-sum.py
+[a040]:./accepted/040.combination-sum-ii.py
+[a041]:./accepted/041.first-missing-positive.py

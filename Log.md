@@ -1,5 +1,43 @@
 # Log
 
+## 2017.07.04   (Day 05)
+033.search-in-rotated-sorted-array.py 
+> ✔ 196/196 cases passed (39 ms)
+> - Find the rotated pivot, then compare target and nums[0] to decide the boundary of Binary Search
+> - Binary Search (One Pass ver.): Check whether target locates at the sorted part
+
+034.search-for-a-range.py
+> ✔ 87/87 cases passed (36 ms)
+> - Use Binary Search to find the target, left boundary and right boundary
+
+035.search-insert-position.py 
+> ✔ 62/62 cases passed (58 ms)
+> - Use Binary Search, return left if target not found
+
+036.valid-sudoku.py
+> ✔ 501/501 cases passed (92 ms)
+> - For each numbers, check if its value occurs just once in row, column, and sub-box
+
+037.sudoku-solver.py
+> ✔ 6/6 cases passed (1232 ms) 
+> - Use DFS backtracking
+
+038.count-and-say.py
+> ✔ 18/18 cases passed (59 ms)
+> - Store prev char and its occurance, use for-loop to compare the current char with the previous one
+
+039.combination-sum.py
+> ✔ 168/168 cases passed (85 ms)
+> - Use DFS
+
+040.combination-sum-ii.py
+> ✔ 172/172 cases passed (96 ms)
+> - Similar to 039, but need to sort and skip duplicate combination
+
+041.first-missing-positive.py
+> ✔ 156/156 cases passed (42 ms)
+> - Use array elements as index, move element if the index is valid (`size > nums[i] >= 0`)
+
 ## 2017.07.03   (Day 04)
 031.next-permutation.py 
 > ✔ 265/265 cases passed (68 ms)
