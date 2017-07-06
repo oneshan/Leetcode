@@ -493,15 +493,15 @@
 |           |067| Add Binary                                                   |Easy   |
 |           |066| Plus One                                                     |Easy   |
 |           |065| Valid Number                                                 |Hard   |
-|           |064| Minimum Path Sum                                             |Medium |
-|           |063| Unique Paths II                                              |Medium |
-|           |062| Unique Paths                                                 |Medium |
-|           |061| Rotate List                                                  |Medium |
+|[:o:][a064]|064| Minimum Path Sum                                             |Medium |
+|[:one:][a063-1][:two:][a063-2]|063| Unique Paths II                                              |Medium |
+|[:one:][a062-1][:two:][a062-2]|062| Unique Paths                                                 |Medium |
+|[:o:][a061]|061| Rotate List                                                  |Medium |
 |           |060| Permutation Sequence                                         |Medium |
-|           |059| Spiral Matrix II                                             |Medium |
-|           |058| Length of Last Word                                          |Easy   |
-|           |057| Insert Interval                                              |Hard   |
-|           |056| Merge Intervals                                              |Medium |
+|[:o:][a059]|059| Spiral Matrix II                                             |Medium |
+|[:o:][a058]|058| Length of Last Word                                          |Easy   |
+|[:o:][a057]|057| Insert Interval                                              |Hard   |
+|[:o:][a056]|056| Merge Intervals                                              |Medium |
 |[:o:][a055]|055| Jump Game                                                    |Medium |
 |[:o:][a054]|054| Spiral Matrix                                                |Medium |
 |[:o:][a053]|053| Maximum Subarray                                             |Easy   |
@@ -607,3 +607,13 @@
 [a053]:./accepted/053.maximum-subarray.py
 [a054]:./accepted/054.spiral-matrix.py
 [a055]:./accepted/055.jump-game.py
+[a056]:./accepted/056.merge-intervals.py
+[a057]:./accepted/057.insert-interval.py
+[a058]:./accepted/058.length-of-last-word.py
+[a059]:./accepted/059.spiral-matrix-ii.py
+[a061]:./accepted/061.rotate-list.py 
+[a062-1]:./accepted/062.unique-paths.py
+[a062-2]:./accepted/062.unique-paths.1d.py
+[a063-1]:./accepted/063.unique-paths-ii.py
+[a063-2]:./accepted/063.unique-paths-ii.1d.py
+[a064]:./accepted/064.minimum-path-sum.py
