@@ -1,5 +1,49 @@
 # Log
 
+## 2017.07.05   (Day 06)
+042.trapping-rain-water.py 
+> ✔ 315/315 cases passed (45 ms)
+> - Use two pointer and record maximum boardary, trapped water depends on lower one
+
+045.jump-game-ii.py 
+> ✔ 92/92 cases passed (62 ms)
+> - Use greedy, keep updating the current maximum jump, count and the next maximum jump
+
+046.permutations.py 
+> ver1 ✔ 25/25 cases passed (66 ms)
+>
+> ver2 ✔ 25/25 cases passed (75 ms)
+> - Use DFS
+
+047.permutations-ii.py 
+> ✔ 30/30 cases passed (99 ms)
+> - sort before DFS (for skipping duplicate)
+
+048.rotate-image.py 
+> ✔ 20/20 cases passed (39 ms)
+> - Flip anti diagonal and then flip vertical
+
+049.group-anagrams.py 
+> ✔ 101/101 cases passed (209 ms)
+> - Use Hash table
+> - map each char to a different prime number, and multiply all of chars as its key (or simply use sorted string as key)
+
+050.powx-n.py
+> ✔ 300/300 cases passed (46 ms)
+> - Use recursion, `x ** n = (x * x) ** (n >> 1) * (1 or x)`
+
+053.maximum-subarray.py
+> ✔ 202/202 cases passed (89 ms)
+> - O(n): record currSum and maxSum, reset when currSum < 0
+
+054.spiral-matrix.py 
+> ✔ 22/22 cases passed (32 ms)
+> - record boardary and run four direction
+
+055.jump-game.py
+> ✔ 75/75 cases passed (62 ms)
+> - store max distance you can jump
+
 ## 2017.07.04   (Day 05)
 033.search-in-rotated-sorted-array.py 
 > ✔ 196/196 cases passed (39 ms)

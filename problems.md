@@ -502,17 +502,17 @@
 |           |058| Length of Last Word                                          |Easy   |
 |           |057| Insert Interval                                              |Hard   |
 |           |056| Merge Intervals                                              |Medium |
-|           |055| Jump Game                                                    |Medium |
-|           |054| Spiral Matrix                                                |Medium |
-|           |053| Maximum Subarray                                             |Easy   |
+|[:o:][a055]|055| Jump Game                                                    |Medium |
+|[:o:][a054]|054| Spiral Matrix                                                |Medium |
+|[:o:][a053]|053| Maximum Subarray                                             |Easy   |
 |           |052| N-Queens II                                                  |Hard   |
 |           |051| N-Queens                                                     |Hard   |
-|           |050| Pow(x, n)                                                    |Medium |
-|           |049| Group Anagrams                                               |Medium |
-|           |048| Rotate Image                                                 |Medium |
-|           |047| Permutations II                                              |Medium |
-|           |046| Permutations                                                 |Medium |
-|           |045| Jump Game II                                                 |Hard   |
+|[:o:][a050]|050| Pow(x, n)                                                    |Medium |
+|[:o:][a049]|049| Group Anagrams                                               |Medium |
+|[:o:][a048]|048| Rotate Image                                                 |Medium |
+|[:o:][a047]|047| Permutations II                                              |Medium |
+|[:one:][a046-1][:two:][a046-2]|046| Permutations                                                 |Medium |
+|[:o:][a045]|045| Jump Game II                                                 |Hard   |
 |           |044| Wildcard Matching                                            |Hard   |
 |           |043| Multiply Strings                                             |Medium |
 |           |042| Trapping Rain Water                                          |Hard   |
@@ -597,3 +597,13 @@
 [a039]:./accepted/039.combination-sum.py
 [a040]:./accepted/040.combination-sum-ii.py
 [a041]:./accepted/041.first-missing-positive.py
+[a045]:./accepted/045.jump-game-ii.py
+[a046-1]:./accepted/046.permutations.dfs1.py
+[a046-2]:./accepted/046.permutations.dfs2.py
+[a047]:./accepted/047.permutations-ii.py
+[a048]:./accepted/048.rotate-image.py
+[a049]:./accepted/049.group-anagrams.py
+[a050]:./accepted/050.powx-n.py
+[a053]:./accepted/053.maximum-subarray.py
+[a054]:./accepted/054.spiral-matrix.py
+[a055]:./accepted/055.jump-game.py
