@@ -1,5 +1,39 @@
 # Log
 
+## 2017.07.07   (Day 08)
+
+075.sort-colors.py 
+> ✔ 86/86 cases passed (38 ms)
+> - Use two pointer i, j point the beginning and end of array
+> - Then go through the array and move 0 & 2 to those pointer
+
+074.search-a-2d-matrix.py
+> ✔ 136/136 cases passed (35 ms)
+> - Binary Search 
+
+073.set-matrix-zeroes.py 
+> ✔ 157/157 cases passed (362 ms)
+> - Use the first col and the first row as zero mark
+
+072.edit-distance.py
+> ✔ 1146/1146 cases passed (212 ms)
+> - Use DP, `dp[i][j] = 1 + min(dp[i-1][j-1], dp[i-1][j], dp[i][j-1])`
+
+070.climbing-stairs.py
+> ✔ 45/45 cases passed (29 ms)
+> - Use DP, formula: `dp[1] = 1, dp[2] = 2, dp[i] = dp[i-1] + dp[i-2]`
+
+069.sqrtx.py
+> ✔ 1017/1017 cases passed (46 ms)
+> - Binary Search
+> - Testcase: sqrt(1) = 1, sqrt(5) = 2
+
+067.add-binary.py
+> ✔ 294/294 cases passed (59 ms)
+
+066.plus-one.py
+> ✔ 108/108 cases passed (52 ms)
+
 ## 2017.07.06   (Day 07)
 
 064.minimum-path-sum.py
@@ -10,11 +44,13 @@
 
 063.unique-paths-ii.py 
 > ✔ 43/43 cases passed (45 ms) -- 2-d ver.
+>
 > ✔ 43/43 cases passed (35 ms) -- 1-d ver.
 > - Additional Condition: `dp[i][j] = 0 if obstacleGrid[i][j] == 1 `
 
 062.unique-paths.py 
 > ✔ 61/61 cases passed (42 ms) -- 2-d ver.
+>
 > ✔ 61/61 cases passed (29 ms) -- 1-d ver.
 > - Use DP, Initial: `dp[i][0] = dp[0][j] = 1`, Formula: `dp[i][j] = dp[i-1][j] + dp[i][j-1]`
 
@@ -29,15 +65,15 @@
 
 058.length-of-last-word.py
 > ✔ 59/59 cases passed (32 ms)
-> search from right to left until find the second non-adjacent space
+> - search from right to left until find the second non-adjacent space
 
 057.insert-interval.py
 > ✔ 154/154 cases passed (72 ms)
-> Use two pointer
+> - Use two pointer
 
 056.merge-intervals.py
 > ✔ 169/169 cases passed (79 ms)
-> sort by interval.start before merge
+> - sort by interval.start before merge
 
 ## 2017.07.05   (Day 06)
 

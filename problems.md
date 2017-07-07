@@ -482,16 +482,16 @@
 |           |078| Subsets                                                      |Medium |
 |           |077| Combinations                                                 |Medium |
 |           |076| Minimum Window Substring                                     |Hard   |
-|           |075| Sort Colors                                                  |Medium |
-|           |074| Search a 2D Matrix                                           |Medium |
-|           |073| Set Matrix Zeroes                                            |Medium |
-|           |072| Edit Distance                                                |Hard   |
+|[:o:][a075]|075| Sort Colors                                                  |Medium |
+|[:one:][a074-1][:two:][a074-2]|074| Search a 2D Matrix                                           |Medium |
+|[:o:][a073]|073| Set Matrix Zeroes                                            |Medium |
+|[:o:][a072]|072| Edit Distance                                                |Hard   |
 |           |071| Simplify Path                                                |Medium |
-|           |070| Climbing Stairs                                              |Easy   |
-|           |069| Sqrt(x)                                                      |Easy   |
+|[:one:][a070-1][:two:][a070-2]|070| Climbing Stairs                                              |Easy   |
+|[:o:][a069]|069| Sqrt(x)                                                      |Easy   |
 |           |068| Text Justification                                           |Hard   |
-|           |067| Add Binary                                                   |Easy   |
-|           |066| Plus One                                                     |Easy   |
+|[:o:][a067]|067| Add Binary                                                   |Easy   |
+|[:o:][a066]|066| Plus One                                                     |Easy   |
 |           |065| Valid Number                                                 |Hard   |
 |[:o:][a064]|064| Minimum Path Sum                                             |Medium |
 |[:one:][a063-1][:two:][a063-2]|063| Unique Paths II                                              |Medium |
@@ -515,7 +515,7 @@
 |[:o:][a045]|045| Jump Game II                                                 |Hard   |
 |           |044| Wildcard Matching                                            |Hard   |
 |           |043| Multiply Strings                                             |Medium |
-|           |042| Trapping Rain Water                                          |Hard   |
+|[:o:][a042]|042| Trapping Rain Water                                          |Hard   |
 |[:o:][a041]|041| First Missing Positive                                       |Hard   |
 |[:o:][a040]|040| Combination Sum II                                           |Medium |
 |[:o:][a039]|039| Combination Sum                                              |Medium |
@@ -597,6 +597,7 @@
 [a039]:./accepted/039.combination-sum.py
 [a040]:./accepted/040.combination-sum-ii.py
 [a041]:./accepted/041.first-missing-positive.py
+[a042]:./accetped/042.trapping-rain-water.py
 [a045]:./accepted/045.jump-game-ii.py
 [a046-1]:./accepted/046.permutations.dfs1.py
 [a046-2]:./accepted/046.permutations.dfs2.py
@@ -617,3 +618,13 @@
 [a063-1]:./accepted/063.unique-paths-ii.py
 [a063-2]:./accepted/063.unique-paths-ii.1d.py
 [a064]:./accepted/064.minimum-path-sum.py
+[a066]:./accepted/066.plus-one.py
+[a067]:./accepted/067.add-binary.py
+[a069]:./accepted/069.sqrtx.py
+[a070-2]:./accepted/070.climbing-stairs.dp2.py
+[a070-1]:./accepted/070.climbing-stairs.py
+[a072]:./accepted/072.edit-distance.py
+[a073]:./accepted/073.set-matrix-zeroes.py
+[a074-1]:./accepted/074.search-a-2d-matrix.py
+[a074-2]:./accepted/074.search-a-2d-matrix.ver2.py
+[a075]:./accepted/075.sort-colors.py
