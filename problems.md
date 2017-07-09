@@ -474,19 +474,19 @@
 |           |086| Partition List                                               |Medium |
 |           |085| Maximal Rectangle                                            |Hard   |
 |           |084| Largest Rectangle in Histogram                               |Hard   |
-|           |083| Remove Duplicates from Sorted List                           |Easy   |
-|           |082| Remove Duplicates from Sorted List II                        |Medium |
+|[:o:][a083]|083| Remove Duplicates from Sorted List                           |Easy   |
+|[:o:][a082]|082| Remove Duplicates from Sorted List II                        |Medium |
 |           |081| Search in Rotated Sorted Array II                            |Medium |
-|           |080| Remove Duplicates from Sorted Array II                       |Medium |
-|           |079| Word Search                                                  |Medium |
-|           |078| Subsets                                                      |Medium |
+|[:one:][a080-1][:two:][a080-2]|080| Remove Duplicates from Sorted Array II                       |Medium |
+|[:o:][a079]|079| Word Search                                                  |Medium |
+|[:o:][a078]|078| Subsets                                                      |Medium |
 |           |077| Combinations                                                 |Medium |
-|           |076| Minimum Window Substring                                     |Hard   |
+|[:o:][a076]|076| Minimum Window Substring                                     |Hard   |
 |[:o:][a075]|075| Sort Colors                                                  |Medium |
 |[:one:][a074-1][:two:][a074-2]|074| Search a 2D Matrix                                           |Medium |
 |[:o:][a073]|073| Set Matrix Zeroes                                            |Medium |
 |[:o:][a072]|072| Edit Distance                                                |Hard   |
-|           |071| Simplify Path                                                |Medium |
+|[:o:][a071]|071| Simplify Path                                                |Medium |
 |[:one:][a070-1][:two:][a070-2]|070| Climbing Stairs                                              |Easy   |
 |[:o:][a069]|069| Sqrt(x)                                                      |Easy   |
 |           |068| Text Justification                                           |Hard   |
@@ -628,3 +628,11 @@
 [a074-1]:./accepted/074.search-a-2d-matrix.py
 [a074-2]:./accepted/074.search-a-2d-matrix.ver2.py
 [a075]:./accepted/075.sort-colors.py
+[a071]:./accepted/071.simplify-path.py
+[a076]:./accepted/076.minimum-window-substring.py
+[a078]:./accepted/078.subsets.py
+[a079]:./accepted/079.word-search.py
+[a080-1]:./accepted/080.remove-duplicates-from-sorted-array-ii.py
+[a080-2]:./accepted/080.remove-duplicates-from-sorted-array-ii.ver2.py
+[a082]:./accepted/082.remove-duplicates-from-sorted-list-ii.py
+[a083]:./accepted/083.remove-duplicates-from-sorted-list.py

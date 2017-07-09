@@ -1,5 +1,38 @@
 # Log
 
+## 2017.07.08   (Day 09)
+
+083.remove-duplicates-from-sorted-list.py
+> ✔ 164/164 cases passed (49 ms)
+> - Edit node.next if there are duplicates
+
+082.remove-duplicates-from-sorted-list-ii.py
+> ✔ 168/168 cases passed (52 ms)
+> - Use two pointer
+
+080.remove-duplicates-from-sorted-array.py
+> - ✔ 164/164 cases passed (55 ms) -- ver1
+> - ✔ 164/164 cases passed (59 ms) -- ver2
+> - Use two pointer
+
+079.word-search.py
+> ✔ 87/87 cases passed (382 ms)
+> - DFS
+
+078.subsets.py
+> ✔ 10/10 cases passed (42 ms)
+> - Recursion
+
+076.minimum-window-substring.py
+> ✔ 268/268 cases passed (99 ms)
+> - Use hash table to store the occurance of chars in t
+> - If window found (count == 0), minimize the windows size and update answer candidate
+
+071.simplify-path.py
+> ✔ 252/252 cases passed (66 ms)
+> - Use stack to store part of path
+> - insert `/` to ease the coding
+
 ## 2017.07.07   (Day 08)
 
 075.sort-colors.py 
