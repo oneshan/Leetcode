@@ -1,5 +1,23 @@
 # Log
 
+## 2017.07.09   (Day 10)
+
+089.gray-code.py
+> - ✔ 12/12 cases passed (35 ms)
+> - ✔ 12/12 cases passed (49 ms) -- math
+> - Math Formula: `Gray[n] = n ^ (n / 2)`
+> - To generate n-bit gray code, prefix 0 with (n-1)bit list append prefix 1 with reversed (n-1)bit list
+
+088.merge-sorted-array.py
+> ✔ 59/59 cases passed (49 ms)
+> Merge from end to begin
+
+086.partition-list.py
+> ✔ 166/166 cases passed (39 ms)
+> - 1. Create two head node h1, h2 for smaller and greater/equal list
+> - 2. Go through the original list, put nodes into one of list according its value
+> - 3. Let the last node of greater list point to `None` and put the list behind smaller one
+
 ## 2017.07.08   (Day 09)
 
 083.remove-duplicates-from-sorted-list.py

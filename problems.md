@@ -468,10 +468,10 @@
 |           |092| Reverse Linked List II                                       |Medium |
 |           |091| Decode Ways                                                  |Medium |
 |           |090| Subsets II                                                   |Medium |
-|           |089| Gray Code                                                    |Medium |
-|           |088| Merge Sorted Array                                           |Easy   |
+|[:one:][a089-1][:two:][a089-2]|089| Gray Code                                                    |Medium |
+|[:o:][a088]|088| Merge Sorted Array                                           |Easy   |
 |           |087| Scramble String                                              |Hard   |
-|           |086| Partition List                                               |Medium |
+|[:o:][a086]|086| Partition List                                               |Medium |
 |           |085| Maximal Rectangle                                            |Hard   |
 |           |084| Largest Rectangle in Histogram                               |Hard   |
 |[:o:][a083]|083| Remove Duplicates from Sorted List                           |Easy   |
@@ -636,3 +636,7 @@
 [a080-2]:./accepted/080.remove-duplicates-from-sorted-array-ii.ver2.py
 [a082]:./accepted/082.remove-duplicates-from-sorted-list-ii.py
 [a083]:./accepted/083.remove-duplicates-from-sorted-list.py
+[a086]:./accepted/086.partition-list.py
+[a088]:./accepted/088.merge-sorted-array.py
+[a089-1]:./accepted/089.gray-code.math.py
+[a089-2]:./accepted/089.gray-code.py
