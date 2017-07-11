@@ -1,5 +1,19 @@
 # Log
 
+## 2017.07.10   (Day 11)
+
+092.reverse-linked-list-ii.py
+> ✔ 44/44 cases passed (49 ms)
+> 1. Reverse node from position m to n
+> 2. Let original mth node points to (n+1)th node
+> 3. Let original (m-1)th node points to nth node
+
+091.decode-ways.py 
+> ✔ 259/259 cases passed (49 ms)
+> - Use DP, Initial: `dp[1] = 1, dp[i] = 0`
+> - dp[i] += dp[i-1] if 1 <= Y <= 9      ("AB" (1 2))
+> - dp[i] += dp[i-2] if 10 <= XY <= 26   ("L" (12))
+
 ## 2017.07.09   (Day 10)
 
 089.gray-code.py
