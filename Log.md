@@ -1,5 +1,19 @@
 # Log
 
+## 2017.07.11   (Day 12)
+
+096.unique-binary-search-trees.py 
+> ✔ 19/19 cases passed (32 ms)
+> - Use DP (Sum up all possible combinations for each node as root)
+
+094.binary-tree-inorder-traversal.py
+> ✔ 68/68 cases passed (32 ms) -- recursion
+> ✔ 68/68 cases passed (39 ms) -- iterative (use stack)
+
+090.subsets-ii.py
+> ✔ 19/19 cases passed (75 ms)
+> - sort and then recursion, skip duplicates by checking nums[i] == nums[i-1]
+
 ## 2017.07.10   (Day 11)
 
 092.reverse-linked-list-ii.py

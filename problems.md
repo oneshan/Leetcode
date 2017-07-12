@@ -461,13 +461,13 @@
 |           |099| Recover Binary Search Tree                                   |Hard   |
 |           |098| Validate Binary Search Tree                                  |Medium |
 |           |097| Interleaving String                                          |Hard   |
-|           |096| Unique Binary Search Trees                                   |Medium |
+|[:o:][a096]|096| Unique Binary Search Trees                                   |Medium |
 |           |095| Unique Binary Search Trees II                                |Medium |
-|           |094| Binary Tree Inorder Traversal                                |Medium |
+|[:one:][a094-1][:two:][a094-2]|094| Binary Tree Inorder Traversal                                |Medium |
 |           |093| Restore IP Addresses                                         |Medium |
-|           |092| Reverse Linked List II                                       |Medium |
-|           |091| Decode Ways                                                  |Medium |
-|           |090| Subsets II                                                   |Medium |
+|[:o:][a092]|092| Reverse Linked List II                                       |Medium |
+|[:o:][a091]|091| Decode Ways                                                  |Medium |
+|[:o:][a090]|090| Subsets II                                                   |Medium |
 |[:one:][a089-1][:two:][a089-2]|089| Gray Code                                                    |Medium |
 |[:o:][a088]|088| Merge Sorted Array                                           |Easy   |
 |           |087| Scramble String                                              |Hard   |
@@ -640,3 +640,10 @@
 [a088]:./accepted/088.merge-sorted-array.py
 [a089-1]:./accepted/089.gray-code.math.py
 [a089-2]:./accepted/089.gray-code.py
+[a091]:./accepted/091.decode-ways.py
+[a092]:./accepted/092.reverse-linked-list-ii.py
+
+[a090]:./accepted/090.subsets-ii.py
+[a094-2]:./accepted/094.binary-tree-inorder-traversal.iter.py
+[a094-1]:./accepted/094.binary-tree-inorder-traversal.py
+[a096]:./accepted/096.unique-binary-search-trees.py
