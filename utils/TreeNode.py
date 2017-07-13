@@ -33,4 +33,5 @@ def printTreeNode(root):
                     todo += 1
         else:
             arr += None,
+    print(arr)
     return arr

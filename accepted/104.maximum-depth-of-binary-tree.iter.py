@@ -26,4 +26,28 @@ class Solution(object):
         :type root: TreeNode
         :rtype: int
         """
-        
+        if not root:
+            return 0
+
+        queue = [root]
+        level = 0
+        while queue:
+            size = len(queue)
+            level += 1
+            for _ in range(size):
+                node = queue.pop(0)
+                if node.left:
+                    queue.append(node.left)
+                if node.right:
+                    queue.append(node.right)
+        return level
+
+
+if __name__ == "__main__":
+    try:
+        from utils.TreeNode import createTreeNode
+        sol = Solution()
+        root = createTreeNode([1, None, 2, 3])
+        print(sol.maxDepth(root))
+    except Exception as e:
+        print(e)

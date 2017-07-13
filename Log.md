@@ -1,5 +1,39 @@
 # Log
 
+## 2017.07.12   (Day 13)
+
+107.binary-tree-level-order-traversal-ii.py 
+> ✔ 34/34 cases passed (42 ms)
+> - Same as 102
+
+104.maximum-depth-of-binary-tree.py
+> - ✔ 38/38 cases passed (76 ms) -- recur
+> - ✔ 38/38 cases passed (78 ms) -- iter
+
+102.binary-tree-level-order-traversal.py
+> - ✔ 34/34 cases passed (52 ms) -- recur
+> - ✔ 34/34 cases passed (55 ms) -- iter (Use Queue)
+
+101.symmetric-tree.py 
+> - ✔ 193/193 cases passed (52 ms) -- recur
+> - ✔ 193/193 cases passed (38 ms) -- iter
+> - Recursion: check (p, q) (p.left, q.right) (p.right, q.left)
+> - Iterative: Use two stack 
+
+100.same-tree.py
+> ✔ 54/54 cases passed (55 ms)
+> - Recursion check node's val
+
+098.validate-binary-search-tree.py 
+> - ✔ 74/74 cases passed (68 ms) -- inorder
+> - Traverse inorder to generate arr, arr is sorted if it is a valid BST
+> - ✔ 74/74 cases passed (98 ms) -- recur
+> - Recursion: compare node.val and min & max
+
+095.unique-binary-search-trees-ii.py
+> ✔ 9/9 cases passed (85 ms)
+> - Recursion: for each node i, leftTrees = genBST(min, i-1), rightTrees = genBST(i+1, max), do combination
+
 ## 2017.07.11   (Day 12)
 
 096.unique-binary-search-trees.py 
