@@ -1,5 +1,43 @@
 # Log
 
+## 2017.07.13   (Day 14)
+
+113.path-sum-ii.py 
+> - ✔ 114/114 cases passed (82 ms) -- recur
+> - ✔ 114/114 cases passed (72 ms) -- iter 
+
+112.path-sum.py 
+> - ✔ 114/114 cases passed (55 ms) -- recur
+> - ✔ 114/114 cases passed (62 ms) -- iter
+
+111.minimum-depth-of-binary-tree.py
+> - ✔ 41/41 cases passed (72 ms) -- recur
+> - ✔ 41/41 cases passed (99 ms) -- iter
+
+109.convert-sorted-list-to-binary-search-tree.py
+> ✔ 32/32 cases passed (262 ms)
+> - set mid node as root
+
+108.convert-sorted-array-to-binary-search-tree.py
+> ✔ 32/32 cases passed (119 ms)
+> - set array[mid] as root
+
+106.construct-binary-tree-from-inorder-and-postorder-traversal.py
+> ✔ 202/202 cases passed (205 ms)
+> - postorder[-1] is root node, use node's index in inorder array to split into left and right subtree
+
+105.construct-binary-tree-from-preorder-and-inorder-traversal.py
+> ✔ 202/202 cases passed (192 ms)
+> - preorder[0] is root node, use node's index in inorder array to split into left and right subtree
+
+103.binary-tree-zigzag-level-order-traversal.py
+> ✔ 33/33 cases passed (42 ms)
+> - insert element into the head or tail of array by checking node's level is odd or even
+
+006.zigzag-conversion.py
+> ✔ 1158/1158 cases passed (122 ms)
+> - mapping idx by mod (2n - 2)
+
 ## 2017.07.12   (Day 13)
 
 107.binary-tree-level-order-traversal-ii.py 

@@ -18,9 +18,28 @@
 #         self.left = None
 #         self.right = None
 
+
 class Solution(object):
     def sortedArrayToBST(self, nums):
         """
         :type nums: List[int]
         :rtype: TreeNode
         """
+        if not nums:
+            return None
+
+        mid = len(nums) // 2
+        root = TreeNode(nums[mid])
+        root.left = self.sortedArrayToBST(nums[:mid])
+        root.right = self.sortedArrayToBST(nums[mid + 1:])
+        return root
+
+
+if __name__ == "__main__":
+    try:
+        from utils.TreeNode import TreeNode, printTreeNode
+        sol = Solution()
+        arr = [1, 2, 3, 4, 5, 6]
+        printTreeNode(sol.sortedArrayToBST(arr))
+    except Exception as e:
+        print(e)

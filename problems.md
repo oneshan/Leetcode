@@ -444,17 +444,17 @@
 |           |116| Populating Next Right Pointers in Each Node                  |Medium |
 |           |115| Distinct Subsequences                                        |Hard   |
 |           |114| Flatten Binary Tree to Linked List                           |Medium |
-|           |113| Path Sum II                                                  |Medium |
-|           |112| Path Sum                                                     |Easy   |
-|           |111| Minimum Depth of Binary Tree                                 |Easy   |
+|[:one:][a113-1][:two:][a113-2]|113| Path Sum II                                                  |Medium |
+|[:one:][a112-1][:two:][a112-2]|112| Path Sum                                                     |Easy   |
+|[:one:][a111-1][:two:][a111-2]|111| Minimum Depth of Binary Tree                                 |Easy   |
 |           |110| Balanced Binary Tree                                         |Easy   |
-|           |109| Convert Sorted List to Binary Search Tree                    |Medium |
-|           |108| Convert Sorted Array to Binary Search Tree                   |Easy   |
+|[:o:][a109]|109| Convert Sorted List to Binary Search Tree                    |Medium |
+|[:o:][a108]|108| Convert Sorted Array to Binary Search Tree                   |Easy   |
 |[:o:][a107]|107| Binary Tree Level Order Traversal II                         |Easy   |
-|           |106| Construct Binary Tree from Inorder and Postorder Traversal   |Medium |
-|           |105| Construct Binary Tree from Preorder and Inorder Traversal    |Medium |
+|[:o:][a106]|106| Construct Binary Tree from Inorder and Postorder Traversal   |Medium |
+|[:o:][a105]|105| Construct Binary Tree from Preorder and Inorder Traversal    |Medium |
 |[:one:][a104-1][:two:][a104-2]|104| Maximum Depth of Binary Tree                                 |Easy   |
-|           |103| Binary Tree Zigzag Level Order Traversal                     |Medium |
+|[:o:][a103]|103| Binary Tree Zigzag Level Order Traversal                     |Medium |
 |[:one:][a102-1][:two:][a102-2]|102| Binary Tree Level Order Traversal                            |Medium |
 |[:one:][a101-1][:two:][a101-2]|101| Symmetric Tree                                               |Easy   |
 |[:o:][a100]|100| Same Tree                                                    |Easy   |
@@ -551,7 +551,7 @@
 |[:o:][a009]|009| Palindrome Number                                            |Easy   |
 |[:o:][a008]|008| String to Integer (atoi)                                     |Medium |
 |[:o:][a007]|007| Reverse Integer                                              |Easy   |
-|           |006| ZigZag Conversion                                            |Medium |
+|[:o:][a006]|006| ZigZag Conversion                                            |Medium |
 |[:o:][a005]|005| Longest Palindromic Substring                                |Medium |
 |           |004| Median of Two Sorted Arrays                                  |Hard   |
 |[:o:][a003]|003| Longest Substring Without Repeating Characters               |Medium |
@@ -564,6 +564,7 @@
 [a002]:./accepted/002.add-two-numbers.py
 [a003]:./accepted/003.longest-substring-without-repeating-characters.py
 [a005]:./accepted/005.longest-palindromic-substring.py
+[a006]:./accepted/006.zigzag-conversion.py
 [a007]:./accepted/007.reverse-integer.py
 [a008]:./accepted/008.string-to-integer-atoi.py
 [a009]:./accepted/009.palindrome-number.py
@@ -621,14 +622,14 @@
 [a066]:./accepted/066.plus-one.py
 [a067]:./accepted/067.add-binary.py
 [a069]:./accepted/069.sqrtx.py
-[a070-2]:./accepted/070.climbing-stairs.dp2.py
 [a070-1]:./accepted/070.climbing-stairs.py
+[a070-2]:./accepted/070.climbing-stairs.dp2.py
+[a071]:./accepted/071.simplify-path.py
 [a072]:./accepted/072.edit-distance.py
 [a073]:./accepted/073.set-matrix-zeroes.py
 [a074-1]:./accepted/074.search-a-2d-matrix.py
 [a074-2]:./accepted/074.search-a-2d-matrix.ver2.py
 [a075]:./accepted/075.sort-colors.py
-[a071]:./accepted/071.simplify-path.py
 [a076]:./accepted/076.minimum-window-substring.py
 [a078]:./accepted/078.subsets.py
 [a079]:./accepted/079.word-search.py
@@ -640,12 +641,11 @@
 [a088]:./accepted/088.merge-sorted-array.py
 [a089-1]:./accepted/089.gray-code.math.py
 [a089-2]:./accepted/089.gray-code.py
+[a090]:./accepted/090.subsets-ii.py
 [a091]:./accepted/091.decode-ways.py
 [a092]:./accepted/092.reverse-linked-list-ii.py
-
-[a090]:./accepted/090.subsets-ii.py
-[a094-2]:./accepted/094.binary-tree-inorder-traversal.iter.py
 [a094-1]:./accepted/094.binary-tree-inorder-traversal.py
+[a094-2]:./accepted/094.binary-tree-inorder-traversal.iter.py
 [a095]:./accepted/095.unique-binary-search-trees-ii.py
 [a096]:./accepted/096.unique-binary-search-trees.py
 [a098-1]:./accepted/098.validate-binary-search-tree.py
@@ -655,7 +655,17 @@
 [a101-2]:./accepted/101.symmetric-tree.iter.py
 [a102-1]:./accepted/102.binary-tree-level-order-traversal.py
 [a102-2]:./accepted/102.binary-tree-level-order-traversal.iter.py
-[a104-2]:./accepted/104.maximum-depth-of-binary-tree.iter.py
+[a103]:./accepted/103.binary-tree-zigzag-level-order-traversal.py
 [a104-1]:./accepted/104.maximum-depth-of-binary-tree.py
+[a104-2]:./accepted/104.maximum-depth-of-binary-tree.iter.py
+[a105]:./accepted/105.construct-binary-tree-from-preorder-and-inorder-traversal.py
+[a106]:./accepted/106.construct-binary-tree-from-inorder-and-postorder-traversal.py
 [a107]:./accepted/107.binary-tree-level-order-traversal-ii.py
-
+[a108]:./accepted/108.convert-sorted-array-to-binary-search-tree.py
+[a109]:./accepted/109.convert-sorted-list-to-binary-search-tree.py
+[a111-1]:./accepted/111.minimum-depth-of-binary-tree.py
+[a111-2]:./accepted/111.minimum-depth-of-binary-tree.iter.py
+[a112-1]:./accepted/112.path-sum.py
+[a112-2]:./accepted/112.path-sum.iter.py
+[a113-1]:./accepted/113.path-sum-ii.py
+[a113-2]:./accepted/113.path-sum-ii.iter.py
