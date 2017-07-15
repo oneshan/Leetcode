@@ -438,8 +438,8 @@
 |           |122| Best Time to Buy and Sell Stock II                           |Easy   |
 |           |121| Best Time to Buy and Sell Stock                              |Easy   |
 |           |120| Triangle                                                     |Medium |
-|           |119| Pascal's Triangle II                                         |Easy   |
-|           |118| Pascal's Triangle                                            |Easy   |
+|[:o:][a119]|119| Pascal's Triangle II                                         |Easy   |
+|[:o:][a118]|118| Pascal's Triangle                                            |Easy   |
 |           |117| Populating Next Right Pointers in Each Node II               |Medium |
 |           |116| Populating Next Right Pointers in Each Node                  |Medium |
 |           |115| Distinct Subsequences                                        |Hard   |
@@ -669,3 +669,5 @@
 [a112-2]:./accepted/112.path-sum.iter.py
 [a113-1]:./accepted/113.path-sum-ii.py
 [a113-2]:./accepted/113.path-sum-ii.iter.py
+[a118]:./accepted/118.pascals-triangle.py
+[a119]:./accepted/119.pascals-triangle-ii.py 

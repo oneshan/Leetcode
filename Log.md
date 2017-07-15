@@ -1,5 +1,14 @@
 # Log
 
+## 2017.07.14   (Day 15)
+119.pascals-triangle-ii.py 
+> ✔ 34/34 cases passed (39 ms)
+> - 0th [1], 1th [1,1], 2th [1,2,1]
+
+118.pascals-triangle.py
+> ✔ 15/15 cases passed (39 ms)
+> - `[1,2,1] -> [1] + [1+2, 2+1] + [1] == [1,3,3,1]`
+
 ## 2017.07.13   (Day 14)
 
 113.path-sum-ii.py 
