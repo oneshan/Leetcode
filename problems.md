@@ -428,26 +428,26 @@
 |           |132| Palindrome Partitioning II                                   |Hard   |
 |           |131| Palindrome Partitioning                                      |Medium |
 |           |130| Surrounded Regions                                           |Medium |
-|           |129| Sum Root to Leaf Numbers                                     |Medium |
-|           |128| Longest Consecutive Sequence                                 |Hard   |
+|[:o:][a129]|129| Sum Root to Leaf Numbers                                     |Medium |
+|[:o:][a128]|128| Longest Consecutive Sequence                                 |Hard   |
 |           |127| Word Ladder                                                  |Medium |
 |           |126| Word Ladder II                                               |Hard   |
-|           |125| Valid Palindrome                                             |Easy   |
+|[:o:][a125]|125| Valid Palindrome                                             |Easy   |
 |           |124| Binary Tree Maximum Path Sum                                 |Hard   |
-|           |123| Best Time to Buy and Sell Stock III                          |Hard   |
-|           |122| Best Time to Buy and Sell Stock II                           |Easy   |
-|           |121| Best Time to Buy and Sell Stock                              |Easy   |
-|           |120| Triangle                                                     |Medium |
+|[:o:][a123]|123| Best Time to Buy and Sell Stock III                          |Hard   |
+|[:o:][a122]|122| Best Time to Buy and Sell Stock II                           |Easy   |
+|[:o:][a121]|121| Best Time to Buy and Sell Stock                              |Easy   |
+|[:o:][a120]|120| Triangle                                                     |Medium |
 |[:o:][a119]|119| Pascal's Triangle II                                         |Easy   |
 |[:o:][a118]|118| Pascal's Triangle                                            |Easy   |
 |           |117| Populating Next Right Pointers in Each Node II               |Medium |
 |           |116| Populating Next Right Pointers in Each Node                  |Medium |
 |           |115| Distinct Subsequences                                        |Hard   |
-|           |114| Flatten Binary Tree to Linked List                           |Medium |
+|[:one:][a114-1][:two:][a114-2][:three:][a114-3][:four:][a114-4]|114| Flatten Binary Tree to Linked List                           |Medium |
 |[:one:][a113-1][:two:][a113-2]|113| Path Sum II                                                  |Medium |
 |[:one:][a112-1][:two:][a112-2]|112| Path Sum                                                     |Easy   |
 |[:one:][a111-1][:two:][a111-2]|111| Minimum Depth of Binary Tree                                 |Easy   |
-|           |110| Balanced Binary Tree                                         |Easy   |
+|[:one:][a110-1][:two:][a110-2]|110| Balanced Binary Tree                                         |Easy   |
 |[:o:][a109]|109| Convert Sorted List to Binary Search Tree                    |Medium |
 |[:o:][a108]|108| Convert Sorted Array to Binary Search Tree                   |Easy   |
 |[:o:][a107]|107| Binary Tree Level Order Traversal II                         |Easy   |
@@ -670,4 +670,18 @@
 [a113-1]:./accepted/113.path-sum-ii.py
 [a113-2]:./accepted/113.path-sum-ii.iter.py
 [a118]:./accepted/118.pascals-triangle.py
-[a119]:./accepted/119.pascals-triangle-ii.py 
+[a119]:./accepted/119.pascals-triangle-ii.py
+
+[a110-1]:./accepted/110.balanced-binary-tree.py
+[a110-2]:./accepted/110.balanced-binary-tree.iter.py
+[a114-1]:./accepted/114.flatten-binary-tree-to-linked-list.py
+[a114-2]:./accepted/114.flatten-binary-tree-to-linked-list.stack.py
+[a114-3]:./accepted/114.flatten-binary-tree-to-linked-list.recur.py
+[a114-4]:./accepted/114.flatten-binary-tree-to-linked-list.recur_2.py
+[a120]:./accepted/120.triangle.py
+[a121]:./accepted/121.best-time-to-buy-and-sell-stock.py
+[a122]:./accepted/122.best-time-to-buy-and-sell-stock-ii.py
+[a123]:./accepted/123.best-time-to-buy-and-sell-stock-iii.py
+[a125]:./accepted/125.valid-palindrome.py
+[a128]:./accepted/128.longest-consecutive-sequence.py
+[a129]:./accepted/129.sum-root-to-leaf-numbers.py

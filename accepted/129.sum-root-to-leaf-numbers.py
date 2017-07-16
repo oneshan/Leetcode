@@ -11,23 +11,23 @@
 # Given a binary tree containing digits from 0-9 only, each root-to-leaf path
 # could represent a number.
 # An example is the root-to-leaf path 1->2->3 which represents the number 123.
-# 
+#
 # Find the total sum of all root-to-leaf numbers.
-# 
+#
 # For example,
-# 
+#
 # ⁠   1
 # ⁠  / \
 # ⁠ 2   3
-# 
-# 
-# 
+#
+#
+#
 # The root-to-leaf path 1->2 represents the number 12.
 # The root-to-leaf path 1->3 represents the number 13.
-# 
-# 
+#
+#
 # Return the sum = 12 + 13 = 25.
-# 
+#
 #
 # Definition for a binary tree node.
 # class TreeNode(object):
@@ -36,10 +36,33 @@
 #         self.left = None
 #         self.right = None
 
+
 class Solution(object):
     def sumNumbers(self, root):
         """
         :type root: TreeNode
         :rtype: int
         """
-        
+        self.sum = 0
+        self.recur(root, 0)
+        return self.sum
+
+    def recur(self, node, val):
+        if not node:
+            return
+        val = val * 10 + node.val
+        if not node.left and not node.right:
+            self.sum += val
+        self.recur(node.left, val)
+        self.recur(node.right, val)
+
+
+if __name__ == "__main__":
+    try:
+        from utils.TreeNode import createTreeNode
+        sol = Solution()
+        root = createTreeNode([1, 2, 3])
+        root = createTreeNode([1, 2, 3, None, 4])
+        print(sol.sumNumbers(root))
+    except Exception as e:
+        print(e)

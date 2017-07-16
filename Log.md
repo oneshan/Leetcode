@@ -1,5 +1,50 @@
 # Log
 
+## 2017.07.15   (Day 16)
+
+129.sum-root-to-leaf-numbers.py
+> ✔ 109/109 cases passed (52 ms)
+> - Recursion
+
+128.longest-consecutive-sequence.py
+> ✔ 68/68 cases passed (42 ms)
+> - Union Find
+
+125.valid-palindrome.py
+> ✔ 476/476 cases passed (115 ms)
+> - Use two pointer
+> - ord('0') = 48, ord('9') = 57, ord('a') = 97, ord('z') = 122, ord('A') = 65, ord('Z') = 90
+
+123.best-time-to-buy-and-sell-stock-iii.py 
+> ✔ 198/198 cases passed (79 ms)
+> - max_profit = max(prices[i:j], prices[j:k])
+
+122.best-time-to-buy-and-sell-stock-ii.py 
+> ✔ 198/198 cases passed (36 ms)
+> - sell stock if the price is higher than next day
+
+121.best-time-to-buy-and-sell-stock.py
+> ✔ 200/200 cases passed (53 ms)
+> - Use extra O(1) space to record max profit and min price
+
+120.triangle.py 
+> ✔ 43/43 cases passed (42 ms)
+> - Bottom up
+
+114.flatten-binary-tree-to-linked-list.py 
+> - ✔ 225/225 cases passed (52 ms) -- iter (w/ stack)
+> - ✔ 225/225 cases passed (52 ms) -- recur (w/ stack)
+> - ✔ 225/225 cases passed (49 ms) -- recur (w/o stack)
+> - Preorder
+
+> - ✔ 225/225 cases passed (42 ms) -- iter (w/o stack)
+> - Move curr.right below the rightmost node of curr.left 
+
+110.balanced-binary-tree.py
+> - ✔ 226/226 cases passed (99 ms) -- iter
+> - ✔ 226/226 cases passed (72 ms) -- recur
+> - Calculate the height of left tree and right tree and check isBalanced in each recursion
+
 ## 2017.07.14   (Day 15)
 119.pascals-triangle-ii.py 
 > ✔ 34/34 cases passed (39 ms)
