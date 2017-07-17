@@ -1,5 +1,15 @@
 # Log
 
+## 2017.07.16   (Day 17)
+
+136.single-number.py
+> ✔ 15/15 cases passed (42 ms)
+> - Bitwise (xor)
+
+137.single-number-ii.py
+> - ✔ 11/11 cases passed (39 ms)
+> - Bitwise (xor)
+
 ## 2017.07.15   (Day 16)
 
 129.sum-root-to-leaf-numbers.py

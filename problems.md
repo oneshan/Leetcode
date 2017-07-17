@@ -420,8 +420,8 @@
 |           |140| Word Break II                                                |Hard   |
 |           |139| Word Break                                                   |Medium |
 |           |138| Copy List with Random Pointer                                |Medium |
-|           |137| Single Number II                                             |Medium |
-|           |136| Single Number                                                |Easy   |
+|[:o:][a137]|137| Single Number II                                             |Medium |
+|[:o:][a136]|136| Single Number                                                |Easy   |
 |           |135| Candy                                                        |Hard   |
 |           |134| Gas Station                                                  |Medium |
 |           |133| Clone Graph                                                  |Medium |
@@ -685,3 +685,5 @@
 [a125]:./accepted/125.valid-palindrome.py
 [a128]:./accepted/128.longest-consecutive-sequence.py
 [a129]:./accepted/129.sum-root-to-leaf-numbers.py
+[a136]:./accepted/136.single-number.py
+[a137]:./accepted/137.single-number-ii.py
