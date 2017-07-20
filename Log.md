@@ -1,5 +1,24 @@
 # Log
 
+## 2017.07.19   (Day 18)
+
+133.clone-graph.py 
+> ✔ 12/12 cases passed (99 ms)
+> - To avoid a cycle, check if the node is visited
+
+124.binary-tree-maximum-path-sum.py
+> ✔ 92/92 cases passed (142 ms)
+> - Recursion, cut if sum < 0
+
+117.populating-next-right-pointers-in-each-node-ii.py
+> ✔ 61/61 cases passed (105 ms) -- iter
+> Use dummy to store the head node of next layer
+
+116.populating-next-right-pointers-in-each-node.py
+> - ✔ 14/14 cases passed (76 ms) -- recur
+> - ✔ 14/14 cases passed (75 ms) -- iter
+> - BFS, since it is perfect binary tree, recursion with parent's info
+
 ## 2017.07.16   (Day 17)
 
 136.single-number.py

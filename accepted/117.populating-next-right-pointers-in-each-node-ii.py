@@ -49,3 +49,13 @@ class Solution:
     # @param root, a tree link node
     # @return nothing
     def connect(self, root):
+        dummy = TreeLinkNode(0)
+        while root:
+            node = dummy
+            while root:
+                node.next = root.left
+                node = node.next if node.next else node
+                node.next = root.right
+                node = node.next if node.next else node
+                root = root.next
+            root = dummy.next

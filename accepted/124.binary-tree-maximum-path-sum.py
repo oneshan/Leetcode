@@ -43,4 +43,16 @@ class Solution(object):
         :type root: TreeNode
         :rtype: int
         """
-        
+        self.ans = float('-inf')
+        self.traverse(root)
+        return self.ans
+
+    def traverse(self, node):
+        if not node:
+            return 0
+        left = self.traverse(node.left)
+        left = left if left > 0 else 0
+        right = self.traverse(node.right)
+        right = right if right > 0 else 0
+        self.ans = max(self.ans, node.val + left + right)
+        return max(left, right) + node.val
