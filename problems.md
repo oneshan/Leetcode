@@ -414,9 +414,9 @@
 |           |146| LRU Cache                                                    |Hard   |
 |           |145| Binary Tree Postorder Traversal                              |Hard   |
 |           |144| Binary Tree Preorder Traversal                               |Medium |
-|           |143| Reorder List                                                 |Medium |
-|           |142| Linked List Cycle II                                         |Medium |
-|           |141| Linked List Cycle                                            |Easy   |
+|[:o:][a143]|143| Reorder List                                                 |Medium |
+|[:o:][a142]|142| Linked List Cycle II                                         |Medium |
+|[:o:][a141]|141| Linked List Cycle                                            |Easy   |
 |           |140| Word Break II                                                |Hard   |
 |           |139| Word Break                                                   |Medium |
 |           |138| Copy List with Random Pointer                                |Medium |
@@ -427,11 +427,11 @@
 |[:o:][a133]|133| Clone Graph                                                  |Medium |
 |           |132| Palindrome Partitioning II                                   |Hard   |
 |           |131| Palindrome Partitioning                                      |Medium |
-|           |130| Surrounded Regions                                           |Medium |
+|[:o:][a130]|130| Surrounded Regions                                           |Medium |
 |[:o:][a129]|129| Sum Root to Leaf Numbers                                     |Medium |
 |[:o:][a128]|128| Longest Consecutive Sequence                                 |Hard   |
-|           |127| Word Ladder                                                  |Medium |
-|           |126| Word Ladder II                                               |Hard   |
+|[:o:][a127]|127| Word Ladder                                                  |Medium |
+|[:o:][a126]|126| Word Ladder II                                               |Hard   |
 |[:o:][a125]|125| Valid Palindrome                                             |Easy   |
 |[:o:][a124]|124| Binary Tree Maximum Path Sum                                 |Hard   |
 |[:o:][a123]|123| Best Time to Buy and Sell Stock III                          |Hard   |
@@ -693,3 +693,10 @@
 [a133]:./accepted/133.clone-graph.py
 [a136]:./accepted/136.single-number.py
 [a137]:./accepted/137.single-number-ii.py
+
+[a126]:./accepted/126.word-ladder-ii.py
+[a127]:./accepted/127.word-ladder.py
+[a130]:./accepted/130.surrounded-regions.py
+[a141]:./accepted/141.linked-list-cycle.py
+[a142]:./accepted/142.linked-list-cycle-ii.py
+[a143]:./accepted/143.reorder-list.py

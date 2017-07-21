@@ -1,5 +1,31 @@
 # Log
 
+## 2017.07.20   (Day 19)
+143.reorder-list.py 
+> ✔ 13/13 cases passed (138 ms)
+> - Find the middle node of list -> Reverse second-half list -> Merge
+
+142.linked-list-cycle-ii.py 
+> ✔ 16/16 cases passed (86 ms)
+> - Two pointer (two step, one step)
+
+141.linked-list-cycle.py
+> ✔ 16/16 cases passed (106 ms)
+> - Two pointer (two step, one step)
+
+130.surrounded-regions.py
+> ✔ 60/60 cases passed (99 ms)
+> - BFS, traverse from border 'O's, all connections are remains 'O'
+
+127.word-ladder.py
+> ✔ 39/39 cases passed (819 ms)
+> - BFS 
+
+126.word-ladder-ii.py
+> ✔ 39/39 cases passed (656 ms)
+> - BFS, use a dictionary graph to record parents of word
+> - Note: if endWord not in wordList: return []
+
 ## 2017.07.19   (Day 18)
 
 133.clone-graph.py 
