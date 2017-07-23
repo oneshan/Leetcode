@@ -1,5 +1,25 @@
 # Log
 
+## 2017.07.21   (Day 20)
+150.evaluate-reverse-polish-notation.py
+> ✔ 20/20 cases passed (88 ms)
+> - Use stack to store operand, handle negative division
+> - In Python3, `-1 // 2 == -1`, but we need `-(1 // 2) == 0`
+
+147.insertion-sort-list.py
+> ✔ 21/21 cases passed (262 ms)
+> - To speed up, check value of the tail node of sorted list and inserting node before each iteration
+
+145.binary-tree-postorder-traversal.py
+> - ✔ 67/67 cases passed (42 ms) -- recur
+> - ✔ 67/67 cases passed (39 ms) -- iter
+> - Use stack, self-left-right then reverse ans array
+
+144.binary-tree-preorder-traversal.py
+> - ✔ 67/67 cases passed (46 ms) -- recur
+> - ✔ 67/67 cases passed (36 ms) -- iter
+> - Use stack, self-right-left
+
 ## 2017.07.20   (Day 19)
 143.reorder-list.py 
 > ✔ 13/13 cases passed (138 ms)
