@@ -1,5 +1,10 @@
 # Log
 
+## 2017.07.22   (Day 21)
+> 152.maximum-product-subarray.py
+> ✔ 183/183 cases passed (48 ms)
+> - Record current maximum and minimum (current min product negative number may be larger than current max)
+
 ## 2017.07.21   (Day 20)
 150.evaluate-reverse-polish-notation.py
 > ✔ 20/20 cases passed (88 ms)

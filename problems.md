@@ -405,7 +405,7 @@
 |           |155| Min Stack                                                    |Easy   |
 |           |154| Find Minimum in Rotated Sorted Array II                      |Hard   |
 |           |153| Find Minimum in Rotated Sorted Array                         |Medium |
-|           |152| Maximum Product Subarray                                     |Medium |
+|[:o:][a152]|152| Maximum Product Subarray                                     |Medium |
 |           |151| Reverse Words in a String                                    |Medium |
 |[:o:][a150]|150| Evaluate Reverse Polish Notation                             |Medium |
 |           |149| Max Points on a Line                                         |Hard   |
@@ -706,4 +706,4 @@
 [a147]:./accepted/147.insertion-sort-list.py
 [a150]:./accepted/150.evaluate-reverse-polish-notation.py
 
-
+[a152]:./accepted/152.maximum-product-subarray.py
