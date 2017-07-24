@@ -1,7 +1,37 @@
 # Log
 
+## 2017.07.23   (Day 22)
+
+167.two-sum-ii-input-array-is-sorted.py 
+> ✔ 16/16 cases passed (36 ms) -- Hash
+> ✔ 16/16 cases passed (39 ms) -- Two pointer
+
+165.compare-version-numbers.py
+> ✔ 71/71 cases passed (36 ms)
+> - Testcases: `1, 1.1`, `1, 1.0`
+
+162.find-peak-element.py
+> ✔ 58/58 cases passed (35 ms)
+> - Binary Search, compare nums[mid] & nums[mid+1]
+
+160.intersection-of-two-linked-lists.py 
+> ✔ 42/42 cases passed (425 ms)
+> - Shift the longer one until they have same length, then compare
+
+155.min-stack.py
+> ✔ 18/18 cases passed (85 ms)
+> - Use additional list to record minimum value
+
+154.find-minimum-in-rotated-sorted-array-ii.py
+> ✔ 192/192 cases passed (42 ms)
+> - Binary search, left-shift the right pointer if nums[mid] == nums[right]
+
+153.find-minimum-in-rotated-sorted-array.py
+> ✔ 146/146 cases passed (32 ms)
+> - Binary search, compare nums[mid] & nums[right]
+
 ## 2017.07.22   (Day 21)
-> 152.maximum-product-subarray.py
+152.maximum-product-subarray.py
 > ✔ 183/183 cases passed (48 ms)
 > - Record current maximum and minimum (current min product negative number may be larger than current max)
 

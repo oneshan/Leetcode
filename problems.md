@@ -390,21 +390,21 @@
 |  :lock:   |170| Two Sum III - Data structure design                          |Easy   |
 |           |169| Majority Element                                             |Easy   |
 |           |168| Excel Sheet Column Title                                     |Easy   |
-|           |167| Two Sum II - Input array is sorted                           |Easy   |
+|[:o:][a167-1][:o:][a167-2]|167| Two Sum II - Input array is sorted                           |Easy   |
 |           |166| Fraction to Recurring Decimal                                |Medium |
-|           |165| Compare Version Numbers                                      |Medium |
+|[:o:][a165]|165| Compare Version Numbers                                      |Medium |
 |           |164| Maximum Gap                                                  |Hard   |
 |  :lock:   |163| Missing Ranges                                               |Medium |
-|           |162| Find Peak Element                                            |Medium |
+|[:o:][a162]|162| Find Peak Element                                            |Medium |
 |  :lock:   |161| One Edit Distance                                            |Medium |
-|           |160| Intersection of Two Linked Lists                             |Easy   |
+|[:o:][a160]|160| Intersection of Two Linked Lists                             |Easy   |
 |  :lock:   |159| Longest Substring with At Most Two Distinct Characters       |Hard   |
 |  :lock:   |158| Read N Characters Given Read4 II - Call multiple times       |Hard   |
 |  :lock:   |157| Read N Characters Given Read4                                |Easy   |
 |  :lock:   |156| Binary Tree Upside Down                                      |Medium |
-|           |155| Min Stack                                                    |Easy   |
-|           |154| Find Minimum in Rotated Sorted Array II                      |Hard   |
-|           |153| Find Minimum in Rotated Sorted Array                         |Medium |
+|[:o:][a155]|155| Min Stack                                                    |Easy   |
+|[:o:][a154]|154| Find Minimum in Rotated Sorted Array II                      |Hard   |
+|[:o:][a153]|153| Find Minimum in Rotated Sorted Array                         |Medium |
 |[:o:][a152]|152| Maximum Product Subarray                                     |Medium |
 |           |151| Reverse Words in a String                                    |Medium |
 |[:o:][a150]|150| Evaluate Reverse Polish Notation                             |Medium |
@@ -707,3 +707,11 @@
 [a150]:./accepted/150.evaluate-reverse-polish-notation.py
 
 [a152]:./accepted/152.maximum-product-subarray.py
+[a153]:./accepted/153.find-minimum-in-rotated-sorted-array.py
+[a154]:./accepted/154.find-minimum-in-rotated-sorted-array-ii.py
+[a155]:./accepted/155.min-stack.py
+[a160]:./accepted/160.intersection-of-two-linked-lists.py
+[a162]:./accepted/162.find-peak-element.py
+[a165]:./accepted/165.compare-version-numbers.py
+[a167-1]:./accepted/167.two-sum-ii-input-array-is-sorted.hash.py
+[a167-2]:./accepted/167.two-sum-ii-input-array-is-sorted.py
