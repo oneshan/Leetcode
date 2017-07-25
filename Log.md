@@ -1,5 +1,22 @@
 # Log
 
+## 2017.07.24   (Day 23)
+
+169.majority-element.py
+> ✔ 44/44 cases passed (52 ms)
+> - Store local element and a counter (default 0), compare element to increase/decrease counter, update local element if counter == 0
+
+major element > 0
+
+168.excel-sheet-column-title.py 
+> ✔ 18/18 cases passed (49 ms)
+> - In each iteration, n minus 1 before mapping
+
+166.fraction-to-recurring-decimal.py
+> ✔ 35/35 cases passed (62 ms)
+> - Use hash table store remainder to check repeating
+> - Testcases: `0, -5 (0)`, `1, 6 (0.1(6))`, `-1, 5 (-0.2)`
+
 ## 2017.07.23   (Day 22)
 
 167.two-sum-ii-input-array-is-sorted.py 

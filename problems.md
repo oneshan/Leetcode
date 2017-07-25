@@ -388,10 +388,10 @@
 |           |172| Factorial Trailing Zeroes                                    |Easy   |
 |           |171| Excel Sheet Column Number                                    |Easy   |
 |  :lock:   |170| Two Sum III - Data structure design                          |Easy   |
-|           |169| Majority Element                                             |Easy   |
-|           |168| Excel Sheet Column Title                                     |Easy   |
+|[:o:][a169]|169| Majority Element                                             |Easy   |
+|[:o:][a168]|168| Excel Sheet Column Title                                     |Easy   |
 |[:o:][a167-1][:o:][a167-2]|167| Two Sum II - Input array is sorted                           |Easy   |
-|           |166| Fraction to Recurring Decimal                                |Medium |
+|[:o:][a166]|166| Fraction to Recurring Decimal                                |Medium |
 |[:o:][a165]|165| Compare Version Numbers                                      |Medium |
 |           |164| Maximum Gap                                                  |Hard   |
 |  :lock:   |163| Missing Ranges                                               |Medium |
@@ -713,5 +713,8 @@
 [a160]:./accepted/160.intersection-of-two-linked-lists.py
 [a162]:./accepted/162.find-peak-element.py
 [a165]:./accepted/165.compare-version-numbers.py
+[a166]:./accepted/166.fraction-to-recurring-decimal.py 
 [a167-1]:./accepted/167.two-sum-ii-input-array-is-sorted.hash.py
 [a167-2]:./accepted/167.two-sum-ii-input-array-is-sorted.py
+[a168]:./accepted/168.excel-sheet-column-title.py 
+[a169]:./accepted/169.majority-element.py
