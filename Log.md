@@ -1,12 +1,25 @@
 # Log
 
+## 2017.07.25   (Day 24)
+
+173.binary-search-tree-iterator.py
+> ✔ 61/61 cases passed (159 ms)
+> - Use stack to store left nodes
+
+172.factorial-trailing-zeroes.py
+> ✔ 502/502 cases passed (49 ms)
+> - Just consider 5, 25, 125, ...
+
+171.excel-sheet-column-number.py 
+> ✔ 1000/1000 cases passed (56 ms) -- mapping
+> ✔ 1000/1000 cases passed (45 ms) -- ord(ch) - 64
+> - ord('A') == 64
+
 ## 2017.07.24   (Day 23)
 
 169.majority-element.py
 > ✔ 44/44 cases passed (52 ms)
 > - Store local element and a counter (default 0), compare element to increase/decrease counter, update local element if counter == 0
-
-major element > 0
 
 168.excel-sheet-column-title.py 
 > ✔ 18/18 cases passed (49 ms)

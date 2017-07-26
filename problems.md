@@ -384,9 +384,9 @@
 |  :lock:   |186| Reverse Words in a String II                                 |Medium |
 |           |179| Largest Number                                               |Medium |
 |           |174| Dungeon Game                                                 |Hard   |
-|           |173| Binary Search Tree Iterator                                  |Medium |
-|           |172| Factorial Trailing Zeroes                                    |Easy   |
-|           |171| Excel Sheet Column Number                                    |Easy   |
+|[:o:][a173]|173| Binary Search Tree Iterator                                  |Medium |
+|[:o:][a172]|172| Factorial Trailing Zeroes                                    |Easy   |
+|[:o:][a171]|171| Excel Sheet Column Number                                    |Easy   |
 |  :lock:   |170| Two Sum III - Data structure design                          |Easy   |
 |[:o:][a169]|169| Majority Element                                             |Easy   |
 |[:o:][a168]|168| Excel Sheet Column Title                                     |Easy   |
@@ -718,3 +718,7 @@
 [a167-2]:./accepted/167.two-sum-ii-input-array-is-sorted.py
 [a168]:./accepted/168.excel-sheet-column-title.py 
 [a169]:./accepted/169.majority-element.py
+[a171-2]:./accepted/171.excel-sheet-column-number.2.py
+[a171-1]:./accepted/171.excel-sheet-column-number.py
+[a172]:./accepted/172.factorial-trailing-zeroes.py
+[a173]:./accepted/173.binary-search-tree-iterator.py
