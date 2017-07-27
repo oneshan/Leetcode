@@ -376,11 +376,11 @@
 |           |200| Number of Islands                                            |Medium |
 |           |199| Binary Tree Right Side View                                  |Medium |
 |           |198| House Robber                                                 |Easy   |
-|           |191| Number of 1 Bits                                             |Easy   |
-|           |190| Reverse Bits                                                 |Easy   |
-|           |189| Rotate Array                                                 |Easy   |
+|[:o:][a191]|191| Number of 1 Bits                                             |Easy   |
+|[:o:][a190]|190| Reverse Bits                                                 |Easy   |
+|[:o:][a189]|189| Rotate Array                                                 |Easy   |
 |           |188| Best Time to Buy and Sell Stock IV                           |Hard   |
-|           |187| Repeated DNA Sequences                                       |Medium |
+|[:one:][a187-1][:two:][a187-2]|187| Repeated DNA Sequences                                       |Medium |
 |  :lock:   |186| Reverse Words in a String II                                 |Medium |
 |           |179| Largest Number                                               |Medium |
 |           |174| Dungeon Game                                                 |Hard   |
@@ -390,7 +390,7 @@
 |  :lock:   |170| Two Sum III - Data structure design                          |Easy   |
 |[:o:][a169]|169| Majority Element                                             |Easy   |
 |[:o:][a168]|168| Excel Sheet Column Title                                     |Easy   |
-|[:o:][a167-1][:o:][a167-2]|167| Two Sum II - Input array is sorted                           |Easy   |
+|[:one:][a167-1][:two:][a167-2]|167| Two Sum II - Input array is sorted                           |Easy   |
 |[:o:][a166]|166| Fraction to Recurring Decimal                                |Medium |
 |[:o:][a165]|165| Compare Version Numbers                                      |Medium |
 |           |164| Maximum Gap                                                  |Hard   |
@@ -722,3 +722,9 @@
 [a171-1]:./accepted/171.excel-sheet-column-number.py
 [a172]:./accepted/172.factorial-trailing-zeroes.py
 [a173]:./accepted/173.binary-search-tree-iterator.py
+
+[a187-1]:./accepted/187.repeated-dna-sequences.2.py
+[a187-2]:./accepted/187.repeated-dna-sequences.py
+[a189]:./accepted/189.rotate-array.py
+[a190]:./accepted/190.reverse-bits.py
+[a191]:./accepted/191.number-of-1-bits.py

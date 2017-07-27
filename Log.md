@@ -1,5 +1,24 @@
 # Log
 
+## 2017.07.26   (Day 25)
+
+191.number-of-1-bits.py 
+> ✔ 600/600 cases passed (39 ms)
+> - To remove rightmost 1bit: `n &= (n-1)`
+
+190.reverse-bits.py
+> ✔ 600/600 cases passed (38 ms)
+> - for-loop reverse 32bit
+
+189.rotate-array.py
+> ✔ 33/33 cases passed (128 ms)
+> - Reverse 3 times
+
+187.repeated-dna-sequences.py
+> - ✔ 32/32 cases passed (195 ms) -- use substr as key
+> - ✔ 32/32 cases passed (142 ms) -- mapping substr to integer then used as key
+> - Use hash table to count each candidate
+
 ## 2017.07.25   (Day 24)
 
 173.binary-search-tree-iterator.py
