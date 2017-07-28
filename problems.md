@@ -372,10 +372,10 @@
 |           |204| Count Primes                                                 |Easy   |
 |           |203| Remove Linked List Elements                                  |Easy   |
 |           |202| Happy Number                                                 |Easy   |
-|           |201| Bitwise AND of Numbers Range                                 |Medium |
-|           |200| Number of Islands                                            |Medium |
-|           |199| Binary Tree Right Side View                                  |Medium |
-|           |198| House Robber                                                 |Easy   |
+|[:o:][a201]|201| Bitwise AND of Numbers Range                                 |Medium |
+|[:o:][a200]|200| Number of Islands                                            |Medium |
+|[:o:][a199]|199| Binary Tree Right Side View                                  |Medium |
+|[:o:][a198]|198| House Robber                                                 |Easy   |
 |[:o:][a191]|191| Number of 1 Bits                                             |Easy   |
 |[:o:][a190]|190| Reverse Bits                                                 |Easy   |
 |[:o:][a189]|189| Rotate Array                                                 |Easy   |
@@ -386,7 +386,7 @@
 |           |174| Dungeon Game                                                 |Hard   |
 |[:o:][a173]|173| Binary Search Tree Iterator                                  |Medium |
 |[:o:][a172]|172| Factorial Trailing Zeroes                                    |Easy   |
-|[:o:][a171]|171| Excel Sheet Column Number                                    |Easy   |
+|[:one:][a171-1][:two:][a171-2]|171| Excel Sheet Column Number                                    |Easy   |
 |  :lock:   |170| Two Sum III - Data structure design                          |Easy   |
 |[:o:][a169]|169| Majority Element                                             |Easy   |
 |[:o:][a168]|168| Excel Sheet Column Title                                     |Easy   |
@@ -728,3 +728,7 @@
 [a189]:./accepted/189.rotate-array.py
 [a190]:./accepted/190.reverse-bits.py
 [a191]:./accepted/191.number-of-1-bits.py
+[a198]:./accepted/198.house-robber.py
+[a199]:./accepted/199.binary-tree-right-side-view.py
+[a200]:./accepted/200.number-of-islands.py
+[a201]:./accepted/201.bitwise-and-of-numbers-range.py

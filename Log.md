@@ -1,5 +1,23 @@
 # Log
 
+## 2017.07.27   (Day 26)
+
+201.bitwise-and-of-numbers-range.py
+> ✔ 8266/8266 cases passed (112 ms)
+> - Right Shift until m equals to n, then left shift back
+
+200.number-of-islands.py
+> ✔ 47/47 cases passed (75 ms)
+> - DFS
+
+199.binary-tree-right-side-view.py 
+> ✔ 210/210 cases passed (46 ms)
+> - BFS
+
+198.house-robber.py
+> ✔ 69/69 cases passed (36 ms)
+> - DP
+
 ## 2017.07.26   (Day 25)
 
 191.number-of-1-bits.py 
