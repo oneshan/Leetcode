@@ -23,10 +23,35 @@
 # Credits:Special thanks to @Freezen for adding this problem and creating all
 # test cases.
 #
+
+
 class Solution(object):
     def rob(self, nums):
         """
         :type nums: List[int]
         :rtype: int
         """
-        
+        if not nums:
+            return 0
+
+        n = len(nums)
+        if n == 1:
+            return nums[0]
+
+        preTwo, preOne = 0, 0
+        for i in range(n - 1):
+            preTwo, preOne = preOne, max(preTwo + nums[i], preOne)
+        ans = preOne
+
+        preTwo, preOne = 0, 0
+        for i in range(1, n):
+            preTwo, preOne = preOne, max(preTwo + nums[i], preOne)
+        ans = max(ans, preOne)
+
+        return ans
+
+
+if __name__ == "__main__":
+    sol = Solution()
+    assert(sol.rob([1, 3, 1]) == 3)
+    assert(sol.rob([2, 1, 1, 1]) == 3)

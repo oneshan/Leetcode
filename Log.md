@@ -1,10 +1,32 @@
 # Log
 
+## 2017.07.29   (Day 28)
+
+213.house-robber-ii.py
+> ✔ 74/74 cases passed (32 ms)
+> - DP 2 times, (0~n-1 & 1~n)
+
+210.course-schedule-ii.py 
+> ✔ 37/37 cases passed (76 ms)
+> - topological sort (BFS)
+
+209.minimum-size-subarray-sum.py
+> ✔ 15/15 cases passed (58 ms)
+> - two pointer (like 076 minimum-window-substring) 
+
+208.implement-trie-prefix-tree.py
+> ✔ 14/14 cases passed (335 ms)
+> - TrieNode has dictionary (childs) and bool (isWord)
+
+207.course-schedule.py
+> ✔ 37/37 cases passed (79 ms)
+> - topological sort (BFS)
+
 ## 2017.07.28   (Day 27)
 
 206.reverse-linked-list.py
-> ✔ 27/27 cases passed (38 ms) -- iter
-> ✔ 27/27 cases passed (48 ms) -- recur
+> - ✔ 27/27 cases passed (38 ms) -- iter
+> - ✔ 27/27 cases passed (48 ms) -- recur
 
 205.isomorphic-strings.py 
 > ✔ 30/30 cases passed (76 ms)
@@ -70,8 +92,8 @@
 > - Just consider 5, 25, 125, ...
 
 171.excel-sheet-column-number.py 
-> ✔ 1000/1000 cases passed (56 ms) -- mapping
-> ✔ 1000/1000 cases passed (45 ms) -- ord(ch) - 64
+> - ✔ 1000/1000 cases passed (56 ms) -- mapping
+> - ✔ 1000/1000 cases passed (45 ms) -- ord(ch) - 64
 > - ord('A') == 64
 
 ## 2017.07.24   (Day 23)
@@ -92,8 +114,8 @@
 ## 2017.07.23   (Day 22)
 
 167.two-sum-ii-input-array-is-sorted.py 
-> ✔ 16/16 cases passed (36 ms) -- Hash
-> ✔ 16/16 cases passed (39 ms) -- Two pointer
+> - ✔ 16/16 cases passed (36 ms) -- Hash
+> - ✔ 16/16 cases passed (39 ms) -- Two pointer
 
 165.compare-version-numbers.py
 > ✔ 71/71 cases passed (36 ms)

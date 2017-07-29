@@ -360,13 +360,13 @@
 |           |216| Combination Sum III                                          |Medium |
 |           |215| Kth Largest Element in an Array                              |Medium |
 |           |214| Shortest Palindrome                                          |Hard   |
-|           |213| House Robber II                                              |Medium |
+|[:o:][a213]|213| House Robber II                                              |Medium |
 |           |212| Word Search II                                               |Hard   |
 |           |211| Add and Search Word - Data structure design                  |Medium |
-|           |210| Course Schedule II                                           |Medium |
-|           |209| Minimum Size Subarray Sum                                    |Medium |
-|           |208| Implement Trie (Prefix Tree)                                 |Medium |
-|           |207| Course Schedule                                              |Medium |
+|[:o:][a210]|210| Course Schedule II                                           |Medium |
+|[:o:][a209]|209| Minimum Size Subarray Sum                                    |Medium |
+|[:o:][a208]|208| Implement Trie (Prefix Tree)                                 |Medium |
+|[:o:][a207]|207| Course Schedule                                              |Medium |
 |[:one:][a206-1][:two:][a206-2]|206| Reverse Linked List                                          |Easy   |
 |[:o:][a205]|205| Isomorphic Strings                                           |Easy   |
 |[:o:][a204]|204| Count Primes                                                 |Easy   |
@@ -738,3 +738,8 @@
 [a205]:./accepted/205.isomorphic-strings.py
 [a206-1]:./accepted/206.reverse-linked-list.iter.py
 [a206-2]:./accepted/206.reverse-linked-list.py
+[a207]:./accepted/207.course-schedule.py
+[a208]:./accepted/208.implement-trie-prefix-tree.py
+[a209]:./accepted/209.minimum-size-subarray-sum.py
+[a210]:./accepted/210.course-schedule-ii.py
+[a213]:./accepted/213.house-robber-ii.py
