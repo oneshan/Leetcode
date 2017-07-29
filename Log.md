@@ -1,5 +1,27 @@
 # Log
 
+## 2017.07.28   (Day 27)
+
+206.reverse-linked-list.py
+> ✔ 27/27 cases passed (38 ms) -- iter
+> ✔ 27/27 cases passed (48 ms) -- recur
+
+205.isomorphic-strings.py 
+> ✔ 30/30 cases passed (76 ms)
+> - Use two dictionary (s2t, t2s) to check mapping 
+
+204.count-primes.py
+> ✔ 20/20 cases passed (1352 ms)
+> - Sieve of Eratosthenes
+
+203.remove-linked-list-elements.py 
+> ✔ 65/65 cases passed (125 ms)
+> - If the value of next node value is val, then we point to next.next node
+
+202.happy-number.py
+> ✔ 401/401 cases passed (38 ms)
+> - while loop, use a set to store previous number and check if there is a cycle
+
 ## 2017.07.27   (Day 26)
 
 201.bitwise-and-of-numbers-range.py

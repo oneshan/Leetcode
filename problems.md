@@ -367,11 +367,11 @@
 |           |209| Minimum Size Subarray Sum                                    |Medium |
 |           |208| Implement Trie (Prefix Tree)                                 |Medium |
 |           |207| Course Schedule                                              |Medium |
-|           |206| Reverse Linked List                                          |Easy   |
-|           |205| Isomorphic Strings                                           |Easy   |
-|           |204| Count Primes                                                 |Easy   |
-|           |203| Remove Linked List Elements                                  |Easy   |
-|           |202| Happy Number                                                 |Easy   |
+|[:one:][a206-1][:two:][a206-2]|206| Reverse Linked List                                          |Easy   |
+|[:o:][a205]|205| Isomorphic Strings                                           |Easy   |
+|[:o:][a204]|204| Count Primes                                                 |Easy   |
+|[:o:][a203]|203| Remove Linked List Elements                                  |Easy   |
+|[:o:][a202]|202| Happy Number                                                 |Easy   |
 |[:o:][a201]|201| Bitwise AND of Numbers Range                                 |Medium |
 |[:o:][a200]|200| Number of Islands                                            |Medium |
 |[:o:][a199]|199| Binary Tree Right Side View                                  |Medium |
@@ -722,7 +722,6 @@
 [a171-1]:./accepted/171.excel-sheet-column-number.py
 [a172]:./accepted/172.factorial-trailing-zeroes.py
 [a173]:./accepted/173.binary-search-tree-iterator.py
-
 [a187-1]:./accepted/187.repeated-dna-sequences.2.py
 [a187-2]:./accepted/187.repeated-dna-sequences.py
 [a189]:./accepted/189.rotate-array.py
@@ -731,4 +730,11 @@
 [a198]:./accepted/198.house-robber.py
 [a199]:./accepted/199.binary-tree-right-side-view.py
 [a200]:./accepted/200.number-of-islands.py
+
 [a201]:./accepted/201.bitwise-and-of-numbers-range.py
+[a202]:./accepted/202.happy-number.py
+[a203]:./accepted/203.remove-linked-list-elements.py
+[a204]:./accepted/204.count-primes.py
+[a205]:./accepted/205.isomorphic-strings.py
+[a206-1]:./accepted/206.reverse-linked-list.iter.py
+[a206-2]:./accepted/206.reverse-linked-list.py
