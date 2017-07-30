@@ -1,5 +1,27 @@
 # Log
 
+## 2017.07.30   (Day 29)
+
+220.contains-duplicate-iii.py
+> ✔ 40/40 cases passed (92 ms)
+> - Use hash table & bucket
+
+219.contains-duplicate-ii.py 
+> ✔ 23/23 cases passed (42 ms)
+> - Use hash table to record index
+
+217.contains-duplicate.py 
+> ✔ 18/18 cases passed (62 ms)
+> - Use hash table (set)
+
+216.combination-sum-iii.py
+> ✔ 18/18 cases passed (32 ms)
+> - Recursion
+
+211.add-and-search-word-data-structure-design.py
+> ✔ 13/13 cases passed (622 ms)
+> - Recursion & Trie implement
+
 ## 2017.07.29   (Day 28)
 
 213.house-robber-ii.py

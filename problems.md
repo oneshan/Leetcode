@@ -353,16 +353,16 @@
 |           |223| Rectangle Area                                               |Medium |
 |           |222| Count Complete Tree Nodes                                    |Medium |
 |           |221| Maximal Square                                               |Medium |
-|           |220| Contains Duplicate III                                       |Medium |
-|           |219| Contains Duplicate II                                        |Easy   |
+|[:o:][a220]|220| Contains Duplicate III                                       |Medium |
+|[:o:][a219]|219| Contains Duplicate II                                        |Easy   |
 |           |218| The Skyline Problem                                          |Hard   |
-|           |217| Contains Duplicate                                           |Easy   |
-|           |216| Combination Sum III                                          |Medium |
+|[:o:][a217]|217| Contains Duplicate                                           |Easy   |
+|[:o:][a216]|216| Combination Sum III                                          |Medium |
 |           |215| Kth Largest Element in an Array                              |Medium |
 |           |214| Shortest Palindrome                                          |Hard   |
 |[:o:][a213]|213| House Robber II                                              |Medium |
 |           |212| Word Search II                                               |Hard   |
-|           |211| Add and Search Word - Data structure design                  |Medium |
+|[:o:][a211]|211| Add and Search Word - Data structure design                  |Medium |
 |[:o:][a210]|210| Course Schedule II                                           |Medium |
 |[:o:][a209]|209| Minimum Size Subarray Sum                                    |Medium |
 |[:o:][a208]|208| Implement Trie (Prefix Tree)                                 |Medium |
@@ -743,3 +743,8 @@
 [a209]:./accepted/209.minimum-size-subarray-sum.py
 [a210]:./accepted/210.course-schedule-ii.py
 [a213]:./accepted/213.house-robber-ii.py
+[a211]:./accepted/211.add-and-search-word-data-structure-design.py
+[a216]:./accepted/216.combination-sum-iii.py
+[a217]:./accepted/217.contains-duplicate.py
+[a219]:./accepted/219.contains-duplicate-ii.py
+[a220]:./accepted/220.contains-duplicate-iii.py
