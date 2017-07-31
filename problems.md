@@ -345,14 +345,14 @@
 |           |231| Power of Two                                                 |Easy   |
 |           |230| Kth Smallest Element in a BST                                |Medium |
 |           |229| Majority Element II                                          |Medium |
-|           |228| Summary Ranges                                               |Medium |
+|[:o:][a228]|228| Summary Ranges                                               |Medium |
 |           |227| Basic Calculator II                                          |Medium |
-|           |226| Invert Binary Tree                                           |Easy   |
-|           |225| Implement Stack using Queues                                 |Easy   |
+|[:one:][a226-1][:two:][a226-2]|226| Invert Binary Tree                                           |Easy   |
+|[:o:][a225]|225| Implement Stack using Queues                                 |Easy   |
 |           |224| Basic Calculator                                             |Hard   |
-|           |223| Rectangle Area                                               |Medium |
+|[:o:][a223]|223| Rectangle Area                                               |Medium |
 |           |222| Count Complete Tree Nodes                                    |Medium |
-|           |221| Maximal Square                                               |Medium |
+|[:o:][a221]|221| Maximal Square                                               |Medium |
 |[:o:][a220]|220| Contains Duplicate III                                       |Medium |
 |[:o:][a219]|219| Contains Duplicate II                                        |Easy   |
 |           |218| The Skyline Problem                                          |Hard   |
@@ -748,3 +748,10 @@
 [a217]:./accepted/217.contains-duplicate.py
 [a219]:./accepted/219.contains-duplicate-ii.py
 [a220]:./accepted/220.contains-duplicate-iii.py
+
+[a221]:./accepted/221.maximal-square.py
+[a223]:./accepted/223.rectangle-area.py
+[a225]:./accepted/225.implement-stack-using-queues.py
+[a226-1]:./accepted/226.invert-binary-tree.iter.py
+[a226-2]:./accepted/226.invert-binary-tree.py
+[a228]:./accepted/228.summary-ranges.py

@@ -14,14 +14,14 @@
 # ⁠ 2     7
 # ⁠/ \   / \
 # 1   3 6   9
-# 
+#
 # to
 # ⁠    4
 # ⁠  /   \
 # ⁠ 7     2
 # ⁠/ \   / \
 # 9   6 3   1
-# 
+#
 # Trivia:
 # This problem was inspired by this original tweet by Max Howell:
 # Google: 90% of our engineers use the software you wrote (Homebrew), but you
@@ -34,10 +34,32 @@
 #         self.left = None
 #         self.right = None
 
+
 class Solution(object):
     def invertTree(self, root):
         """
         :type root: TreeNode
         :rtype: TreeNode
         """
-        
+        if not root:
+            return
+
+        stack = [root]
+        while stack:
+            node = stack.pop()
+            node.left, node.right = node.right, node.left
+            if node.left:
+                stack.append(node.left)
+            if node.right:
+                stack.append(node.right)
+        return root
+
+
+if __name__ == "__main__":
+    try:
+        from utils.TreeNode import createTreeNode, printTreeNode
+        sol = Solution()
+        root = createTreeNode([4, 2, 7, 1, 3, 6, 9])
+        printTreeNode(sol.invertTree(root))
+    except Exception as e:
+        print(e)

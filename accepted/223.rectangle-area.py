@@ -35,3 +35,16 @@ class Solution(object):
         :type H: int
         :rtype: int
         """
+        area1 = (C - A) * (D - B)
+        area2 = (G - E) * (H - F)
+
+        over_x = max(0, min(C, G) - max(A, E))
+        over_y = max(0, min(D, H) - max(B, F))
+        overlap = over_x * over_y
+
+        return area1 + area2 - overlap
+
+
+if __name__ == "__main__":
+    sol = Solution()
+    assert(sol.computeArea(-3, 0, 3, 4, 0, -1, 9, 2) == 45)

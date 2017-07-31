@@ -1,5 +1,26 @@
 # Log
 
+## 2017.07.31   (Day 30)
+
+228.summary-ranges.py 
+> ✔ 27/27 cases passed (48 ms)
+> - two pointer
+
+226.invert-binary-tree.py 
+> ✔ 68/68 cases passed (35 ms) -- recur & iter
+
+225.implement-stack-using-queues.py
+> ✔ 16/16 cases passed (48 ms)
+> - After push(x), we pop and push back all element in the queue.
+
+223.rectangle-area.py 
+> ✔ 3081/3081 cases passed (92 ms)
+> - Sum up two rectangle area and then minus overlapping part
+
+221.maximal-square.py
+> ✔ 68/68 cases passed (112 ms)
+> - DP (`dp[i][j] = min(dp[i-1][j-1], dp[i][j-1], dp[i-1][j]) + 1 if matrix[i][j] == '1' else 0`
+
 ## 2017.07.30   (Day 29)
 
 220.contains-duplicate-iii.py
