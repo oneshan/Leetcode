@@ -1,5 +1,19 @@
 # Log
 
+## 2017.08.01   (Day 31)
+
+237.delete-node-in-a-linked-list.py
+> ✔ 83/83 cases passed (52 ms)
+> - Overwrite node's val and next
+
+232.implement-queue-using-stacks.py
+> ✔ 17/17 cases passed (42 ms)
+> - Use two stack
+
+231.power-of-two.py
+> ✔ 1108/1108 cases passed (45 ms)
+> - check `n & (n - 1)`
+
 ## 2017.07.31   (Day 30)
 
 228.summary-ranges.py 

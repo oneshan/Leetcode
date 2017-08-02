@@ -336,13 +336,13 @@
 |           |240| Search a 2D Matrix II                                        |Medium |
 |           |239| Sliding Window Maximum                                       |Hard   |
 |           |238| Product of Array Except Self                                 |Medium |
-|           |237| Delete Node in a Linked List                                 |Easy   |
+|[:o:][a237]|237| Delete Node in a Linked List                                 |Easy   |
 |           |236| Lowest Common Ancestor of a Binary Tree                      |Medium |
 |           |235| Lowest Common Ancestor of a Binary Search Tree               |Easy   |
 |           |234| Palindrome Linked List                                       |Easy   |
 |           |233| Number of Digit One                                          |Hard   |
-|           |232| Implement Queue using Stacks                                 |Easy   |
-|           |231| Power of Two                                                 |Easy   |
+|[:o:][a232]|232| Implement Queue using Stacks                                 |Easy   |
+|[:o:][a231]|231| Power of Two                                                 |Easy   |
 |           |230| Kth Smallest Element in a BST                                |Medium |
 |           |229| Majority Element II                                          |Medium |
 |[:o:][a228]|228| Summary Ranges                                               |Medium |
@@ -755,3 +755,6 @@
 [a226-1]:./accepted/226.invert-binary-tree.iter.py
 [a226-2]:./accepted/226.invert-binary-tree.py
 [a228]:./accepted/228.summary-ranges.py
+[a231]:./accepted/231.power-of-two.py
+[a232]:./accepted/232.implement-queue-using-stacks.py
+[a237]:./accepted/237.delete-node-in-a-linked-list.py
