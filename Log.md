@@ -1,5 +1,36 @@
 # Log
 
+## 2017.08.02   (Day 32)
+
+238.product-of-array-except-self.py
+> ✔ 17/17 cases passed (186 ms)
+> `ans[i] = product[1..i-1] * product[i+1..n]`
+
+236.lowest-common-ancestor-of-a-binary-tree.py
+> ✔ 31/31 cases passed (115 ms)
+> - Recursion
+
+235.lowest-common-ancestor-of-a-binary-search-tree.py
+> ✔ 27/27 cases passed (118 ms)
+> - Compare value of p, q and root
+
+234.palindrome-linked-list.py 
+> ✔ 26/26 cases passed (129 ms)
+> - find the middle node of linked list, reverse second-half list, then compare two half list
+
+230.kth-smallest-element-in-a-bst.py 
+> ✔ 91/91 cases passed (128 ms)
+> - DFS
+
+229.majority-element-ii.py
+> ✔ 66/66 cases passed (49 ms)
+> - Moore voting
+
+215.kth-largest-element-in-an-array.py
+> ✔ 31/31 cases passed (109 ms)
+> - heap
+
+
 ## 2017.08.01   (Day 31)
 
 237.delete-node-in-a-linked-list.py

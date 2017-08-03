@@ -27,4 +27,21 @@ class Solution(object):
         :type nums: List[int]
         :rtype: List[int]
         """
-        
+        ans = [1 for _ in range(len(nums))]
+        p1 = p2 = 1
+
+        for i in range(1, len(nums)):
+            p1 *= nums[i - 1]
+            ans[i] *= p1
+
+        for i in range(len(nums) - 1, 0, -1):
+            p2 *= nums[i]
+            ans[i - 1] *= p2
+
+        return ans
+
+
+if __name__ == "__main__":
+    sol = Solution()
+    arr = [1, 2, 3, 4]
+    assert(sol.productExceptSelf(arr) == [24, 12, 8, 6])

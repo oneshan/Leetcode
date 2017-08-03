@@ -335,16 +335,16 @@
 |           |241| Different Ways to Add Parentheses                            |Medium |
 |           |240| Search a 2D Matrix II                                        |Medium |
 |           |239| Sliding Window Maximum                                       |Hard   |
-|           |238| Product of Array Except Self                                 |Medium |
+|[:o:][a238]|238| Product of Array Except Self                                 |Medium |
 |[:o:][a237]|237| Delete Node in a Linked List                                 |Easy   |
-|           |236| Lowest Common Ancestor of a Binary Tree                      |Medium |
-|           |235| Lowest Common Ancestor of a Binary Search Tree               |Easy   |
-|           |234| Palindrome Linked List                                       |Easy   |
+|[:o:][a236]|236| Lowest Common Ancestor of a Binary Tree                      |Medium |
+|[:o:][a235]|235| Lowest Common Ancestor of a Binary Search Tree               |Easy   |
+|[:o:][a234]|234| Palindrome Linked List                                       |Easy   |
 |           |233| Number of Digit One                                          |Hard   |
 |[:o:][a232]|232| Implement Queue using Stacks                                 |Easy   |
 |[:o:][a231]|231| Power of Two                                                 |Easy   |
-|           |230| Kth Smallest Element in a BST                                |Medium |
-|           |229| Majority Element II                                          |Medium |
+|[:o:][a230]|230| Kth Smallest Element in a BST                                |Medium |
+|[:o:][a229]|229| Majority Element II                                          |Medium |
 |[:o:][a228]|228| Summary Ranges                                               |Medium |
 |           |227| Basic Calculator II                                          |Medium |
 |[:one:][a226-1][:two:][a226-2]|226| Invert Binary Tree                                           |Easy   |
@@ -358,7 +358,7 @@
 |           |218| The Skyline Problem                                          |Hard   |
 |[:o:][a217]|217| Contains Duplicate                                           |Easy   |
 |[:o:][a216]|216| Combination Sum III                                          |Medium |
-|           |215| Kth Largest Element in an Array                              |Medium |
+|[:o:][a215]|215| Kth Largest Element in an Array                              |Medium |
 |           |214| Shortest Palindrome                                          |Hard   |
 |[:o:][a213]|213| House Robber II                                              |Medium |
 |           |212| Word Search II                                               |Hard   |
@@ -744,6 +744,7 @@
 [a210]:./accepted/210.course-schedule-ii.py
 [a213]:./accepted/213.house-robber-ii.py
 [a211]:./accepted/211.add-and-search-word-data-structure-design.py
+[a215]:./accepted/215.kth-largest-element-in-an-array.py
 [a216]:./accepted/216.combination-sum-iii.py
 [a217]:./accepted/217.contains-duplicate.py
 [a219]:./accepted/219.contains-duplicate-ii.py
@@ -755,6 +756,12 @@
 [a226-1]:./accepted/226.invert-binary-tree.iter.py
 [a226-2]:./accepted/226.invert-binary-tree.py
 [a228]:./accepted/228.summary-ranges.py
+[a229]:./accepted/229.majority-element-ii.py
+[a230]:./accepted/230.kth-smallest-element-in-a-bst.py
 [a231]:./accepted/231.power-of-two.py
 [a232]:./accepted/232.implement-queue-using-stacks.py
+[a234]:./accepted/234.palindrome-linked-list.py
+[a235]:./accepted/235.lowest-common-ancestor-of-a-binary-search-tree.py
+[a236]:./accepted/236.lowest-common-ancestor-of-a-binary-tree.py
 [a237]:./accepted/237.delete-node-in-a-linked-list.py
+[a238]:./accepted/238.product-of-array-except-self.py
