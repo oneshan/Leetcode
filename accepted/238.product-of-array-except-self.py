@@ -32,11 +32,9 @@ class Solution(object):
 
         for i in range(1, len(nums)):
             p1 *= nums[i - 1]
+            p2 *= nums[-i]
             ans[i] *= p1
-
-        for i in range(len(nums) - 1, 0, -1):
-            p2 *= nums[i]
-            ans[i - 1] *= p2
+            ans[-i - 1] *= p2
 
         return ans
 

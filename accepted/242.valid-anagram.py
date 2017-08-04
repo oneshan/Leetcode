@@ -23,6 +23,8 @@
 # What if the inputs contain unicode characters? How would you adapt your
 # solution to such case?
 #
+
+
 class Solution(object):
     def isAnagram(self, s, t):
         """
@@ -30,4 +32,20 @@ class Solution(object):
         :type t: str
         :rtype: bool
         """
-        
+        if len(s) != len(t):
+            return False
+
+        table = {}
+        for ch in s:
+            table[ch] = table.get(ch, 0) + 1
+        for ch in t:
+            table[ch] = table.get(ch, 0) - 1
+            if table[ch] < 0:
+                return False
+        return True
+
+
+if __name__ == "__main__":
+    sol = Solution()
+    assert(sol.isAnagram("rar", "car") is False)
+    assert(sol.isAnagram("anagram", "naagram") is True)

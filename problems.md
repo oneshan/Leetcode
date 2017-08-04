@@ -315,8 +315,8 @@
 |  :lock:   |261| Graph Valid Tree                                             |Medium |
 |           |260| Single Number III                                            |Medium |
 |  :lock:   |259| 3Sum Smaller                                                 |Medium |
-|           |258| Add Digits                                                   |Easy   |
-|           |257| Binary Tree Paths                                            |Easy   |
+|[:one:][a258-1][:two:][a258-2]|258| Add Digits                                                   |Easy   |
+|[:o:][a257]|257| Binary Tree Paths                                            |Easy   |
 |  :lock:   |256| Paint House                                                  |Easy   |
 |  :lock:   |255| Verify Preorder Sequence in Binary Search Tree               |Medium |
 |  :lock:   |254| Factor Combinations                                          |Medium |
@@ -331,10 +331,10 @@
 |  :lock:   |245| Shortest Word Distance III                                   |Medium |
 |  :lock:   |244| Shortest Word Distance II                                    |Medium |
 |  :lock:   |243| Shortest Word Distance                                       |Easy   |
-|           |242| Valid Anagram                                                |Easy   |
+|[:o:][a242]|242| Valid Anagram                                                |Easy   |
 |           |241| Different Ways to Add Parentheses                            |Medium |
-|           |240| Search a 2D Matrix II                                        |Medium |
-|           |239| Sliding Window Maximum                                       |Hard   |
+|[:o:][a240]|240| Search a 2D Matrix II                                        |Medium |
+|[:o:][a239]|239| Sliding Window Maximum                                       |Hard   |
 |[:o:][a238]|238| Product of Array Except Self                                 |Medium |
 |[:o:][a237]|237| Delete Node in a Linked List                                 |Easy   |
 |[:o:][a236]|236| Lowest Common Ancestor of a Binary Tree                      |Medium |
@@ -343,7 +343,7 @@
 |           |233| Number of Digit One                                          |Hard   |
 |[:o:][a232]|232| Implement Queue using Stacks                                 |Easy   |
 |[:o:][a231]|231| Power of Two                                                 |Easy   |
-|[:o:][a230]|230| Kth Smallest Element in a BST                                |Medium |
+|[:one:][a230-1][:two:][a230-2]|230| Kth Smallest Element in a BST                                |Medium |
 |[:o:][a229]|229| Majority Element II                                          |Medium |
 |[:o:][a228]|228| Summary Ranges                                               |Medium |
 |           |227| Basic Calculator II                                          |Medium |
@@ -458,7 +458,7 @@
 |[:one:][a102-1][:two:][a102-2]|102| Binary Tree Level Order Traversal                            |Medium |
 |[:one:][a101-1][:two:][a101-2]|101| Symmetric Tree                                               |Easy   |
 |[:o:][a100]|100| Same Tree                                                    |Easy   |
-|           |099| Recover Binary Search Tree                                   |Hard   |
+|[:one:][a099-1][:two:][a099-2]|099| Recover Binary Search Tree                                   |Hard   |
 |[:one:][a098-1][:two:][a098-2]|098| Validate Binary Search Tree                                  |Medium |
 |           |097| Interleaving String                                          |Hard   |
 |[:o:][a096]|096| Unique Binary Search Trees                                   |Medium |
@@ -651,6 +651,8 @@
 [a096]:./accepted/096.unique-binary-search-trees.py
 [a098-1]:./accepted/098.validate-binary-search-tree.py
 [a098-2]:./accepted/098.validate-binary-search-tree.ver2.py
+[a099-1]:./accepted/099.recover-binary-search-tree.py 
+[a099-2]:./accepted/099.recover-binary-search-tree.iter.py 
 [a100]:./accepted/100.same-tree.py
 
 [a101-1]:./accepted/101.symmetric-tree.py
@@ -757,7 +759,8 @@
 [a226-2]:./accepted/226.invert-binary-tree.py
 [a228]:./accepted/228.summary-ranges.py
 [a229]:./accepted/229.majority-element-ii.py
-[a230]:./accepted/230.kth-smallest-element-in-a-bst.py
+[a230-1]:./accepted/230.kth-smallest-element-in-a-bst.py
+[a230-2]:./accepted/230.kth-smallest-element-in-a-bst.recur.py
 [a231]:./accepted/231.power-of-two.py
 [a232]:./accepted/232.implement-queue-using-stacks.py
 [a234]:./accepted/234.palindrome-linked-list.py
@@ -765,3 +768,10 @@
 [a236]:./accepted/236.lowest-common-ancestor-of-a-binary-tree.py
 [a237]:./accepted/237.delete-node-in-a-linked-list.py
 [a238]:./accepted/238.product-of-array-except-self.py
+[a239]:./accepted/239.sliding-window-maximum.py
+[a240]:./accepted/240.search-a-2d-matrix-ii.py
+[a242]:./accepted/242.valid-anagram.py
+
+[a257]:./accepted/257.binary-tree-paths.py
+[a258-1]:./accepted/258.add-digits.py
+[a258-2]:./accepted/258.add-digits.ver2.py

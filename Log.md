@@ -1,5 +1,31 @@
 # Log
 
+## 2017.08.03   (Day 33)
+
+258.add-digits.py
+> - ✔ 1101/1101 cases passed (59 ms) -- division loop
+> - ✔ 1101/1101 cases passed (38 ms) -- `(num - 1) % 9 + 1` 
+
+257.binary-tree-paths.py
+> ✔ 209/209 cases passed (39 ms)
+> - Traverse
+
+242.valid-anagram.py
+> ✔ 34/34 cases passed (72 ms)
+> - Hashtable
+
+240.search-a-2d-matrix-ii.py
+> ✔ 129/129 cases passed (202 ms)
+> - For each row, do binary search
+
+239.sliding-window-maximum.py
+> ✔ 18/18 cases passed (178 ms)
+> - Dequeue, store idx whose value is larger or equal to current number
+
+099.recover-binary-search-tree.py
+> ✔ 1916/1916 cases passed (142 ms)
+> - Inorder, check if the value of previous is larger than current one
+
 ## 2017.08.02   (Day 32)
 
 238.product-of-array-except-self.py
@@ -19,8 +45,9 @@
 > - find the middle node of linked list, reverse second-half list, then compare two half list
 
 230.kth-smallest-element-in-a-bst.py 
-> ✔ 91/91 cases passed (128 ms)
-> - DFS
+> ✔ 91/91 cases passed (128 ms) -- iter
+> ✔ 91/91 cases passed (89 ms) -- recur
+> - Inorder
 
 229.majority-element-ii.py
 > ✔ 66/66 cases passed (49 ms)
