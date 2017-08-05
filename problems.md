@@ -295,8 +295,8 @@
 |           |282| Expression Add Operators                                     |Hard   |
 |  :lock:   |281| Zigzag Iterator                                              |Medium |
 |  :lock:   |280| Wiggle Sort                                                  |Medium |
-|           |279| Perfect Squares                                              |Medium |
-|           |278| First Bad Version                                            |Easy   |
+|[:one:][a279-1][:two:][a279-2]|279| Perfect Squares                                              |Medium |
+|[:o:][a278]|278| First Bad Version                                            |Easy   |
 |  :lock:   |277| Find the Celebrity                                           |Medium |
 |  :lock:   |276| Paint Fence                                                  |Easy   |
 |           |275| H-Index II                                                   |Medium |
@@ -306,14 +306,14 @@
 |  :lock:   |271| Encode and Decode Strings                                    |Medium |
 |  :lock:   |270| Closest Binary Search Tree Value                             |Easy   |
 |  :lock:   |269| Alien Dictionary                                             |Hard   |
-|           |268| Missing Number                                               |Easy   |
+|[:one:][a268-1][:two:][a268-2]|268| Missing Number                                               |Easy   |
 |  :lock:   |267| Palindrome Permutation II                                    |Medium |
 |  :lock:   |266| Palindrome Permutation                                       |Easy   |
 |  :lock:   |265| Paint House II                                               |Hard   |
-|           |264| Ugly Number II                                               |Medium |
-|           |263| Ugly Number                                                  |Easy   |
+|[:o:][a264]|264| Ugly Number II                                               |Medium |
+|[:o:][a263]|263| Ugly Number                                                  |Easy   |
 |  :lock:   |261| Graph Valid Tree                                             |Medium |
-|           |260| Single Number III                                            |Medium |
+|[:o:][a260]|260| Single Number III                                            |Medium |
 |  :lock:   |259| 3Sum Smaller                                                 |Medium |
 |[:one:][a258-1][:two:][a258-2]|258| Add Digits                                                   |Easy   |
 |[:o:][a257]|257| Binary Tree Paths                                            |Easy   |
@@ -775,3 +775,11 @@
 [a257]:./accepted/257.binary-tree-paths.py
 [a258-1]:./accepted/258.add-digits.py
 [a258-2]:./accepted/258.add-digits.ver2.py
+[a260]:./accepted/260.single-number-iii.py
+[a263]:./accepted/263.ugly-number.py
+[a264]:./accepted/264.ugly-number-ii.py
+[a268-2]:./accepted/268.missing-number.2.py
+[a268-1]:./accepted/268.missing-number.py
+[a278]:./accepted/278.first-bad-version.py
+[a279-2]:./accepted/279.perfect-squares.2.py
+[a279-1]:./accepted/279.perfect-squares.py

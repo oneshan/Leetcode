@@ -1,5 +1,33 @@
 # Log
 
+## 2017.08.04   (Day 34)
+
+279.perfect-squares.py
+> - ✔ 586/586 cases passed (3886 ms) -- DP
+> - ✔ 586/586 cases passed (42 ms) -- math
+> - To speed up, divide by 4
+> - [Legendre's three-square theorem](https://en.wikipedia.org/wiki/Legendre%27s_three-square_theorem)
+
+278.first-bad-version.py
+> - ✔ 21/21 cases passed (25 ms)
+> - Binary Search
+
+268.missing-number.py
+> - ✔ 121/121 cases passed (48 ms) -- math
+> - ✔ 121/121 cases passed (62 ms) -- xor (index + 1) and num
+
+264.ugly-number-ii.py
+> ✔ 596/596 cases passed (285 ms)
+> - Use three pointer n2, n3, n5
+
+263.ugly-number.py 
+> ✔ 1012/1012 cases passed (36 ms)
+> - division loop
+
+260.single-number-iii.py
+> ✔ 30/30 cases passed (42 ms)
+> - Use xor and a mask to distinct x and y
+
 ## 2017.08.03   (Day 33)
 
 258.add-digits.py
