@@ -143,7 +143,7 @@
 |           |441| Arranging Coins                                              |Easy   |
 |           |440| K-th Smallest in Lexicographical Order                       |Hard   |
 |  :lock:   |439| Ternary Expression Parser                                    |Medium |
-|           |438| Find All Anagrams in a String                                |Easy   |
+|[:o:][a438]|438| Find All Anagrams in a String                                |Easy   |
 |           |437| Path Sum III                                                 |Easy   |
 |           |436| Find Right Interval                                          |Medium |
 |           |435| Non-overlapping Intervals                                    |Medium |
@@ -783,3 +783,5 @@
 [a278]:./accepted/278.first-bad-version.py
 [a279-2]:./accepted/279.perfect-squares.2.py
 [a279-1]:./accepted/279.perfect-squares.py
+
+[a438]:./accepted/438.find-all-anagrams-in-a-string.py

@@ -1,5 +1,11 @@
 # Log
 
+## 2017.08.05   (Day 35)
+
+438.find-all-anagrams-in-a-string.py
+> ✔ 36/36 cases passed (298 ms)
+> - Sliding window
+
 ## 2017.08.04   (Day 34)
 
 279.perfect-squares.py
