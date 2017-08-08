@@ -1,5 +1,40 @@
 # Log
 
+## 2017.08.07   (Day 36)
+
+303.range-sum-query-immutable.py
+> ✔ 16/16 cases passed (65 ms)
+> - `sumRange(i, j) = sum[j+1] - sum[i]`
+
+300.longest-increasing-subsequence.py
+> ✔ 24/24 cases passed (38 ms)
+> - update or insert elements in LIS by Binary search result
+
+299.bulls-and-cows.py
+> ✔ 151/151 cases passed (75 ms)
+> - Use hash table to count cows
+
+292.nim-game.py 
+> ✔ 60/60 cases passed (42 ms)
+> - Lose only when n can be divided by 4
+
+290.word-pattern.py
+> ✔ 33/33 cases passed (42 ms)
+> - Two hash table (pattern2word, word2pattern)
+
+287.find-the-duplicate-number.py
+> - ✔ 53/53 cases passed (79 ms) - Binary Search
+> - ✔ 53/53 cases passed (42 ms) - Two pointer
+> - Similar to find cycle in linked list, use two pointer (two step, one step)
+
+284.peeking-iterator.py
+> ✔ 12/12 cases passed (42 ms)
+> - Use extra variables: peekFlag and nextElement
+
+283.move-zeroes.py
+> ✔ 21/21 cases passed (92 ms)
+> - Use a pointer to assign nonzero element
+
 ## 2017.08.05   (Day 35)
 
 438.find-all-anagrams-in-a-string.py

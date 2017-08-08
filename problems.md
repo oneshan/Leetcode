@@ -271,27 +271,27 @@
 |           |306| Additive Number                                              |Medium |
 |  :lock:   |305| Number of Islands II                                         |Hard   |
 |           |304| Range Sum Query 2D - Immutable                               |Medium |
-|           |303| Range Sum Query - Immutable                                  |Easy   |
+|[:o:][a303]|303| Range Sum Query - Immutable                                  |Easy   |
 |  :lock:   |302| Smallest Rectangle Enclosing Black Pixels                    |Hard   |
 |           |301| Remove Invalid Parentheses                                   |Hard   |
-|           |300| Longest Increasing Subsequence                               |Medium |
-|           |299| Bulls and Cows                                               |Medium |
+|[:o:][a300]|300| Longest Increasing Subsequence                               |Medium |
+|[:o:][a299]|299| Bulls and Cows                                               |Medium |
 |  :lock:   |298| Binary Tree Longest Consecutive Sequence                     |Medium |
 |           |297| Serialize and Deserialize Binary Tree                        |Hard   |
 |  :lock:   |296| Best Meeting Point                                           |Hard   |
 |           |295| Find Median from Data Stream                                 |Hard   |
 |  :lock:   |294| Flip Game II                                                 |Medium |
 |  :lock:   |293| Flip Game                                                    |Easy   |
-|           |292| Nim Game                                                     |Easy   |
+|[:o:][a292]|292| Nim Game                                                     |Easy   |
 |  :lock:   |291| Word Pattern II                                              |Hard   |
-|           |290| Word Pattern                                                 |Easy   |
+|[:o:][a290]|290| Word Pattern                                                 |Easy   |
 |           |289| Game of Life                                                 |Medium |
 |  :lock:   |288| Unique Word Abbreviation                                     |Medium |
-|           |287| Find the Duplicate Number                                    |Medium |
+|[:one:][a287-1][:two:][a287-2]|287| Find the Duplicate Number                                    |Medium |
 |  :lock:   |286| Walls and Gates                                              |Medium |
 |  :lock:   |285| Inorder Successor in BST                                     |Medium |
-|           |284| Peeking Iterator                                             |Medium |
-|           |283| Move Zeroes                                                  |Easy   |
+|[:o:][a284]|284| Peeking Iterator                                             |Medium |
+|[:o:][a283]|283| Move Zeroes                                                  |Easy   |
 |           |282| Expression Add Operators                                     |Hard   |
 |  :lock:   |281| Zigzag Iterator                                              |Medium |
 |  :lock:   |280| Wiggle Sort                                                  |Medium |
@@ -783,5 +783,15 @@
 [a278]:./accepted/278.first-bad-version.py
 [a279-2]:./accepted/279.perfect-squares.2.py
 [a279-1]:./accepted/279.perfect-squares.py
+[a283]:./accepted/283.move-zeroes.py
+[a284]:./accepted/284.peeking-iterator.py
+[a287-1]:./accepted/287.find-the-duplicate-number.bs.py
+[a287-2]:./accepted/287.find-the-duplicate-number.py
+[a290]:./accepted/290.word-pattern.py
+[a292]:./accepted/292.nim-game.py
+[a299]:./accepted/299.bulls-and-cows.py
+
+[a300]:./accepted/300.longest-increasing-subsequence.py
+[a303]:./accepted/303.range-sum-query-immutable.py
 
 [a438]:./accepted/438.find-all-anagrams-in-a-string.py
