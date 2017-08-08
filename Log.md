@@ -1,5 +1,52 @@
 # Log
 
+## 2017.08.08   (Day 37)
+
+350.intersection-of-two-arrays-ii.py 
+> - ✔ 61/61 cases passed (52 ms) - two pointer 
+> - ✔ 61/61 cases passed (62 ms) - binary search
+> - Two pointer: O(nlogn) + O(mlogm) + O(m + n)
+> - Binary Search: O(nlogn) + O(mlogm) + min(O(mlogn), O(nlogm))
+
+349.intersection-of-two-arrays.py
+> ✔ 60/60 cases passed (52 ms)
+> - Two pointer after sorting
+
+345.reverse-vowels-of-a-string.py 
+> ✔ 481/481 cases passed (82 ms)
+> - Two pointer, check ch in 'aeiouAEIOU'
+
+344.reverse-string.py
+> ✔ 476/476 cases passed (56 ms)
+> - Two pointer
+
+342.power-of-four.py
+> - ✔ 1060/1060 cases passed (42 ms) -- log
+> - ✔ 1060/1060 cases passed (55 ms) -- bit
+> - Check if num is 4^k `num & (num - 1) == 0 and num & 0xAAAAAAAA == 0`
+
+326.power-of-three.py
+> ✔ 21038/21038 cases passed (175 ms) -- iter
+> ✔ 21038/21038 cases passed (238 ms) -- recur
+> ✔ 21038/21038 cases passed (215 ms) -- log
+
+309.best-time-to-buy-and-sell-stock-with-cooldown.py
+> ✔ 211/211 cases passed (38 ms)
+> - `buy[i] = max(buy[i-1], sell[i-2] - price)`
+> - `sell[i] = max(sell[i-1], buy[i-1] + price)`
+
+313.super-ugly-number.py
+> ✔ 83/83 cases passed (1366 ms)
+> - multiple pointer
+
+318.maximum-product-of-word-lengths.py
+> ✔ 174/174 cases passed (535 ms)
+> - bitwise (each bit store char a-z)
+
+164.maximum-gap.py
+> ✔ 18/18 cases passed (62 ms)
+> - Bucket sort
+
 ## 2017.08.07   (Day 36)
 
 303.range-sum-query-immutable.py

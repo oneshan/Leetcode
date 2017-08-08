@@ -224,15 +224,15 @@
 |  :lock:   |353| Design Snake Game                                            |Medium |
 |           |352| Data Stream as Disjoint Intervals                            |Hard   |
 |  :lock:   |351| Android Unlock Patterns                                      |Medium |
-|           |350| Intersection of Two Arrays II                                |Easy   |
-|           |349| Intersection of Two Arrays                                   |Easy   |
+|[:o:][a350]|350| Intersection of Two Arrays II                                |Easy   |
+|[:o:][a349]|349| Intersection of Two Arrays                                   |Easy   |
 |  :lock:   |348| Design Tic-Tac-Toe                                           |Medium |
 |           |347| Top K Frequent Elements                                      |Medium |
 |  :lock:   |346| Moving Average from Data Stream                              |Easy   |
-|           |345| Reverse Vowels of a String                                   |Easy   |
-|           |344| Reverse String                                               |Easy   |
+|[:o:][a345]|345| Reverse Vowels of a String                                   |Easy   |
+|[:o:][a344]|344| Reverse String                                               |Easy   |
 |           |343| Integer Break                                                |Medium |
-|           |342| Power of Four                                                |Easy   |
+|[:one:][a342-1][:two:][a342-2]|342| Power of Four                                                |Easy   |
 |           |341| Flatten Nested List Iterator                                 |Medium |
 |  :lock:   |340| Longest Substring with At Most K Distinct Characters         |Hard   |
 |  :lock:   |339| Nested List Weight Sum                                       |Easy   |
@@ -248,7 +248,7 @@
 |           |329| Longest Increasing Path in a Matrix                          |Hard   |
 |           |328| Odd Even Linked List                                         |Medium |
 |           |327| Count of Range Sum                                           |Hard   |
-|           |326| Power of Three                                               |Easy   |
+|[:one:][a326-1][:two:][a326-2][:three:][a326-3]|326| Power of Three                                               |Easy   |
 |  :lock:   |325| Maximum Size Subarray Sum Equals k                           |Medium |
 |           |324| Wiggle Sort II                                               |Medium |
 |  :lock:   |323| Number of Connected Components in an Undirected Graph        |Medium |
@@ -256,16 +256,16 @@
 |           |321| Create Maximum Number                                        |Hard   |
 |  :lock:   |320| Generalized Abbreviation                                     |Medium |
 |           |319| Bulb Switcher                                                |Medium |
-|           |318| Maximum Product of Word Lengths                              |Medium |
+|[:o:][a318]|318| Maximum Product of Word Lengths                              |Medium |
 |  :lock:   |317| Shortest Distance from All Buildings                         |Hard   |
 |           |316| Remove Duplicate Letters                                     |Hard   |
 |           |315| Count of Smaller Numbers After Self                          |Hard   |
 |  :lock:   |314| Binary Tree Vertical Order Traversal                         |Medium |
-|           |313| Super Ugly Number                                            |Medium |
+|[:o:][a313]|313| Super Ugly Number                                            |Medium |
 |           |312| Burst Balloons                                               |Hard   |
 |  :lock:   |311| Sparse Matrix Multiplication                                 |Medium |
 |           |310| Minimum Height Trees                                         |Medium |
-|           |309| Best Time to Buy and Sell Stock with Cooldown                |Medium |
+|[:o:][a309]|309| Best Time to Buy and Sell Stock with Cooldown                |Medium |
 |  :lock:   |308| Range Sum Query 2D - Mutable                                 |Hard   |
 |           |307| Range Sum Query - Mutable                                    |Medium |
 |           |306| Additive Number                                              |Medium |
@@ -793,5 +793,19 @@
 
 [a300]:./accepted/300.longest-increasing-subsequence.py
 [a303]:./accepted/303.range-sum-query-immutable.py
+[a309]:./accepted/309.best-time-to-buy-and-sell-stock-with-cooldown.py
+[a313]:./accepted/313.super-ugly-number.py
+[a318]:./accepted/318.maximum-product-of-word-lengths.py
+[a326-1]:./accepted/326.power-of-three.iter.py
+[a326-2]:./accepted/326.power-of-three.py
+[a326-3]:./accepted/326.power-of-three.recur.py
+[a342-1]:./accepted/342.power-of-four.bit.py
+[a342-2]:./accepted/342.power-of-four.py
+[a344]:./accepted/344.reverse-string.py
+[a345]:./accepted/345.reverse-vowels-of-a-string.py
+[a349]:./accepted/349.intersection-of-two-arrays.py
+[a350-1]:./accepted/350.intersection-of-two-arrays-ii.bs.py
+[a350-2]:./accepted/350.intersection-of-two-arrays-ii.py
+
 
 [a438]:./accepted/438.find-all-anagrams-in-a-string.py
