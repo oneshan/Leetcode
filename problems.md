@@ -236,13 +236,13 @@
 |           |341| Flatten Nested List Iterator                                 |Medium |
 |  :lock:   |340| Longest Substring with At Most K Distinct Characters         |Hard   |
 |  :lock:   |339| Nested List Weight Sum                                       |Easy   |
-|           |338| Counting Bits                                                |Medium |
+|[:o:][a338]|338| Counting Bits                                                |Medium |
 |           |337| House Robber III                                             |Medium |
 |           |336| Palindrome Pairs                                             |Hard   |
 |           |335| Self Crossing                                                |Hard   |
 |           |334| Increasing Triplet Subsequence                               |Medium |
 |  :lock:   |333| Largest BST Subtree                                          |Medium |
-|           |332| Reconstruct Itinerary                                        |Medium |
+|[:one:][a332-1][:two:][a332-2]|332| Reconstruct Itinerary                                        |Medium |
 |           |331| Verify Preorder Serialization of a Binary Tree               |Medium |
 |           |330| Patching Array                                               |Hard   |
 |           |329| Longest Increasing Path in a Matrix                          |Hard   |
@@ -252,7 +252,7 @@
 |  :lock:   |325| Maximum Size Subarray Sum Equals k                           |Medium |
 |           |324| Wiggle Sort II                                               |Medium |
 |  :lock:   |323| Number of Connected Components in an Undirected Graph        |Medium |
-|           |322| Coin Change                                                  |Medium |
+|[:o:][a322]|322| Coin Change                                                  |Medium |
 |           |321| Create Maximum Number                                        |Hard   |
 |  :lock:   |320| Generalized Abbreviation                                     |Medium |
 |           |319| Bulb Switcher                                                |Medium |
@@ -406,7 +406,7 @@
 |[:o:][a154]|154| Find Minimum in Rotated Sorted Array II                      |Hard   |
 |[:o:][a153]|153| Find Minimum in Rotated Sorted Array                         |Medium |
 |[:o:][a152]|152| Maximum Product Subarray                                     |Medium |
-|           |151| Reverse Words in a String                                    |Medium |
+|[:o:][a151]|151| Reverse Words in a String                                    |Medium |
 |[:o:][a150]|150| Evaluate Reverse Polish Notation                             |Medium |
 |           |149| Max Points on a Line                                         |Hard   |
 |           |148| Sort List                                                    |Medium |
@@ -473,7 +473,7 @@
 |           |087| Scramble String                                              |Hard   |
 |[:o:][a086]|086| Partition List                                               |Medium |
 |           |085| Maximal Rectangle                                            |Hard   |
-|           |084| Largest Rectangle in Histogram                               |Hard   |
+|[:o:][a084]|084| Largest Rectangle in Histogram                               |Hard   |
 |[:o:][a083]|083| Remove Duplicates from Sorted List                           |Easy   |
 |[:o:][a082]|082| Remove Duplicates from Sorted List II                        |Medium |
 |           |081| Search in Rotated Sorted Array II                            |Medium |
@@ -606,7 +606,6 @@
 [a048]:./accepted/048.rotate-image.py
 [a049]:./accepted/049.group-anagrams.py
 [a050]:./accepted/050.powx-n.py
-
 [a053]:./accepted/053.maximum-subarray.py
 [a054]:./accepted/054.spiral-matrix.py
 [a055]:./accepted/055.jump-game.py
@@ -638,6 +637,7 @@
 [a080-2]:./accepted/080.remove-duplicates-from-sorted-array-ii.ver2.py
 [a082]:./accepted/082.remove-duplicates-from-sorted-list-ii.py
 [a083]:./accepted/083.remove-duplicates-from-sorted-list.py
+[a084]:./accepted/084.largest-rectangle-in-histogram.py
 [a086]:./accepted/086.partition-list.py
 [a088]:./accepted/088.merge-sorted-array.py
 [a089-1]:./accepted/089.gray-code.math.py
@@ -654,7 +654,6 @@
 [a099-1]:./accepted/099.recover-binary-search-tree.py 
 [a099-2]:./accepted/099.recover-binary-search-tree.iter.py 
 [a100]:./accepted/100.same-tree.py
-
 [a101-1]:./accepted/101.symmetric-tree.py
 [a101-2]:./accepted/101.symmetric-tree.iter.py
 [a102-1]:./accepted/102.binary-tree-level-order-traversal.py
@@ -707,7 +706,7 @@
 [a145-2]:./accepted/145.binary-tree-postorder-traversal.iter.py
 [a147]:./accepted/147.insertion-sort-list.py
 [a150]:./accepted/150.evaluate-reverse-polish-notation.py
-
+[a151]:./accepted/151.reverse-words-in-a-string.py
 [a152]:./accepted/152.maximum-product-subarray.py
 [a153]:./accepted/153.find-minimum-in-rotated-sorted-array.py
 [a154]:./accepted/154.find-minimum-in-rotated-sorted-array-ii.py
@@ -720,8 +719,8 @@
 [a167-2]:./accepted/167.two-sum-ii-input-array-is-sorted.py
 [a168]:./accepted/168.excel-sheet-column-title.py 
 [a169]:./accepted/169.majority-element.py
-[a171-2]:./accepted/171.excel-sheet-column-number.2.py
 [a171-1]:./accepted/171.excel-sheet-column-number.py
+[a171-2]:./accepted/171.excel-sheet-column-number.2.py
 [a172]:./accepted/172.factorial-trailing-zeroes.py
 [a173]:./accepted/173.binary-search-tree-iterator.py
 [a187-1]:./accepted/187.repeated-dna-sequences.2.py
@@ -732,7 +731,6 @@
 [a198]:./accepted/198.house-robber.py
 [a199]:./accepted/199.binary-tree-right-side-view.py
 [a200]:./accepted/200.number-of-islands.py
-
 [a201]:./accepted/201.bitwise-and-of-numbers-range.py
 [a202]:./accepted/202.happy-number.py
 [a203]:./accepted/203.remove-linked-list-elements.py
@@ -744,14 +742,13 @@
 [a208]:./accepted/208.implement-trie-prefix-tree.py
 [a209]:./accepted/209.minimum-size-subarray-sum.py
 [a210]:./accepted/210.course-schedule-ii.py
-[a213]:./accepted/213.house-robber-ii.py
 [a211]:./accepted/211.add-and-search-word-data-structure-design.py
+[a213]:./accepted/213.house-robber-ii.py
 [a215]:./accepted/215.kth-largest-element-in-an-array.py
 [a216]:./accepted/216.combination-sum-iii.py
 [a217]:./accepted/217.contains-duplicate.py
 [a219]:./accepted/219.contains-duplicate-ii.py
 [a220]:./accepted/220.contains-duplicate-iii.py
-
 [a221]:./accepted/221.maximal-square.py
 [a223]:./accepted/223.rectangle-area.py
 [a225]:./accepted/225.implement-stack-using-queues.py
@@ -771,18 +768,17 @@
 [a239]:./accepted/239.sliding-window-maximum.py
 [a240]:./accepted/240.search-a-2d-matrix-ii.py
 [a242]:./accepted/242.valid-anagram.py
-
 [a257]:./accepted/257.binary-tree-paths.py
 [a258-1]:./accepted/258.add-digits.py
 [a258-2]:./accepted/258.add-digits.ver2.py
 [a260]:./accepted/260.single-number-iii.py
 [a263]:./accepted/263.ugly-number.py
 [a264]:./accepted/264.ugly-number-ii.py
-[a268-2]:./accepted/268.missing-number.2.py
 [a268-1]:./accepted/268.missing-number.py
+[a268-2]:./accepted/268.missing-number.2.py
 [a278]:./accepted/278.first-bad-version.py
-[a279-2]:./accepted/279.perfect-squares.2.py
 [a279-1]:./accepted/279.perfect-squares.py
+[a279-2]:./accepted/279.perfect-squares.2.py
 [a283]:./accepted/283.move-zeroes.py
 [a284]:./accepted/284.peeking-iterator.py
 [a287-1]:./accepted/287.find-the-duplicate-number.bs.py
@@ -790,15 +786,18 @@
 [a290]:./accepted/290.word-pattern.py
 [a292]:./accepted/292.nim-game.py
 [a299]:./accepted/299.bulls-and-cows.py
-
 [a300]:./accepted/300.longest-increasing-subsequence.py
 [a303]:./accepted/303.range-sum-query-immutable.py
 [a309]:./accepted/309.best-time-to-buy-and-sell-stock-with-cooldown.py
 [a313]:./accepted/313.super-ugly-number.py
 [a318]:./accepted/318.maximum-product-of-word-lengths.py
+[a322]:./accepted/322.coin-change.bfs.py
 [a326-1]:./accepted/326.power-of-three.iter.py
 [a326-2]:./accepted/326.power-of-three.py
 [a326-3]:./accepted/326.power-of-three.recur.py
+[a332-1]:./accepted/332.reconstruct-itinerary.py
+[a332-2]:./accepted/332.reconstruct-itinerary.recur.py
+[a338]:./accepted/338.counting-bits.py
 [a342-1]:./accepted/342.power-of-four.bit.py
 [a342-2]:./accepted/342.power-of-four.py
 [a344]:./accepted/344.reverse-string.py
@@ -806,6 +805,5 @@
 [a349]:./accepted/349.intersection-of-two-arrays.py
 [a350-1]:./accepted/350.intersection-of-two-arrays-ii.bs.py
 [a350-2]:./accepted/350.intersection-of-two-arrays-ii.py
-
 
 [a438]:./accepted/438.find-all-anagrams-in-a-string.py

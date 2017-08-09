@@ -1,5 +1,27 @@
 # Log
 
+## 2017.08.09   (Day 38)
+
+338.counting-bits.py 
+> ✔ 15/15 cases passed (206 ms)
+> - `ans[n] = ans[n >> 1] + (n & 1)`
+
+332.reconstruct-itinerary.py
+> - ✔ 80/80 cases passed (142 ms) -- recur
+> - ✔ 80/80 cases passed (92 ms) -- iter
+
+322.coin-change.py 
+> - ✔ 182/182 cases passed (1762 ms) -- DP
+> - ✔ 182/182 cases passed (822 ms) -- BFS
+
+151.reverse-words-in-a-string.py 
+> - ✔ 22/22 cases passed (35 ms) -- built-in split & join
+> - ✔ 22/22 cases passed (49 ms) -- string
+
+084.largest-rectangle-in-histogram.py
+> ✔ 96/96 cases passed (68 ms)
+> - Use stack to store increasing heights's index
+
 ## 2017.08.08   (Day 37)
 
 350.intersection-of-two-arrays-ii.py 
