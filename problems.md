@@ -224,14 +224,14 @@
 |  :lock:   |353| Design Snake Game                                            |Medium |
 |           |352| Data Stream as Disjoint Intervals                            |Hard   |
 |  :lock:   |351| Android Unlock Patterns                                      |Medium |
-|[:o:][a350]|350| Intersection of Two Arrays II                                |Easy   |
+|[:one:][a350-1][:two:][a350-2]|350| Intersection of Two Arrays II                                |Easy   |
 |[:o:][a349]|349| Intersection of Two Arrays                                   |Easy   |
 |  :lock:   |348| Design Tic-Tac-Toe                                           |Medium |
 |           |347| Top K Frequent Elements                                      |Medium |
 |  :lock:   |346| Moving Average from Data Stream                              |Easy   |
 |[:o:][a345]|345| Reverse Vowels of a String                                   |Easy   |
 |[:o:][a344]|344| Reverse String                                               |Easy   |
-|           |343| Integer Break                                                |Medium |
+|[:one:][a343-1][:two:][a343-2]|343| Integer Break                                                |Medium |
 |[:one:][a342-1][:two:][a342-2]|342| Power of Four                                                |Easy   |
 |           |341| Flatten Nested List Iterator                                 |Medium |
 |  :lock:   |340| Longest Substring with At Most K Distinct Characters         |Hard   |
@@ -246,7 +246,7 @@
 |           |331| Verify Preorder Serialization of a Binary Tree               |Medium |
 |           |330| Patching Array                                               |Hard   |
 |           |329| Longest Increasing Path in a Matrix                          |Hard   |
-|           |328| Odd Even Linked List                                         |Medium |
+|[:o:][a328]|328| Odd Even Linked List                                         |Medium |
 |           |327| Count of Range Sum                                           |Hard   |
 |[:one:][a326-1][:two:][a326-2][:three:][a326-3]|326| Power of Three                                               |Easy   |
 |  :lock:   |325| Maximum Size Subarray Sum Equals k                           |Medium |
@@ -295,7 +295,7 @@
 |           |282| Expression Add Operators                                     |Hard   |
 |  :lock:   |281| Zigzag Iterator                                              |Medium |
 |  :lock:   |280| Wiggle Sort                                                  |Medium |
-|[:one:][a279-1][:two:][a279-2]|279| Perfect Squares                                              |Medium |
+|[:one:][a279-1][:two:][a279-2]:three:][a279-3]|279| Perfect Squares                                              |Medium |
 |[:o:][a278]|278| First Bad Version                                            |Easy   |
 |  :lock:   |277| Find the Celebrity                                           |Medium |
 |  :lock:   |276| Paint Fence                                                  |Easy   |
@@ -779,6 +779,7 @@
 [a278]:./accepted/278.first-bad-version.py
 [a279-1]:./accepted/279.perfect-squares.py
 [a279-2]:./accepted/279.perfect-squares.2.py
+[a279-3]:./accepted/279.perfect-squares.bfs.py
 [a283]:./accepted/283.move-zeroes.py
 [a284]:./accepted/284.peeking-iterator.py
 [a287-1]:./accepted/287.find-the-duplicate-number.bs.py
@@ -795,11 +796,14 @@
 [a326-1]:./accepted/326.power-of-three.iter.py
 [a326-2]:./accepted/326.power-of-three.py
 [a326-3]:./accepted/326.power-of-three.recur.py
+[a328]:./accepted/328.odd-even-linked-list.py
 [a332-1]:./accepted/332.reconstruct-itinerary.py
 [a332-2]:./accepted/332.reconstruct-itinerary.recur.py
 [a338]:./accepted/338.counting-bits.py
 [a342-1]:./accepted/342.power-of-four.bit.py
 [a342-2]:./accepted/342.power-of-four.py
+[a343-1]:./accepted/343.integer-break.dp.py
+[a343-2]:./accepted/343.integer-break.py
 [a344]:./accepted/344.reverse-string.py
 [a345]:./accepted/345.reverse-vowels-of-a-string.py
 [a349]:./accepted/349.intersection-of-two-arrays.py

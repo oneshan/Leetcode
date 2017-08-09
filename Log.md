@@ -1,5 +1,18 @@
 # Log
 
+## 2017.08.10   (Day 39)
+
+343.integer-break.py
+> - ✔ 50/50 cases passed (42 ms) -- math
+> - ✔ 50/50 cases passed (39 ms) -- dp
+
+328.odd-even-linked-list.py
+> ✔ 70/70 cases passed (58 ms)
+> - oddHead, evenHead
+
+279.perfect-squares.py (update)
+> - ✔ 586/586 cases passed (2038 ms) -- BFS
+
 ## 2017.08.09   (Day 38)
 
 338.counting-bits.py 
