@@ -94,7 +94,7 @@
 |           |498| Diagonal Traverse                                            |Medium |
 |           |496| Next Greater Element I                                       |Easy   |
 |           |495| Teemo Attacking                                              |Medium |
-|           |494| Target Sum                                                   |Medium |
+|[:one:][a494-1][:two:][a494-2]|494| Target Sum                                                   |Medium |
 |           |493| Reverse Pairs                                                |Hard   |
 |           |492| Construct the Rectangle                                      |Easy   |
 |           |491| Increasing Subsequences                                      |Medium |
@@ -122,14 +122,14 @@
 |  :lock:   |465| Optimal Account Balancing                                    |Hard   |
 |           |464| Can I Win                                                    |Medium |
 |           |463| Island Perimeter                                             |Easy   |
-|           |462| Minimum Moves to Equal Array Elements II                     |Medium |
+|[:o:][a462]|462| Minimum Moves to Equal Array Elements II                     |Medium |
 |           |461| Hamming Distance                                             |Easy   |
 |           |460| LFU Cache                                                    |Hard   |
 |           |459| Repeated Substring Pattern                                   |Easy   |
 |           |456| 132 Pattern                                                  |Medium |
 |           |455| Assign Cookies                                               |Easy   |
 |           |454| 4Sum II                                                      |Medium |
-|           |453| Minimum Moves to Equal Array Elements                        |Easy   |
+|[:o:][a453]|453| Minimum Moves to Equal Array Elements                        |Easy   |
 |           |452| Minimum Number of Arrows to Burst Balloons                   |Medium |
 |           |451| Sort Characters By Frequency                                 |Medium |
 |           |450| Delete Node in a BST                                         |Medium |
@@ -139,7 +139,7 @@
 |           |446| Arithmetic Slices II - Subsequence                           |Hard   |
 |           |445| Add Two Numbers II                                           |Medium |
 |  :lock:   |444| Sequence Reconstruction                                      |Medium |
-|           |442| Find All Duplicates in an Array                              |Medium |
+|[:one:][a442-1][:two:][a442-2]|442| Find All Duplicates in an Array                              |Medium |
 |           |441| Arranging Coins                                              |Easy   |
 |           |440| K-th Smallest in Lexicographical Order                       |Hard   |
 |  :lock:   |439| Ternary Expression Parser                                    |Medium |
@@ -151,14 +151,14 @@
 |           |432| All O`one Data Structure                                     |Hard   |
 |  :lock:   |425| Word Squares                                                 |Hard   |
 |           |424| Longest Repeating Character Replacement                      |Medium |
-|           |423| Reconstruct Original Digits from English                     |Medium |
+|[:o:][a423]|423| Reconstruct Original Digits from English                     |Medium |
 |  :lock:   |422| Valid Word Square                                            |Easy   |
 |           |421| Maximum XOR of Two Numbers in an Array                       |Medium |
 |           |420| Strong Password Checker                                      |Hard   |
 |           |419| Battleships in a Board                                       |Medium |
 |  :lock:   |418| Sentence Screen Fitting                                      |Medium |
 |           |417| Pacific Atlantic Water Flow                                  |Medium |
-|           |416| Partition Equal Subset Sum                                   |Medium |
+|[:o:][a416]|416| Partition Equal Subset Sum                                   |Medium |
 |           |415| Add Strings                                                  |Easy   |
 |           |414| Third Maximum Number                                         |Easy   |
 |           |413| Arithmetic Slices                                            |Medium |
@@ -295,7 +295,7 @@
 |           |282| Expression Add Operators                                     |Hard   |
 |  :lock:   |281| Zigzag Iterator                                              |Medium |
 |  :lock:   |280| Wiggle Sort                                                  |Medium |
-|[:one:][a279-1][:two:][a279-2]:three:][a279-3]|279| Perfect Squares                                              |Medium |
+|[:one:][a279-1][:two:][a279-2][:three:][a279-3]|279| Perfect Squares                                              |Medium |
 |[:o:][a278]|278| First Bad Version                                            |Easy   |
 |  :lock:   |277| Find the Celebrity                                           |Medium |
 |  :lock:   |276| Paint Fence                                                  |Easy   |
@@ -813,5 +813,12 @@
 [a139]:./accepted/139.word-break.py
 [a403]:./accepted/403.frog-jump.py
 [a409]:./accepted/409.longest-palindrome.py
+[a416]:./accepted/416.partition-equal-subset-sum.py
 [a438]:./accepted/438.find-all-anagrams-in-a-string.py
-
+[a423]:./accepted/423.reconstruct-original-digits-from-english.py
+[a442-2]:./accepted/442.find-all-duplicates-in-an-array.2.py
+[a442-1]:./accepted/442.find-all-duplicates-in-an-array.py
+[a453]:./accepted/453.minimum-moves-to-equal-array-elements.py
+[a462]:./accepted/462.minimum-moves-to-equal-array-elements-ii.py
+[a494-2]:./accepted/494.target-sum.2.py
+[a494-1]:./accepted/494.target-sum.py

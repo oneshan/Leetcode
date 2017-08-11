@@ -1,5 +1,33 @@
 # Log
 
+## 2017.08.11   (Day 40)
+
+494.target-sum.py
+> ✔ 139/139 cases passed (82 ms)
+> - DP, since in+out=sum and in-out=S, in = (sum + S) / 2
+
+462.minimum-moves-to-equal-array-elements-ii.py
+> ✔ 29/29 cases passed (52 ms)
+> - target = median of array
+
+453.minimum-moves-to-equal-array-elements.py
+> ✔ 84/84 cases passed (96 ms)
+> - increment n-1 elements by 1 == decrement 1 element by 1 
+
+442.find-all-duplicates-in-an-array.py
+> - ✔ 28/28 cases passed (416 ms)
+> - Method1: Let num[idx] be negative value
+> - ✔ 28/28 cases passed (339 ms)
+> - Method2: Swap num such that nums[num] = num
+
+423.reconstruct-original-digits-from-english.py
+> ✔ 24/24 cases passed (112 ms)
+> - Count char in string and then mapping by keyword
+
+416.partition-equal-subset-sum.py
+> ✔ 104/104 cases passed (1222 ms)
+> - DP, same as 494 (in+out=sum, in-out=0, in = sum / 2)
+
 ## 2017.08.10   (Day 39)
 
 409.longest-palindrome.py
