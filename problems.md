@@ -165,13 +165,13 @@
 |           |412| Fizz Buzz                                                    |Easy   |
 |  :lock:   |411| Minimum Unique Word Abbreviation                             |Hard   |
 |           |410| Split Array Largest Sum                                      |Hard   |
-|           |409| Longest Palindrome                                           |Easy   |
+|[:o:][a409]|409| Longest Palindrome                                           |Easy   |
 |  :lock:   |408| Valid Word Abbreviation                                      |Easy   |
 |           |407| Trapping Rain Water II                                       |Hard   |
 |           |406| Queue Reconstruction by Height                               |Medium |
 |           |405| Convert a Number to Hexadecimal                              |Easy   |
 |           |404| Sum of Left Leaves                                           |Easy   |
-|           |403| Frog Jump                                                    |Hard   |
+|[:o:][a403]|403| Frog Jump                                                    |Hard   |
 |           |402| Remove K Digits                                              |Medium |
 |           |401| Binary Watch                                                 |Easy   |
 |           |400| Nth Digit                                                    |Easy   |
@@ -418,7 +418,7 @@
 |[:o:][a142]|142| Linked List Cycle II                                         |Medium |
 |[:o:][a141]|141| Linked List Cycle                                            |Easy   |
 |           |140| Word Break II                                                |Hard   |
-|           |139| Word Break                                                   |Medium |
+|[:o:][a139]|139| Word Break                                                   |Medium |
 |           |138| Copy List with Random Pointer                                |Medium |
 |[:o:][a137]|137| Single Number II                                             |Medium |
 |[:o:][a136]|136| Single Number                                                |Easy   |
@@ -810,4 +810,8 @@
 [a350-1]:./accepted/350.intersection-of-two-arrays-ii.bs.py
 [a350-2]:./accepted/350.intersection-of-two-arrays-ii.py
 
+[a139]:./accepted/139.word-break.py
+[a403]:./accepted/403.frog-jump.py
+[a409]:./accepted/409.longest-palindrome.py
 [a438]:./accepted/438.find-all-anagrams-in-a-string.py
+

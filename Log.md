@@ -2,6 +2,20 @@
 
 ## 2017.08.10   (Day 39)
 
+409.longest-palindrome.py
+> ✔ 95/95 cases passed (45 ms)
+> - Palindrome: multiple even chars (+ one char)
+
+403.frog-jump.py
+> ✔ 39/39 cases passed (309 ms)
+> - DP + hash table, use stone position as key, and reached steps as value
+
+139.word-break.py
+> ✔ 34/34 cases passed (42 ms)
+> - DP
+
+## 2017.08.09   (Day 38)
+
 343.integer-break.py
 > - ✔ 50/50 cases passed (42 ms) -- math
 > - ✔ 50/50 cases passed (39 ms) -- dp
@@ -12,8 +26,6 @@
 
 279.perfect-squares.py (update)
 > - ✔ 586/586 cases passed (2038 ms) -- BFS
-
-## 2017.08.09   (Day 38)
 
 338.counting-bits.py 
 > ✔ 15/15 cases passed (206 ms)
