@@ -81,9 +81,9 @@
 |           |515| Find Largest Value in Each Tree Row                          |Medium |
 |           |514| Freedom Trail                                                |Hard   |
 |           |513| Find Bottom Left Tree Value                                  |Medium |
-|           |508| Most Frequent Subtree Sum                                    |Medium |
-|           |507| Perfect Number                                               |Easy   |
-|           |506| Relative Ranks                                               |Easy   |
+|[:o:][a508]|508| Most Frequent Subtree Sum                                    |Medium |
+|[:o:][a507]|507| Perfect Number                                               |Easy   |
+|[:o:][a506]|506| Relative Ranks                                               |Easy   |
 |  :lock:   |505| The Maze II                                                  |Medium |
 |           |504| Base 7                                                       |Easy   |
 |           |503| Next Greater Element II                                      |Medium |
@@ -117,7 +117,7 @@
 |  :lock:   |471| Encode String with Shortest Length                           |Hard   |
 |  :lock:   |469| Convex Polygon                                               |Medium |
 |           |468| Validate IP Address                                          |Medium |
-|           |467| Unique Substrings in Wraparound String                       |Medium |
+|[:o:][a467]|467| Unique Substrings in Wraparound String                       |Medium |
 |           |466| Count The Repetitions                                        |Hard   |
 |  :lock:   |465| Optimal Account Balancing                                    |Hard   |
 |           |464| Can I Win                                                    |Medium |
@@ -382,7 +382,7 @@
 |           |188| Best Time to Buy and Sell Stock IV                           |Hard   |
 |[:one:][a187-1][:two:][a187-2]|187| Repeated DNA Sequences                                       |Medium |
 |  :lock:   |186| Reverse Words in a String II                                 |Medium |
-|           |179| Largest Number                                               |Medium |
+|[:o:][a179]|179| Largest Number                                               |Medium |
 |           |174| Dungeon Game                                                 |Hard   |
 |[:o:][a173]|173| Binary Search Tree Iterator                                  |Medium |
 |[:o:][a172]|172| Factorial Trailing Zeroes                                    |Easy   |
@@ -822,3 +822,9 @@
 [a462]:./accepted/462.minimum-moves-to-equal-array-elements-ii.py
 [a494-2]:./accepted/494.target-sum.2.py
 [a494-1]:./accepted/494.target-sum.py
+
+[a179]:./accepted/179.largest-number.py
+[a467]:./accepted/467.unique-substrings-in-wraparound-string.py
+[a506]:./accepted/506.relative-ranks.py
+[a507]:./accepted/507.perfect-number.py
+[a508]:./accepted/508.most-frequent-subtree-sum.py

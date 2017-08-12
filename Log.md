@@ -1,5 +1,28 @@
 # Log
 
+## 2017.08.12   (Day 41)
+
+508.most-frequent-subtree-sum.py 
+> ✔ 61/61 cases passed (99 ms)
+> - Recursion
+
+507.perfect-number.py
+> ✔ 156/156 cases passed (55 ms)
+> - Check divisor from 2 to sqrt(n)
+
+506.relative-ranks.py 
+> ✔ 17/17 cases passed (109 ms)
+> - Use hashtable to mapping score and rank
+
+467.unique-substrings-in-wraparound-string.py
+> ✔ 81/81 cases passed (132 ms)
+> - count continous alphabets and use hashtable to store the max length ending with chars a-z
+
+179.largest-number.py
+> ✔ 221/221 cases passed (48 ms)
+> - sort by compare a + b & b + a in decreasing order
+
+
 ## 2017.08.11   (Day 40)
 
 494.target-sum.py
