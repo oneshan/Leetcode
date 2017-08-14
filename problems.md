@@ -80,7 +80,7 @@
 |           |516| Longest Palindromic Subsequence                              |Medium |
 |           |515| Find Largest Value in Each Tree Row                          |Medium |
 |           |514| Freedom Trail                                                |Hard   |
-|           |513| Find Bottom Left Tree Value                                  |Medium |
+|[:o:][a513]|513| Find Bottom Left Tree Value                                  |Medium |
 |[:o:][a508]|508| Most Frequent Subtree Sum                                    |Medium |
 |[:o:][a507]|507| Perfect Number                                               |Easy   |
 |[:o:][a506]|506| Relative Ranks                                               |Easy   |
@@ -137,7 +137,7 @@
 |           |448| Find All Numbers Disappeared in an Array                     |Easy   |
 |           |447| Number of Boomerangs                                         |Easy   |
 |           |446| Arithmetic Slices II - Subsequence                           |Hard   |
-|           |445| Add Two Numbers II                                           |Medium |
+|[:o:][a445]|445| Add Two Numbers II                                           |Medium |
 |  :lock:   |444| Sequence Reconstruction                                      |Medium |
 |[:one:][a442-1][:two:][a442-2]|442| Find All Duplicates in an Array                              |Medium |
 |           |441| Arranging Coins                                              |Easy   |
@@ -828,3 +828,6 @@
 [a506]:./accepted/506.relative-ranks.py
 [a507]:./accepted/507.perfect-number.py
 [a508]:./accepted/508.most-frequent-subtree-sum.py
+[a445]:./accepted/445.add-two-numbers-ii.py
+[a513]:./accepted/513.find-bottom-left-tree-value.py
+

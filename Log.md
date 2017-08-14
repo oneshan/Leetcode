@@ -1,5 +1,15 @@
 # Log
 
+## 2017.08.13   (Day 42)
+
+513.find-bottom-left-tree-value.py
+> ✔ 74/74 cases passed (62 ms)
+> - BFS
+
+445.add-two-numbers-ii.py
+> ✔ 1563/1563 cases passed (202 ms)
+> - Get the length of l1, l2, sum two list without carrying, and then handle carry 
+
 ## 2017.08.12   (Day 41)
 
 508.most-frequent-subtree-sum.py 
