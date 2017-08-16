@@ -1,5 +1,50 @@
 # Log
 
+## 2017.08.15   (Day 44)
+
+077.combinations.py
+> ✔ 27/27 cases passed (242 ms)
+> - C(n, k) = [[n] + C(n-1,k-1)] + C(n-1, k)
+
+581.shortest-unsorted-continuous-subarray.py
+> ✔ 307/307 cases passed (222 ms)
+> - If nums[i:j+1] unsorted then nums[i] < min(nums[i+1:]) and nums[j] > max(nums[:j])
+
+357.count-numbers-with-unique-digits.py
+> ✔ 9/9 cases passed (69 ms)
+> - total = count of 0~n-1-digit + count of n-digit
+
+354.russian-doll-envelopes.py 
+> ✔ 85/85 cases passed (322 ms)
+> - Sort and LIS
+
+355.design-twitter.py
+> ✔ 23/23 cases passed (99 ms)
+> - max heap
+
+## 2017.08.14   (Day 43)
+
+547.friend-circles.py
+> ✔ 113/113 cases passed (78 ms)
+> - union find
+
+523.continuous-subarray-sum.py
+> ✔ 75/75 cases passed (72 ms)
+> - If there exists two sum[i], sum[j] that have the same remainder when divided by k
+> - then the sum of subarray from i to j is the multiple of k 
+
+551.student-attendance-record-i.py
+> ✔ 113/113 cases passed (45 ms)
+> - for-loop and count
+
+567.permutation-in-string.py
+> ✔ 102/102 cases passed (92 ms)
+> - Sliding window
+
+611.valid-triangle-number.py
+> ✔ 220/220 cases passed (302 ms)
+> - Three pointer, the sum of the length of two sides is larger than the third one
+
 ## 2017.08.13   (Day 42)
 
 513.find-bottom-left-tree-value.py

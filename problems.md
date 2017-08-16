@@ -12,7 +12,7 @@
 |           |621| Task Scheduler                                               |Medium |
 |           |617| Merge Two Binary Trees                                       |Easy   |
 |  :lock:   |616| Add Bold Tag in String                                       |Medium |
-|           |611| Valid Triangle Number                                        |Medium |
+|[:o:][a611]|611| Valid Triangle Number                                        |Medium |
 |           |609| Find Duplicate File in System                                |Medium |
 |           |606| Construct String from Binary Tree                            |Easy   |
 |           |605| Can Place Flowers                                            |Easy   |
@@ -28,13 +28,13 @@
 |           |587| Erect the Fence                                              |Hard   |
 |           |583| Delete Operation for Two Strings                             |Medium |
 |  :lock:   |582| Kill Process                                                 |Medium |
-|           |581| Shortest Unsorted Continuous Subarray                        |Easy   |
+|[:o:][a581]|581| Shortest Unsorted Continuous Subarray                        |Easy   |
 |           |576| Out of Boundary Paths                                        |Hard   |
 |           |575| Distribute Candies                                           |Easy   |
 |  :lock:   |573| Squirrel Simulation                                          |Medium |
 |           |572| Subtree of Another Tree                                      |Easy   |
 |  :lock:   |568| Maximum Vacation Days                                        |Hard   |
-|           |567| Permutation in String                                        |Medium |
+|[:o:][a567]|567| Permutation in String                                        |Medium |
 |           |566| Reshape the Matrix                                           |Easy   |
 |           |565| Array Nesting                                                |Medium |
 |           |564| Find the Closest Palindrome                                  |Hard   |
@@ -48,10 +48,10 @@
 |           |554| Brick Wall                                                   |Medium |
 |           |553| Optimal Division                                             |Medium |
 |           |552| Student Attendance Record II                                 |Hard   |
-|           |551| Student Attendance Record I                                  |Easy   |
+|[:o:][a551]|551| Student Attendance Record I                                  |Easy   |
 |  :lock:   |549| Binary Tree Longest Consecutive Sequence II                  |Medium |
 |  :lock:   |548| Split Array with Equal Sum                                   |Medium |
-|           |547| Friend Circles                                               |Medium |
+|[:o:][a547]|547| Friend Circles                                               |Medium |
 |           |546| Remove Boxes                                                 |Hard   |
 |  :lock:   |545| Boundary of Binary Tree                                      |Medium |
 |  :lock:   |544| Output Contest Matches                                       |Medium |
@@ -72,7 +72,7 @@
 |           |526| Beautiful Arrangement                                        |Medium |
 |           |525| Contiguous Array                                             |Medium |
 |           |524| Longest Word in Dictionary through Deleting                  |Medium |
-|           |523| Continuous Subarray Sum                                      |Medium |
+|[:o:][a523]|523| Continuous Subarray Sum                                      |Medium |
 |           |522| Longest Uncommon Subsequence II                              |Medium |
 |           |521| Longest Uncommon Subsequence I                               |Easy   |
 |           |520| Detect Capital                                               |Easy   |
@@ -217,10 +217,10 @@
 |  :lock:   |360| Sort Transformed Array                                       |Medium |
 |  :lock:   |359| Logger Rate Limiter                                          |Easy   |
 |  :lock:   |358| Rearrange String k Distance Apart                            |Hard   |
-|           |357| Count Numbers with Unique Digits                             |Medium |
+|[:o:][a357]|357| Count Numbers with Unique Digits                             |Medium |
 |  :lock:   |356| Line Reflection                                              |Medium |
-|           |355| Design Twitter                                               |Medium |
-|           |354| Russian Doll Envelopes                                       |Hard   |
+|[:o:][a355]|355| Design Twitter                                               |Medium |
+|[:o:][a354]|354| Russian Doll Envelopes                                       |Hard   |
 |  :lock:   |353| Design Snake Game                                            |Medium |
 |           |352| Data Stream as Disjoint Intervals                            |Hard   |
 |  :lock:   |351| Android Unlock Patterns                                      |Medium |
@@ -480,7 +480,7 @@
 |[:one:][a080-1][:two:][a080-2]|080| Remove Duplicates from Sorted Array II                       |Medium |
 |[:o:][a079]|079| Word Search                                                  |Medium |
 |[:o:][a078]|078| Subsets                                                      |Medium |
-|           |077| Combinations                                                 |Medium |
+|[:o:][a077]|077| Combinations                                                 |Medium |
 |[:o:][a076]|076| Minimum Window Substring                                     |Hard   |
 |[:o:][a075]|075| Sort Colors                                                  |Medium |
 |[:one:][a074-1][:two:][a074-2]|074| Search a 2D Matrix                                           |Medium |
@@ -697,6 +697,7 @@
 [a133]:./accepted/133.clone-graph.py
 [a136]:./accepted/136.single-number.py
 [a137]:./accepted/137.single-number-ii.py
+[a139]:./accepted/139.word-break.py
 [a141]:./accepted/141.linked-list-cycle.py
 [a142]:./accepted/142.linked-list-cycle-ii.py
 [a143]:./accepted/143.reorder-list.py
@@ -723,6 +724,7 @@
 [a171-2]:./accepted/171.excel-sheet-column-number.2.py
 [a172]:./accepted/172.factorial-trailing-zeroes.py
 [a173]:./accepted/173.binary-search-tree-iterator.py
+[a179]:./accepted/179.largest-number.py
 [a187-1]:./accepted/187.repeated-dna-sequences.2.py
 [a187-2]:./accepted/187.repeated-dna-sequences.py
 [a189]:./accepted/189.rotate-array.py
@@ -809,25 +811,31 @@
 [a349]:./accepted/349.intersection-of-two-arrays.py
 [a350-1]:./accepted/350.intersection-of-two-arrays-ii.bs.py
 [a350-2]:./accepted/350.intersection-of-two-arrays-ii.py
-
-[a139]:./accepted/139.word-break.py
 [a403]:./accepted/403.frog-jump.py
 [a409]:./accepted/409.longest-palindrome.py
 [a416]:./accepted/416.partition-equal-subset-sum.py
-[a438]:./accepted/438.find-all-anagrams-in-a-string.py
 [a423]:./accepted/423.reconstruct-original-digits-from-english.py
-[a442-2]:./accepted/442.find-all-duplicates-in-an-array.2.py
+[a438]:./accepted/438.find-all-anagrams-in-a-string.py
 [a442-1]:./accepted/442.find-all-duplicates-in-an-array.py
+[a442-2]:./accepted/442.find-all-duplicates-in-an-array.2.py
+[a445]:./accepted/445.add-two-numbers-ii.py
 [a453]:./accepted/453.minimum-moves-to-equal-array-elements.py
 [a462]:./accepted/462.minimum-moves-to-equal-array-elements-ii.py
-[a494-2]:./accepted/494.target-sum.2.py
-[a494-1]:./accepted/494.target-sum.py
-
-[a179]:./accepted/179.largest-number.py
 [a467]:./accepted/467.unique-substrings-in-wraparound-string.py
+[a494-1]:./accepted/494.target-sum.py
+[a494-2]:./accepted/494.target-sum.2.py
 [a506]:./accepted/506.relative-ranks.py
 [a507]:./accepted/507.perfect-number.py
 [a508]:./accepted/508.most-frequent-subtree-sum.py
-[a445]:./accepted/445.add-two-numbers-ii.py
 [a513]:./accepted/513.find-bottom-left-tree-value.py
+[a523]:./accepted/523.continuous-subarray-sum.py
+[a547]:./accepted/547.friend-circles.py
+[a551]:./accepted/551.student-attendance-record-i.py
+[a567]:./accepted/567.permutation-in-string.py
+[a611]:./accepted/611.valid-triangle-number.py
 
+[a354]:./accepted/354.russian-doll-envelopes.py
+[a355]:./accepted/355.design-twitter.py
+[a357]:./accepted/357.count-numbers-with-unique-digits.py
+[a077]:./accepted/077.combinations.py
+[a581]:./accepted/581.shortest-unsorted-continuous-subarray.py
