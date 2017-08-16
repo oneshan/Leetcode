@@ -202,14 +202,14 @@
 |           |375| Guess Number Higher or Lower II                              |Medium |
 |           |374| Guess Number Higher or Lower                                 |Easy   |
 |           |373| Find K Pairs with Smallest Sums                              |Medium |
-|           |372| Super Pow                                                    |Medium |
-|           |371| Sum of Two Integers                                          |Easy   |
+|[:o:][a372]|372| Super Pow                                                    |Medium |
+|[:o:][a371]|371| Sum of Two Integers                                          |Easy   |
 |  :lock:   |370| Range Addition                                               |Medium |
 |  :lock:   |369| Plus One Linked List                                         |Medium |
-|           |368| Largest Divisible Subset                                     |Medium |
-|           |367| Valid Perfect Square                                         |Easy   |
+|[:o:][a368]|368| Largest Divisible Subset                                     |Medium |
+|[:o:][a367]|367| Valid Perfect Square                                         |Easy   |
 |  :lock:   |366| Find Leaves of Binary Tree                                   |Medium |
-|           |365| Water and Jug Problem                                        |Medium |
+|[:o:][a365]|365| Water and Jug Problem                                        |Medium |
 |  :lock:   |364| Nested List Weight Sum II                                    |Medium |
 |           |363| Max Sum of Rectangle No Larger Than K                        |Hard   |
 |  :lock:   |362| Design Hit Counter                                           |Medium |
@@ -839,3 +839,10 @@
 [a357]:./accepted/357.count-numbers-with-unique-digits.py
 [a077]:./accepted/077.combinations.py
 [a581]:./accepted/581.shortest-unsorted-continuous-subarray.py
+
+[a365]:./accepted/365.water-and-jug-problem.py
+[a367]:./accepted/367.valid-perfect-square.py
+[a368]:./accepted/368.largest-divisible-subset.py
+[a371]:./accepted/371.sum-of-two-integers.py
+[a372]:./accepted/372.super-pow.py
+

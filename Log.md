@@ -1,5 +1,27 @@
 # Log
 
+## 2017.08.16   (Day 45)
+
+372.super-pow.py
+> ✔ 54/54 cases passed (156 ms)
+> - `a^(b0b1) = (a^b0)^10 * (a^b1)`
+
+371.sum-of-two-integers.py
+> ✔ 13/13 cases passed (79 ms)
+> - Bit manipulation, carry part: (a & b) << 1, sum part: (a ^ b)
+
+368.largest-divisible-subset.py
+> ✔ 40/40 cases passed (456 ms)
+> - dp and backtracking
+
+367.valid-perfect-square.py
+> ✔ 67/67 cases passed (39 ms)
+> - Binary search
+
+365.water-and-jug-problem.py
+> ✔ 33/33 cases passed (38 ms)
+> - `ax + by = z iff z | gcd(x, y)`
+
 ## 2017.08.15   (Day 44)
 
 077.combinations.py
