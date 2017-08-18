@@ -1,5 +1,27 @@
 # Log
 
+## 2017.08.17   (Day 46)
+
+450.delete-node-in-a-bst.py
+> ✔ 85/85 cases passed (92 ms)
+> - traverse, if the value of node is key, then put right subtree below the rightmost node of left subtree
+
+377.combination-sum-iv.py 
+> ✔ 17/17 cases passed (52 ms)
+> - DP, dp[i] += dp[i-num]
+
+374.guess-number-higher-or-lower.py
+> ✔ 25/25 cases passed (52 ms)
+> - Binary Search
+
+373.find-k-pairs-with-smallest-sums.py
+> - ✔ 27/27 cases passed (516 ms) -- directly add all pair into minHeap
+> - ✔ 27/27 cases passed (75 ms) -- minHeap, pop and push in the for-loop
+
+081.search-in-rotated-sorted-array-ii.py
+> ✔ 273/273 cases passed (42 ms)
+> - Binary search, dup case: nums[left] == nums[right]
+
 ## 2017.08.16   (Day 45)
 
 372.super-pow.py

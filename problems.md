@@ -132,7 +132,7 @@
 |[:o:][a453]|453| Minimum Moves to Equal Array Elements                        |Easy   |
 |           |452| Minimum Number of Arrows to Burst Balloons                   |Medium |
 |           |451| Sort Characters By Frequency                                 |Medium |
-|           |450| Delete Node in a BST                                         |Medium |
+|[:o:][a450]|450| Delete Node in a BST                                         |Medium |
 |           |449| Serialize and Deserialize BST                                |Medium |
 |           |448| Find All Numbers Disappeared in an Array                     |Easy   |
 |           |447| Number of Boomerangs                                         |Easy   |
@@ -197,11 +197,11 @@
 |           |380| Insert Delete GetRandom O|
 |  :lock:   |379| Design Phone Directory                                       |Medium |
 |           |378| Kth Smallest Element in a Sorted Matrix                      |Medium |
-|           |377| Combination Sum IV                                           |Medium |
+|[:o:][a377]|377| Combination Sum IV                                           |Medium |
 |           |376| Wiggle Subsequence                                           |Medium |
 |           |375| Guess Number Higher or Lower II                              |Medium |
-|           |374| Guess Number Higher or Lower                                 |Easy   |
-|           |373| Find K Pairs with Smallest Sums                              |Medium |
+|[:o:][a374]|374| Guess Number Higher or Lower                                 |Easy   |
+|[:one:][a373-1][:two:][a373-2]|373| Find K Pairs with Smallest Sums                              |Medium |
 |[:o:][a372]|372| Super Pow                                                    |Medium |
 |[:o:][a371]|371| Sum of Two Integers                                          |Easy   |
 |  :lock:   |370| Range Addition                                               |Medium |
@@ -476,7 +476,7 @@
 |[:o:][a084]|084| Largest Rectangle in Histogram                               |Hard   |
 |[:o:][a083]|083| Remove Duplicates from Sorted List                           |Easy   |
 |[:o:][a082]|082| Remove Duplicates from Sorted List II                        |Medium |
-|           |081| Search in Rotated Sorted Array II                            |Medium |
+|[:o:][a081]|081| Search in Rotated Sorted Array II                            |Medium |
 |[:one:][a080-1][:two:][a080-2]|080| Remove Duplicates from Sorted Array II                       |Medium |
 |[:o:][a079]|079| Word Search                                                  |Medium |
 |[:o:][a078]|078| Subsets                                                      |Medium |
@@ -845,4 +845,9 @@
 [a368]:./accepted/368.largest-divisible-subset.py
 [a371]:./accepted/371.sum-of-two-integers.py
 [a372]:./accepted/372.super-pow.py
-
+[a373-2]:./accepted/373.find-k-pairs-with-smallest-sums.2.py
+[a373-1]:./accepted/373.find-k-pairs-with-smallest-sums.py
+[a374]:./accepted/374.guess-number-higher-or-lower.py
+[a377]:./accepted/377.combination-sum-iv.py
+[a450]:./accepted/450.delete-node-in-a-bst.py
+[a081]:./accepted/081.search-in-rotated-sorted-array-ii.py
