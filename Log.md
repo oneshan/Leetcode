@@ -1,5 +1,30 @@
 # Log
 
+## 2017.08.18   (Day 47)
+659.split-array-into-consecutive-subsequences.py
+> ✔ 180/180 cases passed (809 ms)
+> - hashtable + minheap
+
+526.beautiful-arrangement.py
+> ✔ 15/15 cases passed (235 ms)
+> - recursion
+
+389.find-the-difference.py
+> ✔ 54/54 cases passed (52 ms)
+> - Bit manipulation ( x ^ 0 = x, x ^ x = 0)
+
+387.first-unique-character-in-a-string.py
+> ✔ 104/104 cases passed (169 ms)
+> - use hash table to record word idx
+
+383.ransom-note.py
+> ✔ 126/126 cases passed (122 ms)
+> - use hash table to count the word frequence
+
+060.permutation-sequence.py
+> ✔ 200/200 cases passed (49 ms)
+> - the number in digit n is `k / (n-1)!`
+
 ## 2017.08.17   (Day 46)
 
 450.delete-node-in-a-bst.py

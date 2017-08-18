@@ -2,6 +2,34 @@
 
 |           | # | Title                                                        | Difficulty|
 |-----------|---|--------------------------------------------------------------|-------|
+|           |660| Remove 9                                                     |Hard   |
+|[:o:][a659]|659| Split Array into Consecutive Subsequences                    |Medium |
+|           |658| Find K Closest Elements                                      |Medium |
+|           |657| Judge Route Circle                                           |Easy   |
+|  :lock:   |656| Coin Path                                                    |Hard   |
+|           |655| Print Binary Tree                                            |Medium |
+|           |654| Maximum Binary Tree                                          |Medium |
+|           |653| Two Sum IV - Input is a BST                                  |Easy   |
+|           |652| Find Duplicate Subtrees                                      |Medium |
+|  :lock:   |651| 4 Keys Keyboard                                              |Medium |
+|           |650| 2 Keys Keyboard                                              |Medium |
+|           |649| Dota2 Senate                                                 |Medium |
+|           |648| Replace Words                                                |Medium |
+|           |647| Palindromic Substrings                                       |Medium |
+|           |646| Maximum Length of Pair Chain                                 |Medium |
+|           |645| Set Mismatch                                                 |Easy   |
+|  :lock:   |644| Maximum Average Subarray II                                  |Hard   |
+|           |643| Maximum Average Subarray I                                   |Easy   |
+|  :lock:   |642| Design Search Autocomplete System                            |Hard   |
+|           |640| Solve the Equation                                           |Medium |
+|           |639| Decode Ways II                                               |Hard   |
+|           |638| Shopping Offers                                              |Medium |
+|           |637| Average of Levels in Binary Tree                             |Easy   |
+|           |636| Exclusive Time of Functions                                  |Medium |
+|  :lock:   |635| Design Log Storage System                                    |Medium |
+|  :lock:   |634| Find the Derangement of An Array                             |Medium |
+|           |633| Sum of Square Numbers                                        |Easy   |
+|           |632| Smallest Range                                               |Hard   |
 |           |631| Design Excel Sum Formula                                     |Hard   |
 |           |630| Course Schedule III                                          |Medium |
 |           |629| K Inverse Pairs Array                                        |Medium |
@@ -69,7 +97,7 @@
 |           |530| Minimum Absolute Difference in BST                           |Easy   |
 |           |529| Minesweeper                                                  |Medium |
 |  :lock:   |527| Word Abbreviation                                            |Hard   |
-|           |526| Beautiful Arrangement                                        |Medium |
+|[:o:][a526]|526| Beautiful Arrangement                                        |Medium |
 |           |525| Contiguous Array                                             |Medium |
 |           |524| Longest Word in Dictionary through Deleting                  |Medium |
 |[:o:][a523]|523| Continuous Subarray Sum                                      |Medium |
@@ -148,7 +176,7 @@
 |           |436| Find Right Interval                                          |Medium |
 |           |435| Non-overlapping Intervals                                    |Medium |
 |           |434| Number of Segments in a String                               |Easy   |
-|           |432| All O`one Data Structure                                     |Hard   |
+|           |432| All O'one Data Structure                                     |Hard   |
 |  :lock:   |425| Word Squares                                                 |Hard   |
 |           |424| Longest Repeating Character Replacement                      |Medium |
 |[:o:][a423]|423| Reconstruct Original Digits from English                     |Medium |
@@ -185,13 +213,13 @@
 |           |392| Is Subsequence                                               |Medium |
 |           |391| Perfect Rectangle                                            |Hard   |
 |           |390| Elimination Game                                             |Medium |
-|           |389| Find the Difference                                          |Easy   |
+|[:o:][a389]|389| Find the Difference                                          |Easy   |
 |           |388| Longest Absolute File Path                                   |Medium |
-|           |387| First Unique Character in a String                           |Easy   |
+|[:o:][a387]|387| First Unique Character in a String                           |Easy   |
 |           |386| Lexicographical Numbers                                      |Medium |
 |           |385| Mini Parser                                                  |Medium |
 |           |384| Shuffle an Array                                             |Medium |
-|           |383| Ransom Note                                                  |Easy   |
+|[:o:][a383]|383| Ransom Note                                                  |Easy   |
 |           |382| Linked List Random Node                                      |Medium |
 |           |381| Insert Delete GetRandom O|
 |           |380| Insert Delete GetRandom O|
@@ -497,7 +525,7 @@
 |[:one:][a063-1][:two:][a063-2]|063| Unique Paths II                                              |Medium |
 |[:one:][a062-1][:two:][a062-2]|062| Unique Paths                                                 |Medium |
 |[:o:][a061]|061| Rotate List                                                  |Medium |
-|           |060| Permutation Sequence                                         |Medium |
+|[:o:][a060]|060| Permutation Sequence                                         |Medium |
 |[:o:][a059]|059| Spiral Matrix II                                             |Medium |
 |[:o:][a058]|058| Length of Last Word                                          |Easy   |
 |[:o:][a057]|057| Insert Interval                                              |Hard   |
@@ -851,3 +879,11 @@
 [a377]:./accepted/377.combination-sum-iv.py
 [a450]:./accepted/450.delete-node-in-a-bst.py
 [a081]:./accepted/081.search-in-rotated-sorted-array-ii.py
+
+
+[a060]:./accepted/060.permutation-sequence.py
+[a383]:./accepted/383.ransom-note.py
+[a387]:./accepted/387.first-unique-character-in-a-string.py
+[a389]:./accepted/389.find-the-difference.py
+[a526]:./accepted/526.beautiful-arrangement.py
+[a659]:./accepted/659.split-array-into-consecutive-subsequences.py
