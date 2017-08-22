@@ -59,12 +59,13 @@ class Solution(object):
                         dp[i] = (dp[j][0] + 1, j)
 
             if dp[i][0] >= maxLen:
-                maxLen, maxIndex = dp[i]
+                maxLen, maxIndex = dp[i][0], i
 
         ans = []
         for _ in range(maxLen):
             ans += nums[maxIndex],
             maxIndex = dp[maxIndex][1]
+
         return ans
 
 

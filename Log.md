@@ -1,5 +1,32 @@
 # Log
 
+## 2017.08.20   (Day 48)
+
+415.add-strings.py
+> ✔ 315/315 cases passed (85 ms)
+
+414.third-maximum-number.py
+> ✔ 26/26 cases passed (42 ms)
+
+412.fizz-buzz.py
+> ✔ 8/8 cases passed (68 ms)
+
+405.convert-a-number-to-hexadecimal.py
+> ✔ 100/100 cases passed (35 ms)
+> - for negative number, plus `1<<32`
+
+404.sum-of-left-leaves.py
+> ✔ 102/102 cases passed (45 ms)
+> - Traverse with isLeft flag, note: root is not left leaf
+
+401.binary-watch.py
+> ✔ 10/10 cases passed (35 ms)
+> - Bitwise, bin(hour) + bin(min) = num
+
+400.nth-digit.py
+> ✔ 70/70 cases passed (59 ms)
+> - 1digit 1~9, 2digit 10~99, 3digit 100~999, ... etc 
+
 ## 2017.08.18   (Day 47)
 659.split-array-into-consecutive-subsequences.py
 > ✔ 180/180 cases passed (809 ms)

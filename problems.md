@@ -187,22 +187,22 @@
 |  :lock:   |418| Sentence Screen Fitting                                      |Medium |
 |           |417| Pacific Atlantic Water Flow                                  |Medium |
 |[:o:][a416]|416| Partition Equal Subset Sum                                   |Medium |
-|           |415| Add Strings                                                  |Easy   |
-|           |414| Third Maximum Number                                         |Easy   |
+|[:o:][a415]|415| Add Strings                                                  |Easy   |
+|[:o:][a414]|414| Third Maximum Number                                         |Easy   |
 |           |413| Arithmetic Slices                                            |Medium |
-|           |412| Fizz Buzz                                                    |Easy   |
+|[:o:][a412]|412| Fizz Buzz                                                    |Easy   |
 |  :lock:   |411| Minimum Unique Word Abbreviation                             |Hard   |
 |           |410| Split Array Largest Sum                                      |Hard   |
 |[:o:][a409]|409| Longest Palindrome                                           |Easy   |
 |  :lock:   |408| Valid Word Abbreviation                                      |Easy   |
 |           |407| Trapping Rain Water II                                       |Hard   |
 |           |406| Queue Reconstruction by Height                               |Medium |
-|           |405| Convert a Number to Hexadecimal                              |Easy   |
-|           |404| Sum of Left Leaves                                           |Easy   |
+|[:o:][a405]|405| Convert a Number to Hexadecimal                              |Easy   |
+|[:o:][a404]|404| Sum of Left Leaves                                           |Easy   |
 |[:o:][a403]|403| Frog Jump                                                    |Hard   |
 |           |402| Remove K Digits                                              |Medium |
-|           |401| Binary Watch                                                 |Easy   |
-|           |400| Nth Digit                                                    |Easy   |
+|[:o:][a401]|401| Binary Watch                                                 |Easy   |
+|[:o:][a400]|400| Nth Digit                                                    |Easy   |
 |           |399| Evaluate Division                                            |Medium |
 |           |398| Random Pick Index                                            |Medium |
 |           |397| Integer Replacement                                          |Medium |
@@ -887,3 +887,12 @@
 [a389]:./accepted/389.find-the-difference.py
 [a526]:./accepted/526.beautiful-arrangement.py
 [a659]:./accepted/659.split-array-into-consecutive-subsequences.py
+
+[a400]:./accepted/400.nth-digit.py
+[a401]:./accepted/401.binary-watch.py
+[a404]:./accepted/404.sum-of-left-leaves.py
+[a405]:./accepted/405.convert-a-number-to-hexadecimal.py
+[a412]:./accepted/412.fizz-buzz.py
+[a414]:./accepted/414.third-maximum-number.py
+[a415]:./accepted/415.add-strings.py
+
