@@ -1,6 +1,42 @@
 # Log
 
-## 2017.08.20   (Day 48)
+## 2017.08.22   (Day 49)
+
+475.heaters.py
+> ✔ 30/30 cases passed (125 ms)
+> - sort and use pointer
+
+461.hamming-distance.py
+> ✔ 149/149 cases passed (48 ms)
+> - Bitwise
+
+459.repeated-substring-pattern.py
+> ✔ 107/107 cases passed (68 ms)
+
+455.assign-cookies.py
+> ✔ 21/21 cases passed (85 ms)
+> - sort and use pointer
+
+448.find-all-numbers-disappeared-in-an-array.py
+> ✔ 34/34 cases passed (359 ms)
+> - let nums[k-1] < 0 for each k in nums
+
+447.number-of-boomerangs.py
+> - ✔ 31/31 cases passed (1712 ms) 
+> - ✔ 31/31 cases passed (1076 ms) 
+
+441.arranging-coins.py
+> ✔ 1336/1336 cases passed (52 ms)
+> - Binary Search
+
+437.path-sum-iii.py
+> - ✔ 126/126 cases passed (1216 ms) - DFS, O(n^2)
+> - ✔ 126/126 cases passed (65 ms) - DFS + hashtable, O(n)
+
+434.number-of-segments-in-a-string.py 
+> ✔ 26/26 cases passed (32 ms)
+
+## 2017.08.21   (Day 48)
 
 415.add-strings.py
 > ✔ 315/315 cases passed (85 ms)

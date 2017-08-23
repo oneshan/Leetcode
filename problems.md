@@ -138,7 +138,7 @@
 |           |480| Sliding Window Median                                        |Hard   |
 |           |477| Total Hamming Distance                                       |Medium |
 |           |476| Number Complement                                            |Easy   |
-|           |475| Heaters                                                      |Easy   |
+|[:o:][a475]|475| Heaters                                                      |Easy   |
 |           |474| Ones and Zeroes                                              |Medium |
 |           |473| Matchsticks to Square                                        |Medium |
 |           |472| Concatenated Words                                           |Hard   |
@@ -151,31 +151,31 @@
 |           |464| Can I Win                                                    |Medium |
 |           |463| Island Perimeter                                             |Easy   |
 |[:o:][a462]|462| Minimum Moves to Equal Array Elements II                     |Medium |
-|           |461| Hamming Distance                                             |Easy   |
+|[:o:][a461]|461| Hamming Distance                                             |Easy   |
 |           |460| LFU Cache                                                    |Hard   |
-|           |459| Repeated Substring Pattern                                   |Easy   |
+|[:o:][a459]|459| Repeated Substring Pattern                                   |Easy   |
 |           |456| 132 Pattern                                                  |Medium |
-|           |455| Assign Cookies                                               |Easy   |
+|[:o:][a455]|455| Assign Cookies                                               |Easy   |
 |           |454| 4Sum II                                                      |Medium |
 |[:o:][a453]|453| Minimum Moves to Equal Array Elements                        |Easy   |
 |           |452| Minimum Number of Arrows to Burst Balloons                   |Medium |
 |           |451| Sort Characters By Frequency                                 |Medium |
 |[:o:][a450]|450| Delete Node in a BST                                         |Medium |
 |           |449| Serialize and Deserialize BST                                |Medium |
-|           |448| Find All Numbers Disappeared in an Array                     |Easy   |
-|           |447| Number of Boomerangs                                         |Easy   |
+|[:o:][a448]|448| Find All Numbers Disappeared in an Array                     |Easy   |
+|[:one:][a447-1][:two:][a447-2]|447| Number of Boomerangs                                         |Easy   |
 |           |446| Arithmetic Slices II - Subsequence                           |Hard   |
 |[:o:][a445]|445| Add Two Numbers II                                           |Medium |
 |  :lock:   |444| Sequence Reconstruction                                      |Medium |
 |[:one:][a442-1][:two:][a442-2]|442| Find All Duplicates in an Array                              |Medium |
-|           |441| Arranging Coins                                              |Easy   |
+|[:o:][a441]|441| Arranging Coins                                              |Easy   |
 |           |440| K-th Smallest in Lexicographical Order                       |Hard   |
 |  :lock:   |439| Ternary Expression Parser                                    |Medium |
 |[:o:][a438]|438| Find All Anagrams in a String                                |Easy   |
-|           |437| Path Sum III                                                 |Easy   |
+|[:one:][a437-1][:two:][a437-2]|437| Path Sum III                                                 |Easy   |
 |           |436| Find Right Interval                                          |Medium |
 |           |435| Non-overlapping Intervals                                    |Medium |
-|           |434| Number of Segments in a String                               |Easy   |
+|[:o:][a434]|434| Number of Segments in a String                               |Easy   |
 |           |432| All O'one Data Structure                                     |Hard   |
 |  :lock:   |425| Word Squares                                                 |Hard   |
 |           |424| Longest Repeating Character Replacement                      |Medium |
@@ -896,3 +896,14 @@
 [a414]:./accepted/414.third-maximum-number.py
 [a415]:./accepted/415.add-strings.py
 
+[a434]:./accepted/434.number-of-segments-in-a-string.py
+[a437-2]:./accepted/437.path-sum-iii.2.py
+[a437-1]:./accepted/437.path-sum-iii.py
+[a441]:./accepted/441.arranging-coins.py
+[a447-2]:./accepted/447.number-of-boomerangs.2.py
+[a447-1]:./accepted/447.number-of-boomerangs.py
+[a448]:./accepted/448.find-all-numbers-disappeared-in-an-array.py
+[a455]:./accepted/455.assign-cookies.py
+[a459]:./accepted/459.repeated-substring-pattern.py
+[a461]:./accepted/461.hamming-distance.py
+[a475]:./accepted/475.heaters.py
