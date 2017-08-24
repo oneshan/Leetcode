@@ -1,5 +1,39 @@
 # Log
 
+## 2017.08.23   (Day 50)
+
+521.longest-uncommon-subsequence-i.py 
+> ✔ 41/41 cases passed (38 ms)
+> - If a != b, then longest-uncommon-subsequence is the longer one
+
+347.top-k-frequent-elements.py
+> - ✔ 20/20 cases passed (66 ms) -- maxHeap
+> - ✔ 20/20 cases passed (56 ms) -- minHeap
+
+476.number-complement.py 
+> ✔ 149/149 cases passed (33 ms)
+> - find the smallest power2 larger than num and then xor power2-1
+
+485.max-consecutive-ones.py                                   
+> ✔ 41/41 cases passed (108 ms)
+> - forloop
+
+496.next-greater-element-i.py 
+> ✔ 17/17 cases passed (56 ms)
+> - stack and hashtable
+
+500.keyboard-row.py                                           
+> ✔ 22/22 cases passed (39 ms)                    
+> - hashtable
+
+501.find-mode-in-binary-search-tree.py                        
+> ✔ 25/25 cases passed (98 ms)
+> - inorder
+
+504.base-7.py 
+> ✔ 241/241 cases passed (39 ms)
+> - while loop, note: 0 case
+
 ## 2017.08.22   (Day 49)
 
 475.heaters.py

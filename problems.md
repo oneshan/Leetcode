@@ -102,7 +102,7 @@
 |           |524| Longest Word in Dictionary through Deleting                  |Medium |
 |[:o:][a523]|523| Continuous Subarray Sum                                      |Medium |
 |           |522| Longest Uncommon Subsequence II                              |Medium |
-|           |521| Longest Uncommon Subsequence I                               |Easy   |
+|[:o:][a521]|521| Longest Uncommon Subsequence I                               |Easy   |
 |           |520| Detect Capital                                               |Easy   |
 |           |517| Super Washing Machines                                       |Hard   |
 |           |516| Longest Palindromic Subsequence                              |Medium |
@@ -113,14 +113,14 @@
 |[:o:][a507]|507| Perfect Number                                               |Easy   |
 |[:o:][a506]|506| Relative Ranks                                               |Easy   |
 |  :lock:   |505| The Maze II                                                  |Medium |
-|           |504| Base 7                                                       |Easy   |
+|[:o:][a504]|504| Base 7                                                       |Easy   |
 |           |503| Next Greater Element II                                      |Medium |
 |           |502| IPO                                                          |Hard   |
-|           |501| Find Mode in Binary Search Tree                              |Easy   |
-|           |500| Keyboard Row                                                 |Easy   |
+|[:o:][a501]|501| Find Mode in Binary Search Tree                              |Easy   |
+|[:o:][a500]|500| Keyboard Row                                                 |Easy   |
 |  :lock:   |499| The Maze III                                                 |Hard   |
 |           |498| Diagonal Traverse                                            |Medium |
-|           |496| Next Greater Element I                                       |Easy   |
+|[:o:][a496]|496| Next Greater Element I                                       |Easy   |
 |           |495| Teemo Attacking                                              |Medium |
 |[:one:][a494-1][:two:][a494-2]|494| Target Sum                                                   |Medium |
 |           |493| Reverse Pairs                                                |Hard   |
@@ -130,14 +130,14 @@
 |           |488| Zuma Game                                                    |Hard   |
 |  :lock:   |487| Max Consecutive Ones II                                      |Medium |
 |           |486| Predict the Winner                                           |Medium |
-|           |485| Max Consecutive Ones                                         |Easy   |
+|[:o:][a485]|485| Max Consecutive Ones                                         |Easy   |
 |  :lock:   |484| Find Permutation                                             |Medium |
 |           |483| Smallest Good Base                                           |Hard   |
 |           |482| License Key Formatting                                       |Medium |
 |           |481| Magical String                                               |Medium |
 |           |480| Sliding Window Median                                        |Hard   |
 |           |477| Total Hamming Distance                                       |Medium |
-|           |476| Number Complement                                            |Easy   |
+|[:o:][a476]|476| Number Complement                                            |Easy   |
 |[:o:][a475]|475| Heaters                                                      |Easy   |
 |           |474| Ones and Zeroes                                              |Medium |
 |           |473| Matchsticks to Square                                        |Medium |
@@ -255,7 +255,7 @@
 |[:one:][a350-1][:two:][a350-2]|350| Intersection of Two Arrays II                                |Easy   |
 |[:o:][a349]|349| Intersection of Two Arrays                                   |Easy   |
 |  :lock:   |348| Design Tic-Tac-Toe                                           |Medium |
-|           |347| Top K Frequent Elements                                      |Medium |
+|[:one:][a347-1][:two:][a347-2]|347| Top K Frequent Elements                                      |Medium |
 |  :lock:   |346| Moving Average from Data Stream                              |Easy   |
 |[:o:][a345]|345| Reverse Vowels of a String                                   |Easy   |
 |[:o:][a344]|344| Reverse String                                               |Easy   |
@@ -907,3 +907,13 @@
 [a459]:./accepted/459.repeated-substring-pattern.py
 [a461]:./accepted/461.hamming-distance.py
 [a475]:./accepted/475.heaters.py
+
+[a347-1]:./accepted/347.top-k-frequent-elements.py
+[a347-2]:./accepted/347.top-k-frequent-elements.2.py
+[a476]:./accepted/476.number-complement.py
+[a496]:./accepted/496.next-greater-element-i.py
+[a500]:./accepted/500.keyboard-row.py
+[a501]:./accepted/501.find-mode-in-binary-search-tree.py
+[a485]:./accepted/485.max-consecutive-ones.py
+[a504]:./accepted/504.base-7.py
+[a521]:./accepted/521.longest-uncommon-subsequence-i.py

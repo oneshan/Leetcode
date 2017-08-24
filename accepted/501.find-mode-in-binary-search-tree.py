@@ -4,47 +4,47 @@
 # https://leetcode.com/problems/find-mode-in-binary-search-tree
 #
 # Easy (38.01%)
-# Total Accepted:    
-# Total Submissions: 
+# Total Accepted:   
+# Total Submissions:
 # Testcase Example:  '[1,null,2,2]'
 #
 # Given a binary search tree (BST) with duplicates, find all the mode(s) (the
 # most frequently occurred element) in the given BST.
-# 
-# 
+#
+#
 # Assume a BST is defined as follows:
-# 
+#
 # The left subtree of a node contains only nodes with keys less than or equal
 # to the node's key.
 # The right subtree of a node contains only nodes with keys greater than or
 # equal to the node's key.
 # Both the left and right subtrees must also be binary search trees.
-# 
-# 
-# 
-# 
+#
+#
+#
+#
 # For example:
 # Given BST [1,null,2,2],
-# 
+#
 # ⁠  1
 # ⁠   \
 # ⁠    2
 # ⁠   /
 # ⁠  2
-# 
-# 
-# 
+#
+#
+#
 # return [2].
-# 
-# 
+#
+#
 # Note:
 # If a tree has more than one mode, you can return them in any order.
-# 
-# 
+#
+#
 # Follow up:
 # Could you do that without using any extra space? (Assume that the implicit
 # stack space incurred due to recursion does not count).
-# 
+#
 #
 # Definition for a binary tree node.
 # class TreeNode(object):
@@ -53,9 +53,49 @@
 #         self.left = None
 #         self.right = None
 
+
 class Solution(object):
     def findMode(self, root):
         """
         :type root: TreeNode
         :rtype: List[int]
         """
+        if not root:
+            return []
+
+        self.mode = []
+        self.maxCount = 1
+        self.val = None
+        self.count = 1
+
+        def inorder(node):
+            if not node:
+                return
+
+            inorder(node.left)
+
+            if node.val == self.val:
+                self.count += 1
+            else:
+                self.val, self.count = node.val, 1
+
+            if self.count == self.maxCount:
+                self.mode += self.val,
+            elif self.count > self.maxCount:
+                self.mode = [self.val]
+                self.maxCount = self.count
+
+            inorder(node.right)
+
+        inorder(root)
+        return self.mode
+
+
+if __name__ == "__main__":
+    try:
+        from utils.TreeNode import createTreeNode
+        sol = Solution()
+        root = createTreeNode([1, None, 2, 2])
+        print(sol.findMode(root) == [2])
+    except Exception as e:
+        print(e)
