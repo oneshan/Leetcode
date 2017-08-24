@@ -70,7 +70,7 @@
 |  :lock:   |562| Longest Line of Consecutive One in Matrix                    |Medium |
 |           |561| Array Partition I                                            |Easy   |
 |           |560| Subarray Sum Equals K                                        |Medium |
-|           |557| Reverse Words in a String III                                |Easy   |
+|[:o:][a557]|557| Reverse Words in a String III                                |Easy   |
 |           |556| Next Greater Element III                                     |Medium |
 |  :lock:   |555| Split Concatenated Strings                                   |Medium |
 |           |554| Brick Wall                                                   |Medium |
@@ -83,7 +83,7 @@
 |           |546| Remove Boxes                                                 |Hard   |
 |  :lock:   |545| Boundary of Binary Tree                                      |Medium |
 |  :lock:   |544| Output Contest Matches                                       |Medium |
-|           |543| Diameter of Binary Tree                                      |Easy   |
+|[:o:][a543]|543| Diameter of Binary Tree                                      |Easy   |
 |           |542| 01 Matrix                                                    |Medium |
 |           |541| Reverse String II                                            |Easy   |
 |           |539| Minimum Time Difference                                      |Medium |
@@ -92,10 +92,9 @@
 |  :lock:   |536| Construct Binary Tree from String                            |Medium |
 |           |535| Encode and Decode TinyURL                                    |Medium |
 |  :lock:   |533| Lonely Pixel II                                              |Medium |
-|           |532| K-diff Pairs in an Array                                     |Easy   |
-|  :lock:   |531| Lonely Pixel I                                               |Medium |
-|           |530| Minimum Absolute Difference in BST                           |Easy   |
-|           |529| Minesweeper                                                  |Medium |
+|[:one:][a532-1][:two:][a532-2]|532| K-diff Pairs in an Array                                     |Easy   |
+|  :lock:   |531| Lonely Pixel I                                               |Medium |           |530| Minimum Absolute Difference in BST                           |Easy   |
+|[:o:][a530]|530| Minimum Absolute Difference in BST                           |Easy   |
 |  :lock:   |527| Word Abbreviation                                            |Hard   |
 |[:o:][a526]|526| Beautiful Arrangement                                        |Medium |
 |           |525| Contiguous Array                                             |Medium |
@@ -103,7 +102,7 @@
 |[:o:][a523]|523| Continuous Subarray Sum                                      |Medium |
 |           |522| Longest Uncommon Subsequence II                              |Medium |
 |[:o:][a521]|521| Longest Uncommon Subsequence I                               |Easy   |
-|           |520| Detect Capital                                               |Easy   |
+|[:o:][a520]|520| Detect Capital                                               |Easy   |
 |           |517| Super Washing Machines                                       |Hard   |
 |           |516| Longest Palindromic Subsequence                              |Medium |
 |           |515| Find Largest Value in Each Tree Row                          |Medium |
@@ -124,7 +123,7 @@
 |           |495| Teemo Attacking                                              |Medium |
 |[:one:][a494-1][:two:][a494-2]|494| Target Sum                                                   |Medium |
 |           |493| Reverse Pairs                                                |Hard   |
-|           |492| Construct the Rectangle                                      |Easy   |
+|[:o:][a492]|492| Construct the Rectangle                                      |Easy   |
 |           |491| Increasing Subsequences                                      |Medium |
 |  :lock:   |490| The Maze                                                     |Medium |
 |           |488| Zuma Game                                                    |Hard   |
@@ -159,7 +158,7 @@
 |           |454| 4Sum II                                                      |Medium |
 |[:o:][a453]|453| Minimum Moves to Equal Array Elements                        |Easy   |
 |           |452| Minimum Number of Arrows to Burst Balloons                   |Medium |
-|           |451| Sort Characters By Frequency                                 |Medium |
+|[:o:][a451]|451| Sort Characters By Frequency                                 |Medium |
 |[:o:][a450]|450| Delete Node in a BST                                         |Medium |
 |           |449| Serialize and Deserialize BST                                |Medium |
 |[:o:][a448]|448| Find All Numbers Disappeared in an Array                     |Easy   |
@@ -206,10 +205,10 @@
 |           |399| Evaluate Division                                            |Medium |
 |           |398| Random Pick Index                                            |Medium |
 |           |397| Integer Replacement                                          |Medium |
-|           |396| Rotate Function                                              |Medium |
+|[:o:][a396]|396| Rotate Function                                              |Medium |
 |           |395| Longest Substring with At Least K Repeating Characters       |Medium |
 |           |394| Decode String                                                |Medium |
-|           |393| UTF-8 Validation                                             |Medium |
+|[:o:][a393]|393| UTF-8 Validation                                             |Medium |
 |           |392| Is Subsequence                                               |Medium |
 |           |391| Perfect Rectangle                                            |Hard   |
 |           |390| Elimination Game                                             |Medium |
@@ -562,7 +561,7 @@
 |[:o:][a026]|026| Remove Duplicates from Sorted Array                          |Easy   |
 |           |025| Reverse Nodes in k-Group                                     |Hard   |
 |[:o:][a024]|024| Swap Nodes in Pairs                                          |Medium |
-|           |023| Merge k Sorted Lists                                         |Hard   |
+|[:o:][a023]|023| Merge k Sorted Lists                                         |Hard   |
 |[:o:][a022]|022| Generate Parentheses                                         |Medium |
 |[:o:][a021]|021| Merge Two Sorted Lists                                       |Easy   |
 |[:o:][a020]|020| Valid Parentheses                                            |Easy   |
@@ -587,7 +586,6 @@
 |[:o:][a001]|001| Two Sum                                                      |Easy   |
 
 
-
 [a001]:./accepted/001.two-sum.py
 [a002]:./accepted/002.add-two-numbers.py
 [a003]:./accepted/003.longest-substring-without-repeating-characters.py
@@ -608,6 +606,7 @@
 [a020]:./accepted/020.valid-parentheses.py
 [a021]:./accepted/021.merge-two-sorted-lists.py
 [a022]:./accepted/022.generate-parentheses.py
+[a023]:./accepted/023.merge-k-sorted-lists.py
 [a024]:./accepted/024.swap-nodes-in-pairs.py
 [a026]:./accepted/026.remove-duplicates-from-sorted-array.py
 [a027]:./accepted/027.remove-element.py
@@ -641,6 +640,7 @@
 [a057]:./accepted/057.insert-interval.py
 [a058]:./accepted/058.length-of-last-word.py
 [a059]:./accepted/059.spiral-matrix-ii.py
+[a060]:./accepted/060.permutation-sequence.py
 [a061]:./accepted/061.rotate-list.py 
 [a062-1]:./accepted/062.unique-paths.py
 [a062-2]:./accepted/062.unique-paths.1d.py
@@ -659,10 +659,12 @@
 [a074-2]:./accepted/074.search-a-2d-matrix.ver2.py
 [a075]:./accepted/075.sort-colors.py
 [a076]:./accepted/076.minimum-window-substring.py
+[a077]:./accepted/077.combinations.py
 [a078]:./accepted/078.subsets.py
 [a079]:./accepted/079.word-search.py
 [a080-1]:./accepted/080.remove-duplicates-from-sorted-array-ii.py
 [a080-2]:./accepted/080.remove-duplicates-from-sorted-array-ii.ver2.py
+[a081]:./accepted/081.search-in-rotated-sorted-array-ii.py
 [a082]:./accepted/082.remove-duplicates-from-sorted-list-ii.py
 [a083]:./accepted/083.remove-duplicates-from-sorted-list.py
 [a084]:./accepted/084.largest-rectangle-in-histogram.py
@@ -681,6 +683,7 @@
 [a098-2]:./accepted/098.validate-binary-search-tree.ver2.py
 [a099-1]:./accepted/099.recover-binary-search-tree.py 
 [a099-2]:./accepted/099.recover-binary-search-tree.iter.py 
+
 [a100]:./accepted/100.same-tree.py
 [a101-1]:./accepted/101.symmetric-tree.py
 [a101-2]:./accepted/101.symmetric-tree.iter.py
@@ -760,6 +763,7 @@
 [a191]:./accepted/191.number-of-1-bits.py
 [a198]:./accepted/198.house-robber.py
 [a199]:./accepted/199.binary-tree-right-side-view.py
+
 [a200]:./accepted/200.number-of-islands.py
 [a201]:./accepted/201.bitwise-and-of-numbers-range.py
 [a202]:./accepted/202.happy-number.py
@@ -817,6 +821,7 @@
 [a290]:./accepted/290.word-pattern.py
 [a292]:./accepted/292.nim-game.py
 [a299]:./accepted/299.bulls-and-cows.py
+
 [a300]:./accepted/300.longest-increasing-subsequence.py
 [a303]:./accepted/303.range-sum-query-immutable.py
 [a309]:./accepted/309.best-time-to-buy-and-sell-stock-with-cooldown.py
@@ -836,84 +841,87 @@
 [a343-2]:./accepted/343.integer-break.py
 [a344]:./accepted/344.reverse-string.py
 [a345]:./accepted/345.reverse-vowels-of-a-string.py
+[a347-1]:./accepted/347.top-k-frequent-elements.py
+[a347-2]:./accepted/347.top-k-frequent-elements.2.py
 [a349]:./accepted/349.intersection-of-two-arrays.py
 [a350-1]:./accepted/350.intersection-of-two-arrays-ii.bs.py
 [a350-2]:./accepted/350.intersection-of-two-arrays-ii.py
-[a403]:./accepted/403.frog-jump.py
-[a409]:./accepted/409.longest-palindrome.py
-[a416]:./accepted/416.partition-equal-subset-sum.py
-[a423]:./accepted/423.reconstruct-original-digits-from-english.py
-[a438]:./accepted/438.find-all-anagrams-in-a-string.py
-[a442-1]:./accepted/442.find-all-duplicates-in-an-array.py
-[a442-2]:./accepted/442.find-all-duplicates-in-an-array.2.py
-[a445]:./accepted/445.add-two-numbers-ii.py
-[a453]:./accepted/453.minimum-moves-to-equal-array-elements.py
-[a462]:./accepted/462.minimum-moves-to-equal-array-elements-ii.py
-[a467]:./accepted/467.unique-substrings-in-wraparound-string.py
-[a494-1]:./accepted/494.target-sum.py
-[a494-2]:./accepted/494.target-sum.2.py
-[a506]:./accepted/506.relative-ranks.py
-[a507]:./accepted/507.perfect-number.py
-[a508]:./accepted/508.most-frequent-subtree-sum.py
-[a513]:./accepted/513.find-bottom-left-tree-value.py
-[a523]:./accepted/523.continuous-subarray-sum.py
-[a547]:./accepted/547.friend-circles.py
-[a551]:./accepted/551.student-attendance-record-i.py
-[a567]:./accepted/567.permutation-in-string.py
-[a611]:./accepted/611.valid-triangle-number.py
-
 [a354]:./accepted/354.russian-doll-envelopes.py
 [a355]:./accepted/355.design-twitter.py
 [a357]:./accepted/357.count-numbers-with-unique-digits.py
-[a077]:./accepted/077.combinations.py
-[a581]:./accepted/581.shortest-unsorted-continuous-subarray.py
-
 [a365]:./accepted/365.water-and-jug-problem.py
 [a367]:./accepted/367.valid-perfect-square.py
 [a368]:./accepted/368.largest-divisible-subset.py
 [a371]:./accepted/371.sum-of-two-integers.py
 [a372]:./accepted/372.super-pow.py
-[a373-2]:./accepted/373.find-k-pairs-with-smallest-sums.2.py
 [a373-1]:./accepted/373.find-k-pairs-with-smallest-sums.py
+[a373-2]:./accepted/373.find-k-pairs-with-smallest-sums.2.py
 [a374]:./accepted/374.guess-number-higher-or-lower.py
 [a377]:./accepted/377.combination-sum-iv.py
-[a450]:./accepted/450.delete-node-in-a-bst.py
-[a081]:./accepted/081.search-in-rotated-sorted-array-ii.py
-
-
-[a060]:./accepted/060.permutation-sequence.py
 [a383]:./accepted/383.ransom-note.py
 [a387]:./accepted/387.first-unique-character-in-a-string.py
 [a389]:./accepted/389.find-the-difference.py
-[a526]:./accepted/526.beautiful-arrangement.py
-[a659]:./accepted/659.split-array-into-consecutive-subsequences.py
+[a393]:./accepted/393.utf-8-validation.py
+[a396]:./accepted/396.rotate-function.py
 
 [a400]:./accepted/400.nth-digit.py
 [a401]:./accepted/401.binary-watch.py
+[a403]:./accepted/403.frog-jump.py
 [a404]:./accepted/404.sum-of-left-leaves.py
 [a405]:./accepted/405.convert-a-number-to-hexadecimal.py
+[a409]:./accepted/409.longest-palindrome.py
 [a412]:./accepted/412.fizz-buzz.py
 [a414]:./accepted/414.third-maximum-number.py
 [a415]:./accepted/415.add-strings.py
-
+[a416]:./accepted/416.partition-equal-subset-sum.py
+[a423]:./accepted/423.reconstruct-original-digits-from-english.py
 [a434]:./accepted/434.number-of-segments-in-a-string.py
-[a437-2]:./accepted/437.path-sum-iii.2.py
 [a437-1]:./accepted/437.path-sum-iii.py
+[a437-2]:./accepted/437.path-sum-iii.2.py
+[a438]:./accepted/438.find-all-anagrams-in-a-string.py
 [a441]:./accepted/441.arranging-coins.py
-[a447-2]:./accepted/447.number-of-boomerangs.2.py
+[a442-1]:./accepted/442.find-all-duplicates-in-an-array.py
+[a442-2]:./accepted/442.find-all-duplicates-in-an-array.2.py
+[a445]:./accepted/445.add-two-numbers-ii.py
 [a447-1]:./accepted/447.number-of-boomerangs.py
+[a447-2]:./accepted/447.number-of-boomerangs.2.py
 [a448]:./accepted/448.find-all-numbers-disappeared-in-an-array.py
+[a450]:./accepted/450.delete-node-in-a-bst.py
+[a451]:./accepted/451.sort-characters-by-frequency.py
+[a453]:./accepted/453.minimum-moves-to-equal-array-elements.py
 [a455]:./accepted/455.assign-cookies.py
 [a459]:./accepted/459.repeated-substring-pattern.py
 [a461]:./accepted/461.hamming-distance.py
+[a462]:./accepted/462.minimum-moves-to-equal-array-elements-ii.py
+[a467]:./accepted/467.unique-substrings-in-wraparound-string.py
 [a475]:./accepted/475.heaters.py
-
-[a347-1]:./accepted/347.top-k-frequent-elements.py
-[a347-2]:./accepted/347.top-k-frequent-elements.2.py
 [a476]:./accepted/476.number-complement.py
+[a485]:./accepted/485.max-consecutive-ones.py
+[a494-1]:./accepted/494.target-sum.py
+[a494-2]:./accepted/494.target-sum.2.py
 [a496]:./accepted/496.next-greater-element-i.py
+
 [a500]:./accepted/500.keyboard-row.py
 [a501]:./accepted/501.find-mode-in-binary-search-tree.py
-[a485]:./accepted/485.max-consecutive-ones.py
 [a504]:./accepted/504.base-7.py
+[a506]:./accepted/506.relative-ranks.py
+[a507]:./accepted/507.perfect-number.py
+[a508]:./accepted/508.most-frequent-subtree-sum.py
+[a513]:./accepted/513.find-bottom-left-tree-value.py
 [a521]:./accepted/521.longest-uncommon-subsequence-i.py
+[a523]:./accepted/523.continuous-subarray-sum.py
+[a526]:./accepted/526.beautiful-arrangement.py
+[a530]:./accepted/530.minimum-absolute-difference-in-bst.py
+[a547]:./accepted/547.friend-circles.py
+[a551]:./accepted/551.student-attendance-record-i.py
+[a567]:./accepted/567.permutation-in-string.py
+[a581]:./accepted/581.shortest-unsorted-continuous-subarray.py
+
+[a611]:./accepted/611.valid-triangle-number.py
+[a659]:./accepted/659.split-array-into-consecutive-subsequences.py
+[a492]:./accepted/492.construct-the-rectangle.py
+[a532-2]:./accepted/532.k-diff-pairs-in-an-array.2.py
+[a532-1]:./accepted/532.k-diff-pairs-in-an-array.py
+[a520]:./accepted/520.detect-capital.py 
+[a543]:./accepted/543.diameter-of-binary-tree.py
+[a557]:./accepted/557.reverse-words-in-a-string-iii.py

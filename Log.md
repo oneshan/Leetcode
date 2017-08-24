@@ -1,5 +1,47 @@
 # Log
 
+## 2017.08.24   (Day 51)
+
+557.reverse-words-in-a-string-iii.py
+> ✔ 30/30 cases passed (172 ms)
+> - two pointer
+
+543.diameter-of-binary-tree.py
+> ✔ 106/106 cases passed (76 ms)
+> - recursion
+
+520.detect-capital.py
+> ✔ 550/550 cases passed (58 ms)
+> - use flag: preUpper, allUpper
+
+532.k-diff-pairs-in-an-array.py
+> - ✔ 72/72 cases passed (72 ms) -- hashtable
+> - ✔ 72/72 cases passed (69 ms) -- two pointer
+
+492.construct-the-rectangle.py
+> ✔ 50/50 cases passed (38 ms)
+> - find factor from sqrt(area) to 1
+
+530.minimum-absolute-difference-in-bst.py
+> ✔ 186/186 cases passed (122 ms)
+> - inorder
+
+451.sort-characters-by-frequency.py
+> ✔ 35/35 cases passed (69 ms)
+> - hashtable
+
+396.rotate-function.py
+> ✔ 17/17 cases passed (52 ms)
+> - math: `F[i+1] = F[i] - sum(A) + 4 * A[i]`
+
+393.utf-8-validation.py 
+> ✔ 49/49 cases passed (56 ms)
+> - bit shift
+
+023.merge-k-sorted-lists.py
+> ✔ 130/130 cases passed (135 ms)
+> - minHeap
+
 ## 2017.08.23   (Day 50)
 
 521.longest-uncommon-subsequence-i.py 
