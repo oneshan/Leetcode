@@ -42,7 +42,7 @@
 |  :lock:   |616| Add Bold Tag in String                                       |Medium |
 |[:o:][a611]|611| Valid Triangle Number                                        |Medium |
 |           |609| Find Duplicate File in System                                |Medium |
-|           |606| Construct String from Binary Tree                            |Easy   |
+|[:o:][a606]|606| Construct String from Binary Tree                            |Easy   |
 |           |605| Can Place Flowers                                            |Easy   |
 |  :lock:   |604| Design Compressed String Iterator                            |Easy   |
 |           |600| Non-negative Integers without Consecutive Ones               |Hard   |
@@ -58,7 +58,7 @@
 |  :lock:   |582| Kill Process                                                 |Medium |
 |[:o:][a581]|581| Shortest Unsorted Continuous Subarray                        |Easy   |
 |           |576| Out of Boundary Paths                                        |Hard   |
-|           |575| Distribute Candies                                           |Easy   |
+|[:o:][a575]|575| Distribute Candies                                           |Easy   |
 |  :lock:   |573| Squirrel Simulation                                          |Medium |
 |           |572| Subtree of Another Tree                                      |Easy   |
 |  :lock:   |568| Maximum Vacation Days                                        |Hard   |
@@ -66,9 +66,9 @@
 |           |566| Reshape the Matrix                                           |Easy   |
 |           |565| Array Nesting                                                |Medium |
 |           |564| Find the Closest Palindrome                                  |Hard   |
-|           |563| Binary Tree Tilt                                             |Easy   |
+|[:o:][a563]|563| Binary Tree Tilt                                             |Easy   |
 |  :lock:   |562| Longest Line of Consecutive One in Matrix                    |Medium |
-|           |561| Array Partition I                                            |Easy   |
+|[:one:][a561-1][:two:][a561-2]|561| Array Partition I                                            |Easy   |
 |           |560| Subarray Sum Equals K                                        |Medium |
 |[:o:][a557]|557| Reverse Words in a String III                                |Easy   |
 |           |556| Next Greater Element III                                     |Medium |
@@ -85,9 +85,9 @@
 |  :lock:   |544| Output Contest Matches                                       |Medium |
 |[:o:][a543]|543| Diameter of Binary Tree                                      |Easy   |
 |           |542| 01 Matrix                                                    |Medium |
-|           |541| Reverse String II                                            |Easy   |
+|[:o:][a541]|541| Reverse String II                                            |Easy   |
 |           |539| Minimum Time Difference                                      |Medium |
-|           |538| Convert BST to Greater Tree                                  |Medium |
+|[:o:][a538]|538| Convert BST to Greater Tree                                  |Medium |
 |           |537| Complex Number Multiplication                                |Medium |
 |  :lock:   |536| Construct Binary Tree from String                            |Medium |
 |           |535| Encode and Decode TinyURL                                    |Medium |
@@ -148,7 +148,7 @@
 |           |466| Count The Repetitions                                        |Hard   |
 |  :lock:   |465| Optimal Account Balancing                                    |Hard   |
 |           |464| Can I Win                                                    |Medium |
-|           |463| Island Perimeter                                             |Easy   |
+|[:o:][a463]|463| Island Perimeter                                             |Easy   |
 |[:o:][a462]|462| Minimum Moves to Equal Array Elements II                     |Medium |
 |[:o:][a461]|461| Hamming Distance                                             |Easy   |
 |           |460| LFU Cache                                                    |Hard   |
@@ -215,7 +215,7 @@
 |[:o:][a389]|389| Find the Difference                                          |Easy   |
 |           |388| Longest Absolute File Path                                   |Medium |
 |[:o:][a387]|387| First Unique Character in a String                           |Easy   |
-|           |386| Lexicographical Numbers                                      |Medium |
+|[:o:][a386]|386| Lexicographical Numbers                                      |Medium |
 |           |385| Mini Parser                                                  |Medium |
 |           |384| Shuffle an Array                                             |Medium |
 |[:o:][a383]|383| Ransom Note                                                  |Easy   |
@@ -925,3 +925,12 @@
 [a520]:./accepted/520.detect-capital.py 
 [a543]:./accepted/543.diameter-of-binary-tree.py
 [a557]:./accepted/557.reverse-words-in-a-string-iii.py
+[a463]:./accepted/463.island-perimeter.py
+[a541]:./accepted/541.reverse-string-ii.py 
+[a386]:./accepted/386.lexicographical-numbers.py
+[a538]:./accepted/538.convert-bst-to-greater-tree.py
+[a561-2]:./accepted/561.array-partition-i.2.py
+[a561-1]:./accepted/561.array-partition-i.py
+[a575]:./accepted/575.distribute-candies.py 
+[a563]:./accepted/563.binary-tree-tilt.py
+[a606]:./accepted/606.construct-string-from-binary-tree.py

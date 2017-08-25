@@ -13,9 +13,9 @@
 # the corresponding kind. You need to distribute these candies equally in
 # number to brother and sister. Return the maximum number of kinds of candies
 # the sister could gain. 
-# 
+#
 # Example 1:
-# 
+#
 # Input: candies = [1,1,2,2,3,3]
 # Output: 3
 # Explanation:
@@ -24,30 +24,42 @@
 # Optimal distribution: The sister has candies [1,2,3] and the brother has
 # candies [1,2,3], too. 
 # The sister has three different kinds of candies. 
-# 
-# 
-# 
+#
+#
+#
 # Example 2:
-# 
+#
 # Input: candies = [1,1,2,3]
 # Output: 2
 # Explanation: For example, the sister has candies [2,3] and the brother has
 # candies [1,1]. 
 # The sister has two different kinds of candies, the brother has only one kind
 # of candies. 
-# 
-# 
-# 
+#
+#
+#
 # Note:
-# 
+#
 # The length of the given array is in range [2, 10,000], and will be even.
 # The number in given array is in range [-100,000, 100,000].
-# 
-# 
 #
+#
+#
+
+
 class Solution(object):
     def distributeCandies(self, candies):
         """
         :type candies: List[int]
         :rtype: int
         """
+        dist = set()
+        for candy in candies:
+            dist.add(candy)
+        return min(len(dist), len(candies) >> 1)
+
+
+if __name__ == "__main__":
+    sol = Solution()
+    assert(sol.distributeCandies([1, 1, 2, 3]) == 2)
+    assert(sol.distributeCandies([1, 1, 2, 2, 3, 3]) == 3) 

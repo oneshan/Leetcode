@@ -1,6 +1,39 @@
 # Log
 
+## 2017.08.25   (Day 52)
+
+606.construct-string-from-binary-tree.py
+> ✔ 162/162 cases passed (95 ms)
+> - recursion
+
+563.binary-tree-tilt.py
+> ✔ 75/75 cases passed (79 ms)
+> - recursion
+
+575.distribute-candies.py
+> ✔ 207/207 cases passed (195 ms)
+> - min(n//2, # kind of candy)
+
+561.array-partition-i.py
+> - ✔ 81/81 cases passed (242 ms) -- bucket sort
+> - ✔ 81/81 cases passed (116 ms) -- sort & sum odd elements 
+
+538.convert-bst-to-greater-tree.py
+> ✔ 212/212 cases passed (158 ms)
+> - inorder (right - self - left)
+
+386.lexicographical-numbers.py
+> ✔ 26/26 cases passed (1292 ms)
+> - recursion
+
 ## 2017.08.24   (Day 51)
+
+541.reverse-string-ii.py
+> ✔ 60/60 cases passed (45 ms)
+
+463.island-perimeter.py
+> ✔ 5833/5833 cases passed (235 ms)
+> - perimeter = 4 * lands - 2 * neighbor
 
 557.reverse-words-in-a-string-iii.py
 > ✔ 30/30 cases passed (172 ms)
