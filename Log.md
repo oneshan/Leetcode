@@ -1,5 +1,27 @@
 # Log
 
+## 2017.08.26   (Day 53)
+
+628.maximum-product-of-three-numbers.py
+> ✔ 83/83 cases passed (122 ms)
+> - sort then compare `nums[0]*nums[1] and nums[-3] * nums[-2]` * nums[-1]
+
+605.can-place-flowers.py
+> ✔ 123/123 cases passed (62 ms)
+> - for loop, check if flowerbed[i] is empty, then check flowerbed[i-1], flowerbed[i+1]
+
+599.minimum-index-sum-of-two-lists.py
+> ✔ 133/133 cases passed (96 ms)
+> - hashtable
+
+566.reshape-the-matrix.py 
+> ✔ 56/56 cases passed (139 ms)
+> - `ans[k//c][k % c] = matrix[i][j]`
+
+594.longest-harmonious-subsequence.py
+> ✔ 201/201 cases passed (172 ms)
+> - hashtable
+
 ## 2017.08.25   (Day 52)
 
 606.construct-string-from-binary-tree.py

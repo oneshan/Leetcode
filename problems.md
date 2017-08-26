@@ -33,7 +33,7 @@
 |           |631| Design Excel Sum Formula                                     |Hard   |
 |           |630| Course Schedule III                                          |Medium |
 |           |629| K Inverse Pairs Array                                        |Medium |
-|           |628| Maximum Product of Three Numbers                             |Easy   |
+|[:o:][a628]|628| Maximum Product of Three Numbers                             |Easy   |
 |           |625| Minimum Factorization                                        |Medium |
 |           |624| Maximum Distance in Arrays                                   |Easy   |
 |           |623| Add One Row to Tree                                          |Medium |
@@ -43,12 +43,12 @@
 |[:o:][a611]|611| Valid Triangle Number                                        |Medium |
 |           |609| Find Duplicate File in System                                |Medium |
 |[:o:][a606]|606| Construct String from Binary Tree                            |Easy   |
-|           |605| Can Place Flowers                                            |Easy   |
+|[:o:][a605]|605| Can Place Flowers                                            |Easy   |
 |  :lock:   |604| Design Compressed String Iterator                            |Easy   |
 |           |600| Non-negative Integers without Consecutive Ones               |Hard   |
-|           |599| Minimum Index Sum of Two Lists                               |Easy   |
+|[:o:][a599]|599| Minimum Index Sum of Two Lists                               |Easy   |
 |           |598| Range Addition II                                            |Easy   |
-|           |594| Longest Harmonious Subsequence                               |Easy   |
+|[:o:][a594]|594| Longest Harmonious Subsequence                               |Easy   |
 |           |593| Valid Square                                                 |Medium |
 |           |592| Fraction Addition and Subtraction                            |Medium |
 |           |591| Tag Validator                                                |Hard   |
@@ -63,7 +63,7 @@
 |           |572| Subtree of Another Tree                                      |Easy   |
 |  :lock:   |568| Maximum Vacation Days                                        |Hard   |
 |[:o:][a567]|567| Permutation in String                                        |Medium |
-|           |566| Reshape the Matrix                                           |Easy   |
+|[:o:][a566]|566| Reshape the Matrix                                           |Easy   |
 |           |565| Array Nesting                                                |Medium |
 |           |564| Find the Closest Palindrome                                  |Hard   |
 |[:o:][a563]|563| Binary Tree Tilt                                             |Easy   |
@@ -934,3 +934,8 @@
 [a575]:./accepted/575.distribute-candies.py 
 [a563]:./accepted/563.binary-tree-tilt.py
 [a606]:./accepted/606.construct-string-from-binary-tree.py
+[a594]:./accepted/594.longest-harmonious-subsequence.py
+[a566]:./accepted/566.reshape-the-matrix.py
+[a599]:./accepted/599.minimum-index-sum-of-two-lists.py
+[a605]:./accepted/605.can-place-flowers.py 
+[a628]:./accepted/628.maximum-product-of-three-numbers.py
