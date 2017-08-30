@@ -1,5 +1,27 @@
 # Log
 
+## 2017.08.29   (Day 54)
+
+658.find-k-closest-elements.py
+> ✔ 55/55 cases passed (208 ms)
+> - Binary Search & two pointer
+
+653.two-sum-iv-input-is-a-bst.py 
+> ✔ 421/421 cases passed (132 ms)
+> - inorder and then use pointer
+
+572.subtree-of-another-tree.py
+> ✔ 176/176 cases passed (105 ms)
+> - compare preorder string
+
+617.merge-two-binary-trees.py
+> ✔ 183/183 cases passed (125 ms)
+> - recursion
+
+662.maximum-width-of-binary-tree.py
+> ✔ 108/108 cases passed (52 ms)
+> - BFS, left node = `2*n`, right node = `2*n+1`
+
 ## 2017.08.26   (Day 53)
 
 628.maximum-product-of-three-numbers.py

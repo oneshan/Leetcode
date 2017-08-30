@@ -2,14 +2,18 @@
 
 |           | # | Title                                                        | Difficulty|
 |-----------|---|--------------------------------------------------------------|-------|
+|           |664| Strange Printer                                              |Hard   |
+|           |663| Equal Tree Partition                                         |Medium |
+|[:o:][a662]|662| Maximum Width of Binary Tree                                 |Medium |
+|           |661| Image Smoother                                               |Easy   |
 |           |660| Remove 9                                                     |Hard   |
 |[:o:][a659]|659| Split Array into Consecutive Subsequences                    |Medium |
-|           |658| Find K Closest Elements                                      |Medium |
+|[:o:][a658]|658| Find K Closest Elements                                      |Medium |
 |           |657| Judge Route Circle                                           |Easy   |
 |  :lock:   |656| Coin Path                                                    |Hard   |
 |           |655| Print Binary Tree                                            |Medium |
 |           |654| Maximum Binary Tree                                          |Medium |
-|           |653| Two Sum IV - Input is a BST                                  |Easy   |
+|[:o:][a653]|653| Two Sum IV - Input is a BST                                  |Easy   |
 |           |652| Find Duplicate Subtrees                                      |Medium |
 |  :lock:   |651| 4 Keys Keyboard                                              |Medium |
 |           |650| 2 Keys Keyboard                                              |Medium |
@@ -38,7 +42,7 @@
 |           |624| Maximum Distance in Arrays                                   |Easy   |
 |           |623| Add One Row to Tree                                          |Medium |
 |           |621| Task Scheduler                                               |Medium |
-|           |617| Merge Two Binary Trees                                       |Easy   |
+|[:o:][a617]|617| Merge Two Binary Trees                                       |Easy   |
 |  :lock:   |616| Add Bold Tag in String                                       |Medium |
 |[:o:][a611]|611| Valid Triangle Number                                        |Medium |
 |           |609| Find Duplicate File in System                                |Medium |
@@ -60,7 +64,7 @@
 |           |576| Out of Boundary Paths                                        |Hard   |
 |[:o:][a575]|575| Distribute Candies                                           |Easy   |
 |  :lock:   |573| Squirrel Simulation                                          |Medium |
-|           |572| Subtree of Another Tree                                      |Easy   |
+|[:o:][a572]|572| Subtree of Another Tree                                      |Easy   |
 |  :lock:   |568| Maximum Vacation Days                                        |Hard   |
 |[:o:][a567]|567| Permutation in String                                        |Medium |
 |[:o:][a566]|566| Reshape the Matrix                                           |Easy   |
@@ -939,3 +943,8 @@
 [a599]:./accepted/599.minimum-index-sum-of-two-lists.py
 [a605]:./accepted/605.can-place-flowers.py 
 [a628]:./accepted/628.maximum-product-of-three-numbers.py
+[a617]:./accepted/617.merge-two-binary-trees.py
+[a662]:./accepted/662.maximum-width-of-binary-tree.py
+[a572]:./accepted/572.subtree-of-another-tree.py
+[a653]:./accepted/653.two-sum-iv-input-is-a-bst.py
+[a658]:./accepted/658.find-k-closest-elements.py
