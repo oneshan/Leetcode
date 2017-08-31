@@ -1,5 +1,29 @@
 # Log
 
+## 2017.08.30   (Day 55)
+
+657.judge-route-circle.py
+> ✔ 62/62 cases passed (178 ms)
+
+643.maximum-average-subarray-i.py 
+> ✔ 123/123 cases passed (225 ms)
+> - slide windows
+
+402.remove-k-digits.py
+> ✔ 33/33 cases passed (52 ms)
+> - stack
+
+598.range-addition-ii.py
+> ✔ 69/69 cases passed (39 ms)
+> - save minimum x and y in ops
+
+645.set-mismatch.py 
+> ✔ 49/49 cases passed (102 ms)
+> - position times -1
+
+661.image-smoother.py
+> ✔ 202/202 cases passed (755 ms)
+
 ## 2017.08.29   (Day 54)
 
 658.find-k-closest-elements.py

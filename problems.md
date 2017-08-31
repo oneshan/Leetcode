@@ -5,11 +5,11 @@
 |           |664| Strange Printer                                              |Hard   |
 |           |663| Equal Tree Partition                                         |Medium |
 |[:o:][a662]|662| Maximum Width of Binary Tree                                 |Medium |
-|           |661| Image Smoother                                               |Easy   |
+|[:o:][a661]|661| Image Smoother                                               |Easy   |
 |           |660| Remove 9                                                     |Hard   |
 |[:o:][a659]|659| Split Array into Consecutive Subsequences                    |Medium |
 |[:o:][a658]|658| Find K Closest Elements                                      |Medium |
-|           |657| Judge Route Circle                                           |Easy   |
+|[:o:][a657]|657| Judge Route Circle                                           |Easy   |
 |  :lock:   |656| Coin Path                                                    |Hard   |
 |           |655| Print Binary Tree                                            |Medium |
 |           |654| Maximum Binary Tree                                          |Medium |
@@ -21,9 +21,9 @@
 |           |648| Replace Words                                                |Medium |
 |           |647| Palindromic Substrings                                       |Medium |
 |           |646| Maximum Length of Pair Chain                                 |Medium |
-|           |645| Set Mismatch                                                 |Easy   |
+|[:o:][a645]|645| Set Mismatch                                                 |Easy   |
 |  :lock:   |644| Maximum Average Subarray II                                  |Hard   |
-|           |643| Maximum Average Subarray I                                   |Easy   |
+|[:o:][a643]|643| Maximum Average Subarray I                                   |Easy   |
 |  :lock:   |642| Design Search Autocomplete System                            |Hard   |
 |           |640| Solve the Equation                                           |Medium |
 |           |639| Decode Ways II                                               |Hard   |
@@ -51,7 +51,7 @@
 |  :lock:   |604| Design Compressed String Iterator                            |Easy   |
 |           |600| Non-negative Integers without Consecutive Ones               |Hard   |
 |[:o:][a599]|599| Minimum Index Sum of Two Lists                               |Easy   |
-|           |598| Range Addition II                                            |Easy   |
+|[:o:][a598]|598| Range Addition II                                            |Easy   |
 |[:o:][a594]|594| Longest Harmonious Subsequence                               |Easy   |
 |           |593| Valid Square                                                 |Medium |
 |           |592| Fraction Addition and Subtraction                            |Medium |
@@ -203,7 +203,7 @@
 |[:o:][a405]|405| Convert a Number to Hexadecimal                              |Easy   |
 |[:o:][a404]|404| Sum of Left Leaves                                           |Easy   |
 |[:o:][a403]|403| Frog Jump                                                    |Hard   |
-|           |402| Remove K Digits                                              |Medium |
+|[:o:][a402]|402| Remove K Digits                                              |Medium |
 |[:o:][a401]|401| Binary Watch                                                 |Easy   |
 |[:o:][a400]|400| Nth Digit                                                    |Easy   |
 |           |399| Evaluate Division                                            |Medium |
@@ -948,3 +948,9 @@
 [a572]:./accepted/572.subtree-of-another-tree.py
 [a653]:./accepted/653.two-sum-iv-input-is-a-bst.py
 [a658]:./accepted/658.find-k-closest-elements.py
+[a402]:./accepted/402.remove-k-digits.py
+[a661]:./accepted/661.image-smoother.py 
+[a598]:./accepted/598.range-addition-ii.py
+[a645]:./accepted/645.set-mismatch.py
+[a643]:./accepted/643.maximum-average-subarray-i.py
+[a657]:./accepted/657.judge-route-circle.py

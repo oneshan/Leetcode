@@ -47,6 +47,8 @@
 #
 #
 #
+
+
 class Solution(object):
     def removeKdigits(self, num, k):
         """
@@ -54,4 +56,23 @@ class Solution(object):
         :type k: int
         :rtype: str
         """
-        
+        if len(num) <= k:
+            return "0"
+
+        stack = []
+        for n in num:
+            while k and stack and stack[-1] > n:
+                stack.pop()
+                k -= 1
+            stack.append(n)
+        if k:
+            stack = stack[:-k]
+
+        return "".join(stack).lstrip("0") or "0"
+
+
+if __name__ == "__main__":
+    sol = Solution()
+    assert(sol.removeKdigits("10200", 1) == "200")
+    assert(sol.removeKdigits("1432219", 3) == "1219")
+    assert(sol.removeKdigits("112", 1) == "11")

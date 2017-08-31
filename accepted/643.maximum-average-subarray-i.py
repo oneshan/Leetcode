@@ -29,6 +29,8 @@
 # 
 # 
 #
+
+
 class Solution(object):
     def findMaxAverage(self, nums, k):
         """
@@ -36,4 +38,18 @@ class Solution(object):
         :type k: int
         :rtype: float
         """
-        
+        total = 0
+        for i in range(k):
+            total += nums[i]
+
+        ans = total
+        for i in range(k, len(nums)):
+            total += nums[i] - nums[i - k]
+            ans = max(ans, total)
+        return ans * 1.0 / k
+
+
+if __name__ == "__main__":
+    sol = Solution()
+    assert(sol.findMaxAverage([1, 12, -5, -6, 50, 3], 4) == 12.75)
+    assert(sol.findMaxAverage([5], 1) == 5)
