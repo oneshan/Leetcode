@@ -1,5 +1,24 @@
 # Log
 
+## 2017.08.31   (Day 56)
+
+004.median-of-two-sorted-arrays.py
+> ✔ 2080/2080 cases passed (98 ms)
+> - recursion, binary
+
+637.average-of-levels-in-binary-tree.py
+> ✔ 64/64 cases passed (82 ms)
+> - BFS
+
+633.sum-of-square-numbers.py 
+> ✔ 124/124 cases passed (119 ms)
+> - two pointer
+> - Test case: 2, 4 are True
+
+632.smallest-range.py
+> ✔ 86/86 cases passed (242 ms)
+> - heap
+
 ## 2017.08.30   (Day 55)
 
 657.judge-route-circle.py

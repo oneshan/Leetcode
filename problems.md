@@ -28,12 +28,12 @@
 |           |640| Solve the Equation                                           |Medium |
 |           |639| Decode Ways II                                               |Hard   |
 |           |638| Shopping Offers                                              |Medium |
-|           |637| Average of Levels in Binary Tree                             |Easy   |
+|[:o:][a637]|637| Average of Levels in Binary Tree                             |Easy   |
 |           |636| Exclusive Time of Functions                                  |Medium |
 |  :lock:   |635| Design Log Storage System                                    |Medium |
 |  :lock:   |634| Find the Derangement of An Array                             |Medium |
-|           |633| Sum of Square Numbers                                        |Easy   |
-|           |632| Smallest Range                                               |Hard   |
+|[:o:][a633]|633| Sum of Square Numbers                                        |Easy   |
+|[:o:][a632]|632| Smallest Range                                               |Hard   |
 |           |631| Design Excel Sum Formula                                     |Hard   |
 |           |630| Course Schedule III                                          |Medium |
 |           |629| K Inverse Pairs Array                                        |Medium |
@@ -584,7 +584,7 @@
 |[:o:][a007]|007| Reverse Integer                                              |Easy   |
 |[:o:][a006]|006| ZigZag Conversion                                            |Medium |
 |[:o:][a005]|005| Longest Palindromic Substring                                |Medium |
-|           |004| Median of Two Sorted Arrays                                  |Hard   |
+|[:o:][a004]|004| Median of Two Sorted Arrays                                  |Hard   |
 |[:o:][a003]|003| Longest Substring Without Repeating Characters               |Medium |
 |[:o:][a002]|002| Add Two Numbers                                              |Medium |
 |[:o:][a001]|001| Two Sum                                                      |Easy   |
@@ -954,3 +954,7 @@
 [a645]:./accepted/645.set-mismatch.py
 [a643]:./accepted/643.maximum-average-subarray-i.py
 [a657]:./accepted/657.judge-route-circle.py
+[a632]:./accepted/632.smallest-range.py 
+[a633]:./accepted/633.sum-of-square-numbers.py 
+[a637]:./accepted/637.average-of-levels-in-binary-tree.py
+[a004]:./accepted/004.median-of-two-sorted-arrays.py 
