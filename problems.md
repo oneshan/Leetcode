@@ -224,8 +224,8 @@
 |           |384| Shuffle an Array                                             |Medium |
 |[:o:][a383]|383| Ransom Note                                                  |Easy   |
 |           |382| Linked List Random Node                                      |Medium |
-|           |381| Insert Delete GetRandom O|
-|           |380| Insert Delete GetRandom O|
+|[:o:][a381]|381| Insert Delete GetRandom O(1)                                 |Medium |
+|[:o:][a380]|380| Insert Delete GetRandom O(1) - Duplicates allowed            |Hard   |
 |  :lock:   |379| Design Phone Directory                                       |Medium |
 |           |378| Kth Smallest Element in a Sorted Matrix                      |Medium |
 |[:o:][a377]|377| Combination Sum IV                                           |Medium |
@@ -410,7 +410,7 @@
 |[:o:][a191]|191| Number of 1 Bits                                             |Easy   |
 |[:o:][a190]|190| Reverse Bits                                                 |Easy   |
 |[:o:][a189]|189| Rotate Array                                                 |Easy   |
-|           |188| Best Time to Buy and Sell Stock IV                           |Hard   |
+|[:o:][a188-1][:o:][a188-2]|188| Best Time to Buy and Sell Stock IV                           |Hard   |
 |[:one:][a187-1][:two:][a187-2]|187| Repeated DNA Sequences                                       |Medium |
 |  :lock:   |186| Reverse Words in a String II                                 |Medium |
 |[:o:][a179]|179| Largest Number                                               |Medium |
@@ -448,7 +448,7 @@
 |[:o:][a143]|143| Reorder List                                                 |Medium |
 |[:o:][a142]|142| Linked List Cycle II                                         |Medium |
 |[:o:][a141]|141| Linked List Cycle                                            |Easy   |
-|           |140| Word Break II                                                |Hard   |
+|[:o:][a140]|140| Word Break II                                                |Hard   |
 |[:o:][a139]|139| Word Break                                                   |Medium |
 |           |138| Copy List with Random Pointer                                |Medium |
 |[:o:][a137]|137| Single Number II                                             |Medium |
@@ -544,7 +544,7 @@
 |[:o:][a047]|047| Permutations II                                              |Medium |
 |[:one:][a046-1][:two:][a046-2]|046| Permutations                                                 |Medium |
 |[:o:][a045]|045| Jump Game II                                                 |Hard   |
-|           |044| Wildcard Matching                                            |Hard   |
+|[:o:][a044]|044| Wildcard Matching                                            |Hard   |
 |           |043| Multiply Strings                                             |Medium |
 |[:o:][a042]|042| Trapping Rain Water                                          |Hard   |
 |[:o:][a041]|041| First Missing Positive                                       |Hard   |
@@ -577,7 +577,7 @@
 |[:o:][a014]|014| Longest Common Prefix                                        |Easy   |
 |[:o:][a013]|013| Roman to Integer                                             |Easy   |
 |[:o:][a012]|012| Integer to Roman                                             |Medium |
-|[:o:][a011]|011| Container With Most Water                                    |Medium |
+|[:o:][a011]|011| Container With Most Water                                    |Medium |           
 |           |010| Regular Expression Matching                                  |Hard   |
 |[:o:][a009]|009| Palindrome Number                                            |Easy   |
 |[:o:][a008]|008| String to Integer (atoi)                                     |Medium |
@@ -958,3 +958,9 @@
 [a633]:./accepted/633.sum-of-square-numbers.py 
 [a637]:./accepted/637.average-of-levels-in-binary-tree.py
 [a004]:./accepted/004.median-of-two-sorted-arrays.py 
+[a380]:./accepted/380.insert-delete-getrandom-o1.py
+[a381]:./accepted/381.insert-delete-getrandom-o1-duplicates-allowed.py
+[a188-2]:./accepted/188.best-time-to-buy-and-sell-stock-iv.2.py 
+[a188-1]:./accepted/188.best-time-to-buy-and-sell-stock-iv.py 
+[a140]:./accepted/140.word-break-ii.py
+[a044]:./accepted/044.wildcard-matching.py

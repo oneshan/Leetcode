@@ -1,5 +1,35 @@
 # Log
 
+## 2017.09.07
+
+044.wildcard-matching.py
+> - ✔ 1805/1805 cases passed (105 ms)
+> - ✔ Your runtime beats 81.71 % of python submissions
+> - pointer iteration
+
+140.word-break-ii.py
+> - ✔ 37/37 cases passed (59 ms)
+> - ✔ Your runtime beats 73.85 % of python submissions
+> - DFS
+
+188.best-time-to-buy-and-sell-stock-iv.py 
+> - ✔ 211/211 cases passed (108 ms)
+> - ✔ Your runtime beats 66.21 % of python submissions
+> - `dp[i][j]` save the maxProfit at most i-trans in the range of prices[0~j]
+
+
+## 2017.09.06
+
+380.insert-delete-getrandom-o1.py
+> - ✔ 18/18 cases passed (145 ms)
+> - ✔ Your runtime beats 86.78 % of python submissions
+> - Use hashtable to store the idx of element
+
+381.insert-delete-getrandom-o1-duplicates-allowed.py
+> - ✔ 28/28 cases passed (225 ms)
+> - ✔ Your runtime beats 12.42 % of python submissions
+> - Modify hashtable's value as set
+
 ## 2017.08.31   (Day 56)
 
 004.median-of-two-sorted-arrays.py
