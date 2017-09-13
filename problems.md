@@ -330,8 +330,8 @@
 |[:o:][a278]|278| First Bad Version                                            |Easy   |
 |  :lock:   |277| Find the Celebrity                                           |Medium |
 |  :lock:   |276| Paint Fence                                                  |Easy   |
-|           |275| H-Index II                                                   |Medium |
-|           |274| H-Index                                                      |Medium |
+|[:o:][a275]|275| H-Index II                                                   |Medium |
+|[:o:][a274]|274| H-Index                                                      |Medium |
 |           |273| Integer to English Words                                     |Hard   |
 |  :lock:   |272| Closest Binary Search Tree Value II                          |Hard   |
 |  :lock:   |271| Encode and Decode Strings                                    |Medium |
@@ -495,7 +495,7 @@
 |[:o:][a096]|096| Unique Binary Search Trees                                   |Medium |
 |[:o:][a095]|095| Unique Binary Search Trees II                                |Medium |
 |[:one:][a094-1][:two:][a094-2]|094| Binary Tree Inorder Traversal                                |Medium |
-|           |093| Restore IP Addresses                                         |Medium |
+|[:o:][a093]|093| Restore IP Addresses                                         |Medium |
 |[:o:][a092]|092| Reverse Linked List II                                       |Medium |
 |[:o:][a091]|091| Decode Ways                                                  |Medium |
 |[:o:][a090]|090| Subsets II                                                   |Medium |
@@ -536,8 +536,8 @@
 |[:o:][a055]|055| Jump Game                                                    |Medium |
 |[:o:][a054]|054| Spiral Matrix                                                |Medium |
 |[:o:][a053]|053| Maximum Subarray                                             |Easy   |
-|           |052| N-Queens II                                                  |Hard   |
-|           |051| N-Queens                                                     |Hard   |
+|[:o:][a052]|052| N-Queens II                                                  |Hard   |
+|[:o:][a051]|051| N-Queens                                                     |Hard   |
 |[:o:][a050]|050| Pow(x, n)                                                    |Medium |
 |[:o:][a049]|049| Group Anagrams                                               |Medium |
 |[:o:][a048]|048| Rotate Image                                                 |Medium |
@@ -964,3 +964,8 @@
 [a188-1]:./accepted/188.best-time-to-buy-and-sell-stock-iv.py 
 [a140]:./accepted/140.word-break-ii.py
 [a044]:./accepted/044.wildcard-matching.py
+[a051]:./accepted/051.n-queens.py
+[a052]:./accepted/052.n-queens-ii.py
+[a093]:./accepted/093.restore-ip-addresses.py
+[a274]:./accepted/274.h-index.py
+[a275]:./accepted/275.h-index-ii.py

@@ -1,5 +1,31 @@
 # Log
 
+## 2017.09.12
+
+274.h-index.py 
+> - ✔ 81/81 cases passed (32 ms)
+> - ✔ Your runtime beats 86.82 % of python submissions
+> - counting sort
+
+275.h-index-ii.py
+> - ✔ 82/82 cases passed (119 ms)
+> - ✔ Your runtime beats 27.07 % of python submissions
+> - Binary Search
+
+052.n-queens-ii.py
+> - ✔ 9/9 cases passed (118 ms)
+> - ✔ Your runtime beats 43.54 % of python submissions
+
+051.n-queens.py
+> - ✔ 9/9 cases passed (159 ms)
+> - ✔ Your runtime beats 37.06 % of python submissions
+> - DFS
+
+093.restore-ip-addresses.py
+> - ✔ 147/147 cases passed (38 ms)
+> - ✔ Your runtime beats 95.83 % of python submissions
+> - DFS
+
 ## 2017.09.07
 
 044.wildcard-matching.py
