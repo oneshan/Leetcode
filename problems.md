@@ -442,7 +442,7 @@
 |           |149| Max Points on a Line                                         |Hard   |
 |           |148| Sort List                                                    |Medium |
 |[:o:][a147]|147| Insertion Sort List                                          |Medium |
-|           |146| LRU Cache                                                    |Hard   |
+|[:o:][a146]|146| LRU Cache                                                    |Hard   |
 |[:one:][a145-1][:two:][a145-2]|145| Binary Tree Postorder Traversal                              |Hard   |
 |[:one:][a144-1][:two:][a144-2]|144| Binary Tree Preorder Traversal                               |Medium |
 |[:o:][a143]|143| Reorder List                                                 |Medium |
@@ -453,11 +453,11 @@
 |           |138| Copy List with Random Pointer                                |Medium |
 |[:o:][a137]|137| Single Number II                                             |Medium |
 |[:o:][a136]|136| Single Number                                                |Easy   |
-|           |135| Candy                                                        |Hard   |
+|[:o:][a135]|135| Candy                                                        |Hard   |
 |           |134| Gas Station                                                  |Medium |
 |[:o:][a133]|133| Clone Graph                                                  |Medium |
 |           |132| Palindrome Partitioning II                                   |Hard   |
-|           |131| Palindrome Partitioning                                      |Medium |
+|[:o:][a131]|131| Palindrome Partitioning                                      |Medium |
 |[:o:][a130]|130| Surrounded Regions                                           |Medium |
 |[:o:][a129]|129| Sum Root to Leaf Numbers                                     |Medium |
 |[:o:][a128]|128| Longest Consecutive Sequence                                 |Hard   |
@@ -523,7 +523,7 @@
 |           |068| Text Justification                                           |Hard   |
 |[:o:][a067]|067| Add Binary                                                   |Easy   |
 |[:o:][a066]|066| Plus One                                                     |Easy   |
-|           |065| Valid Number                                                 |Hard   |
+|[:o:][a065]|065| Valid Number                                                 |Hard   |
 |[:o:][a064]|064| Minimum Path Sum                                             |Medium |
 |[:one:][a063-1][:two:][a063-2]|063| Unique Paths II                                              |Medium |
 |[:one:][a062-1][:two:][a062-2]|062| Unique Paths                                                 |Medium |
@@ -972,3 +972,7 @@
 [a087]:./accepted/087.scramble-string.py
 [a097-1]:./accepted/097.interleaving-string.py
 [a097-2]:./accepted/097.interleaving-string.dfs.py
+[a146]:./accepted/146.lru-cache.py
+[a065]:./accepted/065.valid-number.py
+[a131]:./accepted/131.palindrome-partitioning.py
+[a135]:./accepted/135.candy.py

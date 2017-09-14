@@ -42,9 +42,9 @@ class Solution(object):
     def recur(self, s, i, arr):
         if i == len(s):
             self.ans += arr,
-        for j in range(i + 1, len(s) + 1):
-            if self.isPalindrome(s, i, j - 1):
-                self.recur(s, j, arr + [s[i:j]])
+        for j in range(i, len(s)):
+            if self.isPalindrome(s, i, j):
+                self.recur(s, j + 1, arr + [s[i:j + 1]])
 
     def isPalindrome(self, s, i, j):
         while i < j:

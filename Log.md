@@ -1,6 +1,31 @@
 # Log
 
+## 2017.09.14
+
+135.candy.py
+> - ✔ 28/28 cases passed (88 ms)
+> - ✔ Your runtime beats 50.67 % of python submissions
+> - Check two direction
+
+131.palindrome-partitioning.py
+> - ✔ 22/22 cases passed (146 ms)
+> - ✔ Your runtime beats 81.48 % of python submissions
+> - Recursion
+
+065.valid-number.py
+> - ✔ 1481/1481 cases passed (49 ms)
+> - ✔ Your runtime beats 82.61 % of python submissions
+> - 1. Clean space and sign 
+> - 2. `.` does not appear behind `e`
+> - 3. lefthand and righthand side of `e` must be number
+> - 4. `.` and `e` appear at most once.
+
 ## 2017.09.13
+
+146.lru-cache.py
+> - ✔ 18/18 cases passed (239 ms)
+> - ✔ Your runtime beats 79.3 % of python submissions
+> - Doubly Linked List & Dictionary
 
 097.interleaving-string.py
 > - ✔ 101/101 cases passed (69 ms) -- DP
