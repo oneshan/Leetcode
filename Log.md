@@ -1,5 +1,17 @@
 # Log
 
+## 2017.09.13
+
+097.interleaving-string.py
+> - ✔ 101/101 cases passed (69 ms)
+> - ✔ Your runtime beats 21.26 % of python submissions
+> - DP
+
+087.scramble-string.py
+> - ✔ 282/282 cases passed (89 ms)
+> - ✔ Your runtime beats 44.03 % of python submissions
+> - recursion
+
 ## 2017.09.12
 
 274.h-index.py 

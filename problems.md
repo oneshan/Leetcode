@@ -491,7 +491,7 @@
 |[:o:][a100]|100| Same Tree                                                    |Easy   |
 |[:one:][a099-1][:two:][a099-2]|099| Recover Binary Search Tree                                   |Hard   |
 |[:one:][a098-1][:two:][a098-2]|098| Validate Binary Search Tree                                  |Medium |
-|           |097| Interleaving String                                          |Hard   |
+|[:o:][a097]|097| Interleaving String                                          |Hard   |
 |[:o:][a096]|096| Unique Binary Search Trees                                   |Medium |
 |[:o:][a095]|095| Unique Binary Search Trees II                                |Medium |
 |[:one:][a094-1][:two:][a094-2]|094| Binary Tree Inorder Traversal                                |Medium |
@@ -501,7 +501,7 @@
 |[:o:][a090]|090| Subsets II                                                   |Medium |
 |[:one:][a089-1][:two:][a089-2]|089| Gray Code                                                    |Medium |
 |[:o:][a088]|088| Merge Sorted Array                                           |Easy   |
-|           |087| Scramble String                                              |Hard   |
+|[:o:][a087]|087| Scramble String                                              |Hard   |
 |[:o:][a086]|086| Partition List                                               |Medium |
 |           |085| Maximal Rectangle                                            |Hard   |
 |[:o:][a084]|084| Largest Rectangle in Histogram                               |Hard   |
@@ -969,3 +969,5 @@
 [a093]:./accepted/093.restore-ip-addresses.py
 [a274]:./accepted/274.h-index.py
 [a275]:./accepted/275.h-index-ii.py
+[a087]:./accepted/087.scramble-string.py
+[a097]:./accepted/097.interleaving-string.py 
