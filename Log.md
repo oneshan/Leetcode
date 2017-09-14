@@ -3,9 +3,10 @@
 ## 2017.09.13
 
 097.interleaving-string.py
-> - ✔ 101/101 cases passed (69 ms)
+> - ✔ 101/101 cases passed (69 ms) -- DP
 > - ✔ Your runtime beats 21.26 % of python submissions
-> - DP
+> - ✔ 101/101 cases passed (42 ms) -- DFS
+> - ✔ Your runtime beats 75.85 % of python submissions
 
 087.scramble-string.py
 > - ✔ 282/282 cases passed (89 ms)

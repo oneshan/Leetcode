@@ -491,7 +491,7 @@
 |[:o:][a100]|100| Same Tree                                                    |Easy   |
 |[:one:][a099-1][:two:][a099-2]|099| Recover Binary Search Tree                                   |Hard   |
 |[:one:][a098-1][:two:][a098-2]|098| Validate Binary Search Tree                                  |Medium |
-|[:o:][a097]|097| Interleaving String                                          |Hard   |
+|[:one:][a097-1][:two:][a097-2]|097| Interleaving String                                          |Hard   |
 |[:o:][a096]|096| Unique Binary Search Trees                                   |Medium |
 |[:o:][a095]|095| Unique Binary Search Trees II                                |Medium |
 |[:one:][a094-1][:two:][a094-2]|094| Binary Tree Inorder Traversal                                |Medium |
@@ -970,4 +970,5 @@
 [a274]:./accepted/274.h-index.py
 [a275]:./accepted/275.h-index-ii.py
 [a087]:./accepted/087.scramble-string.py
-[a097]:./accepted/097.interleaving-string.py 
+[a097-1]:./accepted/097.interleaving-string.py
+[a097-2]:./accepted/097.interleaving-string.dfs.py
