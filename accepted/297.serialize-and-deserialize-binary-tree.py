@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 #
 # [297] Serialize and Deserialize Binary Tree
 #
@@ -55,7 +56,17 @@ class Codec:
         :type root: TreeNode
         :rtype: str
         """
-        
+        arr = []
+        queue = [root]
+        while queue:
+            node = queue.pop(0)
+            if not node:
+                arr.append("None")
+            else:
+                arr.append(str(node.val))
+                queue.append(node.left)
+                queue.append(node.right)
+        return ",".join(arr)
 
     def deserialize(self, data):
         """Decodes your encoded data to tree.
@@ -63,7 +74,16 @@ class Codec:
         :type data: str
         :rtype: TreeNode
         """
-        
+        nodes = [TreeNode(int(val)) if val != "None" else None for val in data.split(",")]
+        kids = nodes[::-1]
+        root = kids.pop()
+        for node in nodes:
+            if node:
+                if kids:
+                    node.left = kids.pop()
+                if kids:
+                    node.right = kids.pop()
+        return root
 
 # Your Codec object will be instantiated and called as such:
 # codec = Codec()

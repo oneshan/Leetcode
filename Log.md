@@ -1,5 +1,33 @@
 # Log
 
+## 2017.10.01
+
+068.text-justification.py
+> - ✔ 24/24 cases passed (52 ms)
+> - ✔ Your runtime beats 3.64 % of python submissions
+
+149.max-points-on-a-line.py
+> - ✔ 34/34 cases passed (95 ms)
+> - ✔ Your runtime beats 83.01 % of python submissions
+> - calculate the slope for each node
+
+297.serialize-and-deserialize-binary-tree.py
+> - ✔ 47/47 cases passed (275 ms)
+> - ✔ Your runtime beats 28.56 % of python submissions
+> - BFS
+
+## 2017.09.25
+
+623.add-one-row-to-tree.py
+> - ✔ 109/109 cases passed (88 ms)
+> - ✔ Your runtime beats 21.28 % of python submissions
+> - BFS
+
+648.replace-words.py
+> - ✔ 124/124 cases passed (252 ms)
+> - ✔ Your runtime beats 80.41 % of python submissions
+> - Trie Tree
+
 ## 2017.09.14
 
 135.candy.py

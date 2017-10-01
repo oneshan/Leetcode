@@ -18,7 +18,7 @@
 |  :lock:   |651| 4 Keys Keyboard                                              |Medium |
 |           |650| 2 Keys Keyboard                                              |Medium |
 |           |649| Dota2 Senate                                                 |Medium |
-|           |648| Replace Words                                                |Medium |
+|[:o:][a648]|648| Replace Words                                                |Medium |
 |           |647| Palindromic Substrings                                       |Medium |
 |           |646| Maximum Length of Pair Chain                                 |Medium |
 |[:o:][a645]|645| Set Mismatch                                                 |Easy   |
@@ -40,7 +40,7 @@
 |[:o:][a628]|628| Maximum Product of Three Numbers                             |Easy   |
 |           |625| Minimum Factorization                                        |Medium |
 |           |624| Maximum Distance in Arrays                                   |Easy   |
-|           |623| Add One Row to Tree                                          |Medium |
+|[:o:][a623]|623| Add One Row to Tree                                          |Medium |
 |           |621| Task Scheduler                                               |Medium |
 |[:o:][a617]|617| Merge Two Binary Trees                                       |Easy   |
 |  :lock:   |616| Add Bold Tag in String                                       |Medium |
@@ -308,7 +308,7 @@
 |[:o:][a300]|300| Longest Increasing Subsequence                               |Medium |
 |[:o:][a299]|299| Bulls and Cows                                               |Medium |
 |  :lock:   |298| Binary Tree Longest Consecutive Sequence                     |Medium |
-|           |297| Serialize and Deserialize Binary Tree                        |Hard   |
+|[:o:][a297]|297| Serialize and Deserialize Binary Tree                        |Hard   |
 |  :lock:   |296| Best Meeting Point                                           |Hard   |
 |           |295| Find Median from Data Stream                                 |Hard   |
 |  :lock:   |294| Flip Game II                                                 |Medium |
@@ -439,7 +439,7 @@
 |[:o:][a152]|152| Maximum Product Subarray                                     |Medium |
 |[:o:][a151]|151| Reverse Words in a String                                    |Medium |
 |[:o:][a150]|150| Evaluate Reverse Polish Notation                             |Medium |
-|           |149| Max Points on a Line                                         |Hard   |
+|[:o:][a149]|149| Max Points on a Line                                         |Hard   |
 |           |148| Sort List                                                    |Medium |
 |[:o:][a147]|147| Insertion Sort List                                          |Medium |
 |[:o:][a146]|146| LRU Cache                                                    |Hard   |
@@ -520,7 +520,7 @@
 |[:o:][a071]|071| Simplify Path                                                |Medium |
 |[:one:][a070-1][:two:][a070-2]|070| Climbing Stairs                                              |Easy   |
 |[:o:][a069]|069| Sqrt(x)                                                      |Easy   |
-|           |068| Text Justification                                           |Hard   |
+|[:o:][a068]|068| Text Justification                                           |Hard   |
 |[:o:][a067]|067| Add Binary                                                   |Easy   |
 |[:o:][a066]|066| Plus One                                                     |Easy   |
 |[:o:][a065]|065| Valid Number                                                 |Hard   |
@@ -976,3 +976,8 @@
 [a065]:./accepted/065.valid-number.py
 [a131]:./accepted/131.palindrome-partitioning.py
 [a135]:./accepted/135.candy.py
+[a623]:./accepted/623.add-one-row-to-tree.py
+[a648]:./accepted/648.replace-words.py
+[a068]:./accepted/068.text-justification.py
+[a149]:./accepted/149.max-points-on-a-line.py
+[a297]:./accepted/297.serialize-and-deserialize-binary-tree.py
