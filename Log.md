@@ -1,5 +1,24 @@
 # Log
 
+## 2017.10.03
+
+542.01-matrix.py
+> - ✔ 48/48 cases passed (712 ms)
+> - ✔ Your runtime beats 90.42 % of python submissions
+> - BFS
+
+## 2017.10.02
+
+337.house-robber-iii.dfs.py
+> - ✔ 124/124 cases passed (76 ms)
+> - ✔ Your runtime beats 54 % of python submissions
+> - DFS
+
+337.house-robber-iii.py
+> - ✔ 124/124 cases passed (92 ms)
+> - ✔ Your runtime beats 10.54 % of python submissions
+> - Recursion
+
 ## 2017.10.01
 
 068.text-justification.py

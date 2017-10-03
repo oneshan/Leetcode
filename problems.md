@@ -88,7 +88,7 @@
 |  :lock:   |545| Boundary of Binary Tree                                      |Medium |
 |  :lock:   |544| Output Contest Matches                                       |Medium |
 |[:o:][a543]|543| Diameter of Binary Tree                                      |Easy   |
-|           |542| 01 Matrix                                                    |Medium |
+|[:o:][a542]|542| 01 Matrix                                                    |Medium |
 |[:o:][a541]|541| Reverse String II                                            |Easy   |
 |           |539| Minimum Time Difference                                      |Medium |
 |[:o:][a538]|538| Convert BST to Greater Tree                                  |Medium |
@@ -268,7 +268,7 @@
 |  :lock:   |340| Longest Substring with At Most K Distinct Characters         |Hard   |
 |  :lock:   |339| Nested List Weight Sum                                       |Easy   |
 |[:o:][a338]|338| Counting Bits                                                |Medium |
-|           |337| House Robber III                                             |Medium |
+|[:one:][a337-1][:two:][a337-2]|337| House Robber III                                             |Medium |
 |           |336| Palindrome Pairs                                             |Hard   |
 |           |335| Self Crossing                                                |Hard   |
 |           |334| Increasing Triplet Subsequence                               |Medium |
@@ -981,3 +981,6 @@
 [a068]:./accepted/068.text-justification.py
 [a149]:./accepted/149.max-points-on-a-line.py
 [a297]:./accepted/297.serialize-and-deserialize-binary-tree.py
+[a337-2]:./accepted/337.house-robber-iii.dfs.py
+[a337-1]:./accepted/337.house-robber-iii.py
+[a542]:./accepted/542.01-matrix.py 
