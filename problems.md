@@ -392,7 +392,7 @@
 |[:o:][a215]|215| Kth Largest Element in an Array                              |Medium |
 |           |214| Shortest Palindrome                                          |Hard   |
 |[:o:][a213]|213| House Robber II                                              |Medium |
-|           |212| Word Search II                                               |Hard   |
+|[:o:][a212]|212| Word Search II                                               |Hard   |
 |[:o:][a211]|211| Add and Search Word - Data structure design                  |Medium |
 |[:o:][a210]|210| Course Schedule II                                           |Medium |
 |[:o:][a209]|209| Minimum Size Subarray Sum                                    |Medium |
@@ -984,3 +984,4 @@
 [a337-2]:./accepted/337.house-robber-iii.dfs.py
 [a337-1]:./accepted/337.house-robber-iii.py
 [a542]:./accepted/542.01-matrix.py 
+[a212]:./accepted/212.word-search-ii.py

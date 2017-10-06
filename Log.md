@@ -1,5 +1,12 @@
 # Log
 
+## 2017.10.05
+
+212.word-search-ii.py
+> - ✔ 37/37 cases passed (579 ms)
+> - ✔ Your runtime beats 48.31 % of python submissions
+> - TrieTree & DFS
+
 ## 2017.10.03
 
 542.01-matrix.py
