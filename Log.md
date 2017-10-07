@@ -1,5 +1,12 @@
 # Log
 
+## 2017.10.06
+
+295.find-median-from-data-stream.py
+> - ✔ 18/18 cases passed (438 ms)
+> - ✔ Your runtime beats 59.76 % of python submissions
+> - MaxHeap & MinHeap
+
 ## 2017.10.05
 
 212.word-search-ii.py

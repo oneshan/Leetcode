@@ -310,7 +310,7 @@
 |  :lock:   |298| Binary Tree Longest Consecutive Sequence                     |Medium |
 |[:o:][a297]|297| Serialize and Deserialize Binary Tree                        |Hard   |
 |  :lock:   |296| Best Meeting Point                                           |Hard   |
-|           |295| Find Median from Data Stream                                 |Hard   |
+|[:o:][a295]|295| Find Median from Data Stream                                 |Hard   |
 |  :lock:   |294| Flip Game II                                                 |Medium |
 |  :lock:   |293| Flip Game                                                    |Easy   |
 |[:o:][a292]|292| Nim Game                                                     |Easy   |
@@ -985,3 +985,4 @@
 [a337-1]:./accepted/337.house-robber-iii.py
 [a542]:./accepted/542.01-matrix.py 
 [a212]:./accepted/212.word-search-ii.py
+[a295]:./accepted/295.find-median-from-data-stream.py 
