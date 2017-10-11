@@ -1,5 +1,42 @@
 # Log
 
+## 2017.10.10
+
+307.range-sum-query-mutable.py
+> - ✔ 10/10 cases passed (172 ms)
+> - ✔ Your runtime beats 58.26 % of python submissions
+> - Binary Indexed Tree
+
+304.range-sum-query-2d-immutable.py
+> - ✔ 12/12 cases passed (96 ms)
+> - ✔ Your runtime beats 23.29 % of python submissions
+
+382.linked-list-random-node.py
+> - ✔ 7/7 cases passed (142 ms)
+> - ✔ Your runtime beats 79.3 % of python submissions
+> - Get size, random
+
+> - ✔ 7/7 cases passed (309 ms)
+> - ✔ Your runtime beats 55.98 % of python submissions
+> - [Follow up] reservoir sampling 
+
+384.shuffle-an-array.py
+> - ✔ 10/10 cases passed (996 ms)
+> - ✔ Your runtime beats 13.23 % of python submissions
+
+398.random-pick-index.py
+> - ✔ 13/13 cases passed (109 ms)
+> - ✔ Your runtime beats 42.27 % of python submissions
+> - reservoir sampling 
+
+647.palindromic-substrings.py 
+> - ✔ 130/130 cases passed (175 ms)
+> - ✔ Your runtime beats 68.19 % of python submissions
+
+341.flatten-nested-list-iterator.py
+> - ✔ 44/44 cases passed (322 ms)
+> - ✔ Your runtime beats 0.38 % of python submissions
+
 ## 2017.10.06
 
 295.find-median-from-data-stream.py

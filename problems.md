@@ -19,7 +19,7 @@
 |           |650| 2 Keys Keyboard                                              |Medium |
 |           |649| Dota2 Senate                                                 |Medium |
 |[:o:][a648]|648| Replace Words                                                |Medium |
-|           |647| Palindromic Substrings                                       |Medium |
+|[:o:][a647]|647| Palindromic Substrings                                       |Medium |
 |           |646| Maximum Length of Pair Chain                                 |Medium |
 |[:o:][a645]|645| Set Mismatch                                                 |Easy   |
 |  :lock:   |644| Maximum Average Subarray II                                  |Hard   |
@@ -207,7 +207,7 @@
 |[:o:][a401]|401| Binary Watch                                                 |Easy   |
 |[:o:][a400]|400| Nth Digit                                                    |Easy   |
 |           |399| Evaluate Division                                            |Medium |
-|           |398| Random Pick Index                                            |Medium |
+|[:o:][a398]|398| Random Pick Index                                            |Medium |
 |           |397| Integer Replacement                                          |Medium |
 |[:o:][a396]|396| Rotate Function                                              |Medium |
 |           |395| Longest Substring with At Least K Repeating Characters       |Medium |
@@ -221,9 +221,9 @@
 |[:o:][a387]|387| First Unique Character in a String                           |Easy   |
 |[:o:][a386]|386| Lexicographical Numbers                                      |Medium |
 |           |385| Mini Parser                                                  |Medium |
-|           |384| Shuffle an Array                                             |Medium |
+|[:o:][a384]|384| Shuffle an Array                                             |Medium |
 |[:o:][a383]|383| Ransom Note                                                  |Easy   |
-|           |382| Linked List Random Node                                      |Medium |
+|[:one:][a382-1][:two:][a382-2]|382| Linked List Random Node                                      |Medium |
 |[:o:][a381]|381| Insert Delete GetRandom O(1)                                 |Medium |
 |[:o:][a380]|380| Insert Delete GetRandom O(1) - Duplicates allowed            |Hard   |
 |  :lock:   |379| Design Phone Directory                                       |Medium |
@@ -264,7 +264,7 @@
 |[:o:][a344]|344| Reverse String                                               |Easy   |
 |[:one:][a343-1][:two:][a343-2]|343| Integer Break                                                |Medium |
 |[:one:][a342-1][:two:][a342-2]|342| Power of Four                                                |Easy   |
-|           |341| Flatten Nested List Iterator                                 |Medium |
+|[:o:][a341]|341| Flatten Nested List Iterator                                 |Medium |
 |  :lock:   |340| Longest Substring with At Most K Distinct Characters         |Hard   |
 |  :lock:   |339| Nested List Weight Sum                                       |Easy   |
 |[:o:][a338]|338| Counting Bits                                                |Medium |
@@ -298,10 +298,10 @@
 |           |310| Minimum Height Trees                                         |Medium |
 |[:o:][a309]|309| Best Time to Buy and Sell Stock with Cooldown                |Medium |
 |  :lock:   |308| Range Sum Query 2D - Mutable                                 |Hard   |
-|           |307| Range Sum Query - Mutable                                    |Medium |
+|[:o:][a307]|307| Range Sum Query - Mutable                                    |Medium |
 |           |306| Additive Number                                              |Medium |
 |  :lock:   |305| Number of Islands II                                         |Hard   |
-|           |304| Range Sum Query 2D - Immutable                               |Medium |
+|[:o:][a304]|304| Range Sum Query 2D - Immutable                               |Medium |
 |[:o:][a303]|303| Range Sum Query - Immutable                                  |Easy   |
 |  :lock:   |302| Smallest Rectangle Enclosing Black Pixels                    |Hard   |
 |           |301| Remove Invalid Parentheses                                   |Hard   |
@@ -986,3 +986,11 @@
 [a542]:./accepted/542.01-matrix.py 
 [a212]:./accepted/212.word-search-ii.py
 [a295]:./accepted/295.find-median-from-data-stream.py 
+[a341]:./accepted/341.flatten-nested-list-iterator.py
+[a647]:./accepted/647.palindromic-substrings.py
+[a398]:./accepted/398.random-pick-index.py
+[a384]:./accepted/384.shuffle-an-array.py
+[a382-1]:./accepted/382.linked-list-random-node.py
+[a382-2]:./accepted/382.linked-list-random-node.2.py
+[a307]:./accepted/307.range-sum-query-mutable.py
+[a304]:./accepted/304.range-sum-query-2d-immutable.py
