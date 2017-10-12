@@ -1,5 +1,25 @@
 # Log
 
+## 2017.10.11
+
+392.is-subsequence.py
+> - ✔ 14/14 cases passed (265 ms)
+> - ✔ Your runtime beats 51.83 % of python submissions
+> - Two pointer
+
+> - ✔ 14/14 cases passed (485 ms)
+> - ✔ Your runtime beats 5.12 % of python submissions
+> - Binary Search
+
+486.predict-the-winner.py
+> - ✔ 61/61 cases passed (42 ms)
+> - ✔ Your runtime beats 53 % of python submissions
+
+174.dungeon-game.py
+> - ✔ 44/44 cases passed (59 ms)
+> - ✔ Your runtime beats 41.18 % of python submissions
+> - DP
+
 ## 2017.10.10
 
 307.range-sum-query-mutable.py

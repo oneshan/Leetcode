@@ -132,7 +132,7 @@
 |  :lock:   |490| The Maze                                                     |Medium |
 |           |488| Zuma Game                                                    |Hard   |
 |  :lock:   |487| Max Consecutive Ones II                                      |Medium |
-|           |486| Predict the Winner                                           |Medium |
+|[:o:][a486]|486| Predict the Winner                                           |Medium |
 |[:o:][a485]|485| Max Consecutive Ones                                         |Easy   |
 |  :lock:   |484| Find Permutation                                             |Medium |
 |           |483| Smallest Good Base                                           |Hard   |
@@ -213,7 +213,7 @@
 |           |395| Longest Substring with At Least K Repeating Characters       |Medium |
 |           |394| Decode String                                                |Medium |
 |[:o:][a393]|393| UTF-8 Validation                                             |Medium |
-|           |392| Is Subsequence                                               |Medium |
+|[:one:][a392-1][:two:][a392-2]|392| Is Subsequence                                               |Medium |
 |           |391| Perfect Rectangle                                            |Hard   |
 |           |390| Elimination Game                                             |Medium |
 |[:o:][a389]|389| Find the Difference                                          |Easy   |
@@ -414,7 +414,7 @@
 |[:one:][a187-1][:two:][a187-2]|187| Repeated DNA Sequences                                       |Medium |
 |  :lock:   |186| Reverse Words in a String II                                 |Medium |
 |[:o:][a179]|179| Largest Number                                               |Medium |
-|           |174| Dungeon Game                                                 |Hard   |
+|[:o:][a174]|174| Dungeon Game                                                 |Hard   |
 |[:o:][a173]|173| Binary Search Tree Iterator                                  |Medium |
 |[:o:][a172]|172| Factorial Trailing Zeroes                                    |Easy   |
 |[:one:][a171-1][:two:][a171-2]|171| Excel Sheet Column Number                                    |Easy   |
@@ -593,6 +593,7 @@
 [a001]:./accepted/001.two-sum.py
 [a002]:./accepted/002.add-two-numbers.py
 [a003]:./accepted/003.longest-substring-without-repeating-characters.py
+[a004]:./accepted/004.median-of-two-sorted-arrays.py 
 [a005]:./accepted/005.longest-palindromic-substring.py
 [a006]:./accepted/006.zigzag-conversion.py
 [a007]:./accepted/007.reverse-integer.py
@@ -630,6 +631,7 @@
 [a040]:./accepted/040.combination-sum-ii.py
 [a041]:./accepted/041.first-missing-positive.py
 [a042]:./accetped/042.trapping-rain-water.py
+[a044]:./accepted/044.wildcard-matching.py
 [a045]:./accepted/045.jump-game-ii.py
 [a046-1]:./accepted/046.permutations.dfs1.py
 [a046-2]:./accepted/046.permutations.dfs2.py
@@ -637,6 +639,8 @@
 [a048]:./accepted/048.rotate-image.py
 [a049]:./accepted/049.group-anagrams.py
 [a050]:./accepted/050.powx-n.py
+[a051]:./accepted/051.n-queens.py
+[a052]:./accepted/052.n-queens-ii.py
 [a053]:./accepted/053.maximum-subarray.py
 [a054]:./accepted/054.spiral-matrix.py
 [a055]:./accepted/055.jump-game.py
@@ -651,8 +655,10 @@
 [a063-1]:./accepted/063.unique-paths-ii.py
 [a063-2]:./accepted/063.unique-paths-ii.1d.py
 [a064]:./accepted/064.minimum-path-sum.py
+[a065]:./accepted/065.valid-number.py
 [a066]:./accepted/066.plus-one.py
 [a067]:./accepted/067.add-binary.py
+[a068]:./accepted/068.text-justification.py
 [a069]:./accepted/069.sqrtx.py
 [a070-1]:./accepted/070.climbing-stairs.py
 [a070-2]:./accepted/070.climbing-stairs.dp2.py
@@ -673,21 +679,24 @@
 [a083]:./accepted/083.remove-duplicates-from-sorted-list.py
 [a084]:./accepted/084.largest-rectangle-in-histogram.py
 [a086]:./accepted/086.partition-list.py
+[a087]:./accepted/087.scramble-string.py
 [a088]:./accepted/088.merge-sorted-array.py
 [a089-1]:./accepted/089.gray-code.math.py
 [a089-2]:./accepted/089.gray-code.py
 [a090]:./accepted/090.subsets-ii.py
 [a091]:./accepted/091.decode-ways.py
 [a092]:./accepted/092.reverse-linked-list-ii.py
+[a093]:./accepted/093.restore-ip-addresses.py
 [a094-1]:./accepted/094.binary-tree-inorder-traversal.py
 [a094-2]:./accepted/094.binary-tree-inorder-traversal.iter.py
 [a095]:./accepted/095.unique-binary-search-trees-ii.py
 [a096]:./accepted/096.unique-binary-search-trees.py
+[a097-1]:./accepted/097.interleaving-string.py
+[a097-2]:./accepted/097.interleaving-string.dfs.py
 [a098-1]:./accepted/098.validate-binary-search-tree.py
 [a098-2]:./accepted/098.validate-binary-search-tree.ver2.py
 [a099-1]:./accepted/099.recover-binary-search-tree.py 
 [a099-2]:./accepted/099.recover-binary-search-tree.iter.py 
-
 [a100]:./accepted/100.same-tree.py
 [a101-1]:./accepted/101.symmetric-tree.py
 [a101-2]:./accepted/101.symmetric-tree.iter.py
@@ -729,10 +738,13 @@
 [a128]:./accepted/128.longest-consecutive-sequence.py
 [a129]:./accepted/129.sum-root-to-leaf-numbers.py
 [a130]:./accepted/130.surrounded-regions.py
+[a131]:./accepted/131.palindrome-partitioning.py
 [a133]:./accepted/133.clone-graph.py
+[a135]:./accepted/135.candy.py
 [a136]:./accepted/136.single-number.py
 [a137]:./accepted/137.single-number-ii.py
 [a139]:./accepted/139.word-break.py
+[a140]:./accepted/140.word-break-ii.py
 [a141]:./accepted/141.linked-list-cycle.py
 [a142]:./accepted/142.linked-list-cycle-ii.py
 [a143]:./accepted/143.reorder-list.py
@@ -740,7 +752,9 @@
 [a144-2]:./accepted/144.binary-tree-preorder-traversal.iter.py
 [a145-1]:./accepted/145.binary-tree-postorder-traversal.py
 [a145-2]:./accepted/145.binary-tree-postorder-traversal.iter.py
+[a146]:./accepted/146.lru-cache.py
 [a147]:./accepted/147.insertion-sort-list.py
+[a149]:./accepted/149.max-points-on-a-line.py
 [a150]:./accepted/150.evaluate-reverse-polish-notation.py
 [a151]:./accepted/151.reverse-words-in-a-string.py
 [a152]:./accepted/152.maximum-product-subarray.py
@@ -759,15 +773,17 @@
 [a171-2]:./accepted/171.excel-sheet-column-number.2.py
 [a172]:./accepted/172.factorial-trailing-zeroes.py
 [a173]:./accepted/173.binary-search-tree-iterator.py
+[a174]:./accepted/174.dungeon-game.py
 [a179]:./accepted/179.largest-number.py
 [a187-1]:./accepted/187.repeated-dna-sequences.2.py
 [a187-2]:./accepted/187.repeated-dna-sequences.py
+[a188-1]:./accepted/188.best-time-to-buy-and-sell-stock-iv.py 
+[a188-2]:./accepted/188.best-time-to-buy-and-sell-stock-iv.2.py 
 [a189]:./accepted/189.rotate-array.py
 [a190]:./accepted/190.reverse-bits.py
 [a191]:./accepted/191.number-of-1-bits.py
 [a198]:./accepted/198.house-robber.py
 [a199]:./accepted/199.binary-tree-right-side-view.py
-
 [a200]:./accepted/200.number-of-islands.py
 [a201]:./accepted/201.bitwise-and-of-numbers-range.py
 [a202]:./accepted/202.happy-number.py
@@ -781,6 +797,7 @@
 [a209]:./accepted/209.minimum-size-subarray-sum.py
 [a210]:./accepted/210.course-schedule-ii.py
 [a211]:./accepted/211.add-and-search-word-data-structure-design.py
+[a212]:./accepted/212.word-search-ii.py
 [a213]:./accepted/213.house-robber-ii.py
 [a215]:./accepted/215.kth-largest-element-in-an-array.py
 [a216]:./accepted/216.combination-sum-iii.py
@@ -814,6 +831,8 @@
 [a264]:./accepted/264.ugly-number-ii.py
 [a268-1]:./accepted/268.missing-number.py
 [a268-2]:./accepted/268.missing-number.2.py
+[a274]:./accepted/274.h-index.py
+[a275]:./accepted/275.h-index-ii.py
 [a278]:./accepted/278.first-bad-version.py
 [a279-1]:./accepted/279.perfect-squares.py
 [a279-2]:./accepted/279.perfect-squares.2.py
@@ -824,10 +843,13 @@
 [a287-2]:./accepted/287.find-the-duplicate-number.py
 [a290]:./accepted/290.word-pattern.py
 [a292]:./accepted/292.nim-game.py
+[a295]:./accepted/295.find-median-from-data-stream.py 
+[a297]:./accepted/297.serialize-and-deserialize-binary-tree.py
 [a299]:./accepted/299.bulls-and-cows.py
-
 [a300]:./accepted/300.longest-increasing-subsequence.py
 [a303]:./accepted/303.range-sum-query-immutable.py
+[a304]:./accepted/304.range-sum-query-2d-immutable.py
+[a307]:./accepted/307.range-sum-query-mutable.py
 [a309]:./accepted/309.best-time-to-buy-and-sell-stock-with-cooldown.py
 [a313]:./accepted/313.super-ugly-number.py
 [a318]:./accepted/318.maximum-product-of-word-lengths.py
@@ -838,7 +860,10 @@
 [a328]:./accepted/328.odd-even-linked-list.py
 [a332-1]:./accepted/332.reconstruct-itinerary.py
 [a332-2]:./accepted/332.reconstruct-itinerary.recur.py
+[a337-1]:./accepted/337.house-robber-iii.py
+[a337-2]:./accepted/337.house-robber-iii.dfs.py
 [a338]:./accepted/338.counting-bits.py
+[a341]:./accepted/341.flatten-nested-list-iterator.py
 [a342-1]:./accepted/342.power-of-four.bit.py
 [a342-2]:./accepted/342.power-of-four.py
 [a343-1]:./accepted/343.integer-break.dp.py
@@ -862,14 +887,23 @@
 [a373-2]:./accepted/373.find-k-pairs-with-smallest-sums.2.py
 [a374]:./accepted/374.guess-number-higher-or-lower.py
 [a377]:./accepted/377.combination-sum-iv.py
+[a380]:./accepted/380.insert-delete-getrandom-o1.py
+[a381]:./accepted/381.insert-delete-getrandom-o1-duplicates-allowed.py
+[a382-1]:./accepted/382.linked-list-random-node.py
+[a382-2]:./accepted/382.linked-list-random-node.2.py
 [a383]:./accepted/383.ransom-note.py
+[a384]:./accepted/384.shuffle-an-array.py
+[a386]:./accepted/386.lexicographical-numbers.py
 [a387]:./accepted/387.first-unique-character-in-a-string.py
 [a389]:./accepted/389.find-the-difference.py
+[a392-1]:./accepted/392.is-subsequence.py
+[a392-2]:./accepted/392.is-subsequence.bs.py
 [a393]:./accepted/393.utf-8-validation.py
 [a396]:./accepted/396.rotate-function.py
-
+[a398]:./accepted/398.random-pick-index.py
 [a400]:./accepted/400.nth-digit.py
 [a401]:./accepted/401.binary-watch.py
+[a402]:./accepted/402.remove-k-digits.py
 [a403]:./accepted/403.frog-jump.py
 [a404]:./accepted/404.sum-of-left-leaves.py
 [a405]:./accepted/405.convert-a-number-to-hexadecimal.py
@@ -897,14 +931,16 @@
 [a459]:./accepted/459.repeated-substring-pattern.py
 [a461]:./accepted/461.hamming-distance.py
 [a462]:./accepted/462.minimum-moves-to-equal-array-elements-ii.py
+[a463]:./accepted/463.island-perimeter.py
 [a467]:./accepted/467.unique-substrings-in-wraparound-string.py
 [a475]:./accepted/475.heaters.py
 [a476]:./accepted/476.number-complement.py
 [a485]:./accepted/485.max-consecutive-ones.py
+[a486]:./accepted/486.predict-the-winner.py
+[a492]:./accepted/492.construct-the-rectangle.py
 [a494-1]:./accepted/494.target-sum.py
 [a494-2]:./accepted/494.target-sum.2.py
 [a496]:./accepted/496.next-greater-element-i.py
-
 [a500]:./accepted/500.keyboard-row.py
 [a501]:./accepted/501.find-mode-in-binary-search-tree.py
 [a504]:./accepted/504.base-7.py
@@ -912,85 +948,47 @@
 [a507]:./accepted/507.perfect-number.py
 [a508]:./accepted/508.most-frequent-subtree-sum.py
 [a513]:./accepted/513.find-bottom-left-tree-value.py
+[a520]:./accepted/520.detect-capital.py 
 [a521]:./accepted/521.longest-uncommon-subsequence-i.py
 [a523]:./accepted/523.continuous-subarray-sum.py
 [a526]:./accepted/526.beautiful-arrangement.py
 [a530]:./accepted/530.minimum-absolute-difference-in-bst.py
+[a532-1]:./accepted/532.k-diff-pairs-in-an-array.py
+[a532-2]:./accepted/532.k-diff-pairs-in-an-array.2.py
+[a538]:./accepted/538.convert-bst-to-greater-tree.py
+[a541]:./accepted/541.reverse-string-ii.py 
+[a542]:./accepted/542.01-matrix.py 
+[a543]:./accepted/543.diameter-of-binary-tree.py
 [a547]:./accepted/547.friend-circles.py
 [a551]:./accepted/551.student-attendance-record-i.py
-[a567]:./accepted/567.permutation-in-string.py
-[a581]:./accepted/581.shortest-unsorted-continuous-subarray.py
-
-[a611]:./accepted/611.valid-triangle-number.py
-[a659]:./accepted/659.split-array-into-consecutive-subsequences.py
-[a492]:./accepted/492.construct-the-rectangle.py
-[a532-2]:./accepted/532.k-diff-pairs-in-an-array.2.py
-[a532-1]:./accepted/532.k-diff-pairs-in-an-array.py
-[a520]:./accepted/520.detect-capital.py 
-[a543]:./accepted/543.diameter-of-binary-tree.py
 [a557]:./accepted/557.reverse-words-in-a-string-iii.py
-[a463]:./accepted/463.island-perimeter.py
-[a541]:./accepted/541.reverse-string-ii.py 
-[a386]:./accepted/386.lexicographical-numbers.py
-[a538]:./accepted/538.convert-bst-to-greater-tree.py
-[a561-2]:./accepted/561.array-partition-i.2.py
 [a561-1]:./accepted/561.array-partition-i.py
-[a575]:./accepted/575.distribute-candies.py 
+[a561-2]:./accepted/561.array-partition-i.2.py
 [a563]:./accepted/563.binary-tree-tilt.py
-[a606]:./accepted/606.construct-string-from-binary-tree.py
-[a594]:./accepted/594.longest-harmonious-subsequence.py
 [a566]:./accepted/566.reshape-the-matrix.py
+[a567]:./accepted/567.permutation-in-string.py
+[a572]:./accepted/572.subtree-of-another-tree.py
+[a575]:./accepted/575.distribute-candies.py 
+[a581]:./accepted/581.shortest-unsorted-continuous-subarray.py
+[a594]:./accepted/594.longest-harmonious-subsequence.py
+[a598]:./accepted/598.range-addition-ii.py
 [a599]:./accepted/599.minimum-index-sum-of-two-lists.py
 [a605]:./accepted/605.can-place-flowers.py 
-[a628]:./accepted/628.maximum-product-of-three-numbers.py
+[a606]:./accepted/606.construct-string-from-binary-tree.py
+[a611]:./accepted/611.valid-triangle-number.py
 [a617]:./accepted/617.merge-two-binary-trees.py
-[a662]:./accepted/662.maximum-width-of-binary-tree.py
-[a572]:./accepted/572.subtree-of-another-tree.py
-[a653]:./accepted/653.two-sum-iv-input-is-a-bst.py
-[a658]:./accepted/658.find-k-closest-elements.py
-[a402]:./accepted/402.remove-k-digits.py
-[a661]:./accepted/661.image-smoother.py 
-[a598]:./accepted/598.range-addition-ii.py
-[a645]:./accepted/645.set-mismatch.py
-[a643]:./accepted/643.maximum-average-subarray-i.py
-[a657]:./accepted/657.judge-route-circle.py
+[a623]:./accepted/623.add-one-row-to-tree.py
+[a628]:./accepted/628.maximum-product-of-three-numbers.py
 [a632]:./accepted/632.smallest-range.py 
 [a633]:./accepted/633.sum-of-square-numbers.py 
 [a637]:./accepted/637.average-of-levels-in-binary-tree.py
-[a004]:./accepted/004.median-of-two-sorted-arrays.py 
-[a380]:./accepted/380.insert-delete-getrandom-o1.py
-[a381]:./accepted/381.insert-delete-getrandom-o1-duplicates-allowed.py
-[a188-2]:./accepted/188.best-time-to-buy-and-sell-stock-iv.2.py 
-[a188-1]:./accepted/188.best-time-to-buy-and-sell-stock-iv.py 
-[a140]:./accepted/140.word-break-ii.py
-[a044]:./accepted/044.wildcard-matching.py
-[a051]:./accepted/051.n-queens.py
-[a052]:./accepted/052.n-queens-ii.py
-[a093]:./accepted/093.restore-ip-addresses.py
-[a274]:./accepted/274.h-index.py
-[a275]:./accepted/275.h-index-ii.py
-[a087]:./accepted/087.scramble-string.py
-[a097-1]:./accepted/097.interleaving-string.py
-[a097-2]:./accepted/097.interleaving-string.dfs.py
-[a146]:./accepted/146.lru-cache.py
-[a065]:./accepted/065.valid-number.py
-[a131]:./accepted/131.palindrome-partitioning.py
-[a135]:./accepted/135.candy.py
-[a623]:./accepted/623.add-one-row-to-tree.py
-[a648]:./accepted/648.replace-words.py
-[a068]:./accepted/068.text-justification.py
-[a149]:./accepted/149.max-points-on-a-line.py
-[a297]:./accepted/297.serialize-and-deserialize-binary-tree.py
-[a337-2]:./accepted/337.house-robber-iii.dfs.py
-[a337-1]:./accepted/337.house-robber-iii.py
-[a542]:./accepted/542.01-matrix.py 
-[a212]:./accepted/212.word-search-ii.py
-[a295]:./accepted/295.find-median-from-data-stream.py 
-[a341]:./accepted/341.flatten-nested-list-iterator.py
+[a643]:./accepted/643.maximum-average-subarray-i.py
+[a645]:./accepted/645.set-mismatch.py
 [a647]:./accepted/647.palindromic-substrings.py
-[a398]:./accepted/398.random-pick-index.py
-[a384]:./accepted/384.shuffle-an-array.py
-[a382-1]:./accepted/382.linked-list-random-node.py
-[a382-2]:./accepted/382.linked-list-random-node.2.py
-[a307]:./accepted/307.range-sum-query-mutable.py
-[a304]:./accepted/304.range-sum-query-2d-immutable.py
+[a648]:./accepted/648.replace-words.py
+[a653]:./accepted/653.two-sum-iv-input-is-a-bst.py
+[a657]:./accepted/657.judge-route-circle.py
+[a658]:./accepted/658.find-k-closest-elements.py
+[a659]:./accepted/659.split-array-into-consecutive-subsequences.py
+[a661]:./accepted/661.image-smoother.py 
+[a662]:./accepted/662.maximum-width-of-binary-tree.py
