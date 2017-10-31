@@ -159,7 +159,7 @@
 |[:o:][a459]|459| Repeated Substring Pattern                                   |Easy   |
 |           |456| 132 Pattern                                                  |Medium |
 |[:o:][a455]|455| Assign Cookies                                               |Easy   |
-|           |454| 4Sum II                                                      |Medium |
+|[:o:][a454]|454| 4Sum II                                                      |Medium |
 |[:o:][a453]|453| Minimum Moves to Equal Array Elements                        |Easy   |
 |           |452| Minimum Number of Arrows to Burst Balloons                   |Medium |
 |[:o:][a451]|451| Sort Characters By Frequency                                 |Medium |
@@ -316,7 +316,7 @@
 |[:o:][a292]|292| Nim Game                                                     |Easy   |
 |  :lock:   |291| Word Pattern II                                              |Hard   |
 |[:o:][a290]|290| Word Pattern                                                 |Easy   |
-|           |289| Game of Life                                                 |Medium |
+|[:one:][a289-1][:two:][a289-2]|289| Game of Life                                                 |Medium |
 |  :lock:   |288| Unique Word Abbreviation                                     |Medium |
 |[:one:][a287-1][:two:][a287-2]|287| Find the Duplicate Number                                    |Medium |
 |  :lock:   |286| Walls and Gates                                              |Medium |
@@ -359,9 +359,9 @@
 |  :lock:   |248| Strobogrammatic Number III                                   |Hard   |
 |  :lock:   |247| Strobogrammatic Number II                                    |Medium |
 |  :lock:   |246| Strobogrammatic Number                                       |Easy   |
-|  :lock:   |245| Shortest Word Distance III                                   |Medium |
-|  :lock:   |244| Shortest Word Distance II                                    |Medium |
-|  :lock:   |243| Shortest Word Distance                                       |Easy   |
+|:lock: [:o:][a245]|245| Shortest Word Distance III                                   |Medium |
+|:lock: [:o:][a244]|244| Shortest Word Distance II                                    |Medium |
+|:lock: [:o:][a243]|243| Shortest Word Distance                                       |Easy   |
 |[:o:][a242]|242| Valid Anagram                                                |Easy   |
 |           |241| Different Ways to Add Parentheses                            |Medium |
 |[:o:][a240]|240| Search a 2D Matrix II                                        |Medium |
@@ -427,7 +427,7 @@
 |           |164| Maximum Gap                                                  |Hard   |
 |  :lock:   |163| Missing Ranges                                               |Medium |
 |[:o:][a162]|162| Find Peak Element                                            |Medium |
-|  :lock:   |161| One Edit Distance                                            |Medium |
+|:lock:[:o:][a161]|161| One Edit Distance                                            |Medium |
 |[:o:][a160]|160| Intersection of Two Linked Lists                             |Easy   |
 |  :lock:   |159| Longest Substring with At Most Two Distinct Characters       |Hard   |
 |  :lock:   |158| Read N Characters Given Read4 II - Call multiple times       |Hard   |
@@ -992,3 +992,10 @@
 [a659]:./accepted/659.split-array-into-consecutive-subsequences.py
 [a661]:./accepted/661.image-smoother.py 
 [a662]:./accepted/662.maximum-width-of-binary-tree.py
+[a454]:./accepted/454.4sum-ii.py
+[a289-1]:./accepted/289.game-of-life.py 
+[a289-2]:./accepted/289.game-of-life.2.py 
+[a243]:./accepted/243.shortest-word-distance.py
+[a244]:./accepted/244.shortest-word-distance-ii.py
+[a245]:./accepted/245.shortest-word-distance-iii.py
+[a161]:./accepted/161.one-edit-distance.py

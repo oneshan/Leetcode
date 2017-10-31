@@ -1,5 +1,39 @@
 # Log
 
+## 2017.10.31
+
+161.one-edit-distance.py
+> - ✔ 131/131 cases passed (32 ms)
+> - ✔ Your runtime beats 90.67 % of python submissions
+> - Corner case: zero edit, 'a' & 'ac'
+
+243.shortest-word-distance.py
+> - ✔ 26/26 cases passed (39 ms)
+> - ✔ Your runtime beats 97.02 % of python submissions
+> - Two pointer
+
+244.shortest-word-distance-ii.py
+> - ✔ 12/12 cases passed (82 ms)
+> - ✔ Your runtime beats 96.36 % of python submissions
+> - HashTable + Two pointer
+
+245.shortest-word-distance-iii.py
+> - ✔ 39/39 cases passed (39 ms)
+> - ✔ Your runtime beats 98.01 % of python submissions
+
+## 2017.10.12
+
+289.game-of-life.py
+> - ✔ 22/22 cases passed (36 ms)   // follow-up 1
+> - ✔ Your runtime beats 66.67 % of python submissions
+> - ✔ 22/22 cases passed (35 ms)  // follow-up 2
+> - ✔ Your runtime beats 77.86 % of python submissions
+
+454.4sum-ii.py 
+> - ✔ 48/48 cases passed (512 ms)
+> - ✔ Your runtime beats 76.03 % of python submissions
+> - HashTable, a+b+c+d = 0 -> table[a+b] = table[-c-d]
+
 ## 2017.10.11
 
 392.is-subsequence.py
