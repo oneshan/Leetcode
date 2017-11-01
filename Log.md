@@ -2,6 +2,26 @@
 
 ## 2017.10.31
 
+319.bulb-switcher.py
+> - ✔ 35/35 cases passed (26 ms)
+> - ✔ Your runtime beats 96.12 % of python submissions
+> - Only perfect square number are on after n rounds. So we just find sqrt(n).
+
+660.remove-9.py
+> - ✔ 102/102 cases passed (48 ms)
+> - ✔ Your runtime beats 0 % of python submissions
+> - base nine number system
+
+582.kill-process.py
+> - ✔ 166/166 cases passed (408 ms)
+> - ✔ Your runtime beats 24.53 % of python submissions
+> - Hashtable + DFS
+
+362.design-hit-counter.py 
+> - ✔ 24/24 cases passed (32 ms)
+> - ✔ Your runtime beats 67.18 % of python submissions
+> - bucket
+
 161.one-edit-distance.py
 > - ✔ 131/131 cases passed (32 ms)
 > - ✔ Your runtime beats 90.67 % of python submissions

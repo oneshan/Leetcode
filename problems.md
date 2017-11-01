@@ -6,7 +6,7 @@
 |           |663| Equal Tree Partition                                         |Medium |
 |[:o:][a662]|662| Maximum Width of Binary Tree                                 |Medium |
 |[:o:][a661]|661| Image Smoother                                               |Easy   |
-|           |660| Remove 9                                                     |Hard   |
+|[:o:][a660]|660| Remove 9                                                     |Hard   |
 |[:o:][a659]|659| Split Array into Consecutive Subsequences                    |Medium |
 |[:o:][a658]|658| Find K Closest Elements                                      |Medium |
 |[:o:][a657]|657| Judge Route Circle                                           |Easy   |
@@ -59,7 +59,7 @@
 |  :lock:   |588| Design In-Memory File System                                 |Hard   |
 |           |587| Erect the Fence                                              |Hard   |
 |           |583| Delete Operation for Two Strings                             |Medium |
-|  :lock:   |582| Kill Process                                                 |Medium |
+|:lock:[:o:][a582]|582| Kill Process                                                 |Medium |
 |[:o:][a581]|581| Shortest Unsorted Continuous Subarray                        |Easy   |
 |           |576| Out of Boundary Paths                                        |Hard   |
 |[:o:][a575]|575| Distribute Candies                                           |Easy   |
@@ -243,7 +243,7 @@
 |[:o:][a365]|365| Water and Jug Problem                                        |Medium |
 |  :lock:   |364| Nested List Weight Sum II                                    |Medium |
 |           |363| Max Sum of Rectangle No Larger Than K                        |Hard   |
-|  :lock:   |362| Design Hit Counter                                           |Medium |
+|:lock:[:o:][a362]|362| Design Hit Counter                                           |Medium |
 |  :lock:   |361| Bomb Enemy                                                   |Medium |
 |  :lock:   |360| Sort Transformed Array                                       |Medium |
 |  :lock:   |359| Logger Rate Limiter                                          |Easy   |
@@ -286,7 +286,7 @@
 |[:o:][a322]|322| Coin Change                                                  |Medium |
 |           |321| Create Maximum Number                                        |Hard   |
 |  :lock:   |320| Generalized Abbreviation                                     |Medium |
-|           |319| Bulb Switcher                                                |Medium |
+|[:o:][a319]|319| Bulb Switcher                                                |Medium |
 |[:o:][a318]|318| Maximum Product of Word Lengths                              |Medium |
 |  :lock:   |317| Shortest Distance from All Buildings                         |Hard   |
 |           |316| Remove Duplicate Letters                                     |Hard   |
@@ -999,3 +999,7 @@
 [a244]:./accepted/244.shortest-word-distance-ii.py
 [a245]:./accepted/245.shortest-word-distance-iii.py
 [a161]:./accepted/161.one-edit-distance.py
+[a362]:./accepted/362.design-hit-counter.py
+[a582]:./accepted/582.kill-process.py
+[a660]:./accepted/660.remove-9.py
+[a319]:./accepted/319.bulb-switcher.py
