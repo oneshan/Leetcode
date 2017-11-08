@@ -348,17 +348,17 @@
 |  :lock:   |259| 3Sum Smaller                                                 |Medium |
 |[:one:][a258-1][:two:][a258-2]|258| Add Digits                                                   |Easy   |
 |[:o:][a257]|257| Binary Tree Paths                                            |Easy   |
-|  :lock:   |256| Paint House                                                  |Easy   |
+|:lock:[:o:][a256]|256| Paint House                                                  |Easy   |
 |  :lock:   |255| Verify Preorder Sequence in Binary Search Tree               |Medium |
 |  :lock:   |254| Factor Combinations                                          |Medium |
 |  :lock:   |253| Meeting Rooms II                                             |Medium |
 |  :lock:   |252| Meeting Rooms                                                |Easy   |
 |  :lock:   |251| Flatten 2D Vector                                            |Medium |
 |  :lock:   |250| Count Univalue Subtrees                                      |Medium |
-|  :lock:   |249| Group Shifted Strings                                        |Medium |
-|  :lock:   |248| Strobogrammatic Number III                                   |Hard   |
-|  :lock:   |247| Strobogrammatic Number II                                    |Medium |
-|  :lock:   |246| Strobogrammatic Number                                       |Easy   |
+|:lock: [:o:][a249]|249| Group Shifted Strings                                        |Medium |
+|:lock: [:o:][a248]|248| Strobogrammatic Number III                                   |Hard   |
+|:lock: [:o:][a247]|247| Strobogrammatic Number II                                    |Medium |
+|:lock: [:o:][a246]|246| Strobogrammatic Number                                       |Easy   |
 |:lock: [:o:][a245]|245| Shortest Word Distance III                                   |Medium |
 |:lock: [:o:][a244]|244| Shortest Word Distance II                                    |Medium |
 |:lock: [:o:][a243]|243| Shortest Word Distance                                       |Easy   |
@@ -412,20 +412,20 @@
 |[:o:][a189]|189| Rotate Array                                                 |Easy   |
 |[:o:][a188-1][:o:][a188-2]|188| Best Time to Buy and Sell Stock IV                           |Hard   |
 |[:one:][a187-1][:two:][a187-2]|187| Repeated DNA Sequences                                       |Medium |
-|  :lock:   |186| Reverse Words in a String II                                 |Medium |
+|:lock:[:o:][a186]|186| Reverse Words in a String II                                 |Medium |
 |[:o:][a179]|179| Largest Number                                               |Medium |
 |[:o:][a174]|174| Dungeon Game                                                 |Hard   |
 |[:o:][a173]|173| Binary Search Tree Iterator                                  |Medium |
 |[:o:][a172]|172| Factorial Trailing Zeroes                                    |Easy   |
 |[:one:][a171-1][:two:][a171-2]|171| Excel Sheet Column Number                                    |Easy   |
-|  :lock:   |170| Two Sum III - Data structure design                          |Easy   |
+|:lock:[:o:][a170]|170| Two Sum III - Data structure design                          |Easy   |
 |[:o:][a169]|169| Majority Element                                             |Easy   |
 |[:o:][a168]|168| Excel Sheet Column Title                                     |Easy   |
 |[:one:][a167-1][:two:][a167-2]|167| Two Sum II - Input array is sorted                           |Easy   |
 |[:o:][a166]|166| Fraction to Recurring Decimal                                |Medium |
 |[:o:][a165]|165| Compare Version Numbers                                      |Medium |
 |           |164| Maximum Gap                                                  |Hard   |
-|  :lock:   |163| Missing Ranges                                               |Medium |
+|:lock:[:o:][a163]|163| Missing Ranges                                               |Medium |
 |[:o:][a162]|162| Find Peak Element                                            |Medium |
 |:lock:[:o:][a161]|161| One Edit Distance                                            |Medium |
 |[:o:][a160]|160| Intersection of Two Linked Lists                             |Easy   |
@@ -1003,3 +1003,11 @@
 [a582]:./accepted/582.kill-process.py
 [a660]:./accepted/660.remove-9.py
 [a319]:./accepted/319.bulb-switcher.py
+[a246]:./accepted/246.strobogrammatic-number.py
+[a247]:./accepted/247.strobogrammatic-number-ii.py
+[a248]:./accepted/248.strobogrammatic-number-iii.py
+[a249]:./accepted/249.group-shifted-strings.py
+[a163]:./accepted/163.missing-ranges.py
+[a170]:./accepted/170.two-sum-iii-data-structure-design.py
+[a186]:./accepted/186.reverse-words-in-a-string-ii.py
+[a256]:./accepted/256.paint-house.py

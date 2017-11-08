@@ -1,5 +1,41 @@
 # Log
 
+## 2017.11.08
+
+163.missing-ranges.py
+> - ✔ 40/40 cases passed (28 ms)
+> - ✔ Your runtime beats 91.31 % of python submissions
+
+170.two-sum-iii-data-structure-design.py
+> - ✔ 16/16 cases passed (449 ms)
+> - ✔ Your runtime beats 66.67 % of python submissions
+
+186.reverse-words-in-a-string-ii.py 
+> - ✔ 18/18 cases passed (465 ms)
+> - ✔ Your runtime beats 16.81 % of python submissions
+
+256.paint-house.py 
+> - ✔ 101/101 cases passed (42 ms)
+> - ✔ Your runtime beats 50.78 % of python submissions
+
+## 2017.11.07
+
+249.group-shifted-strings.py 
+> - ✔ 23/23 cases passed (39 ms)
+> - ✔ Your runtime beats 97.48 % of python submissions
+
+248.strobogrammatic-number-iii.py
+> - ✔ 16/16 cases passed (422 ms)
+> - DFS
+
+246.strobogrammatic-number.py
+> - ✔ 47/47 cases passed (26 ms)
+
+247.strobogrammatic-number-ii.py
+> - ✔ 13/13 cases passed (289 ms)
+> - ✔ Your runtime beats 51.64 % of python submissions
+> - DFS
+
 ## 2017.10.31
 
 319.bulb-switcher.py
