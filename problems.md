@@ -2,6 +2,56 @@
 
 |           | # | Title                                                        | Difficulty|
 |-----------|---|--------------------------------------------------------------|-------|
+|:lock:     |723| Candy Crush                                                  |Medium  |
+|	        |722| Remove Comments                                              |Medium  |
+|	        |721| Accounts Merge                                               |Medium  |
+|	        |720| Longest Word in Dictionary                                   |Easy    |
+|	        |719| Find K-th Smallest Pair Distance                             |Hard    |
+|	        |718| Maximum Length of Repeated Subarray                          |Medium  |
+|	        |717| 1-bit and 2-bit Characters                                   |Easy    |
+|:lock:     |716| Max Stack                                                    |Easy    |
+|	        |715| Range Module                                                 |Hard    |
+|	        |714| Best Time to Buy and Sell Stock with Transaction Fee         |Medium  |
+|	        |713| Subarray Product Less Than K                                 |Medium  |
+|	        |712| Minimum ASCII Delete Sum for Two Strings                     |Medium  |
+|:lock:     |711| Number of Distinct Islands II                                |Hard    |
+|	        |699| Falling Squares                                              |Hard    |
+|	        |698| Partition to K Equal Sum Subsets                             |Medium  |
+|	        |697| Degree of an Array                                           |Easy    |
+|	        |696| Count Binary Substrings                                      |Easy    |
+|	        |695| Max Area of Island                                           |Easy    |
+|:lock:     |694| Number of Distinct Islands                                   |Medium  |
+|	        |693| Binary Number with Alternating Bits                          |Easy    |
+|  	        |692| Top K Frequent Words                                         |Medium  |
+|  	        |691| Stickers to Spell Word                                       |Hard    |
+|	        |690| Employee Importance                                          |Easy    |
+|	        |689| Maximum Sum of 3 Non-Overlapping Subarrays                   |Hard    |
+|	        |688| Knight Probability in Chessboard                             |Medium  |
+|	        |687| Longest Univalue Path                                        |Easy    |
+|	        |686| Repeated String Match                                        |Easy    |
+|	        |685| Redundant Connection II                                      |Hard    |
+|	        |684| Redundant Connection                                         |Medium  |
+|:lock:     |683| K Empty Slots                                                |Hard    |
+|	        |682| Baseball Game                                                |Easy    |
+|:lock:[:o:][a681]|681| Next Closest Time                                      |Medium  |
+|	        |680| Valid Palindrome II                                          |Easy    |
+|	        |679| 24 Game                                                      |Hard    |
+|	        |678| Valid Parenthesis String                                     |Medium  |
+|	        |677| Map Sum Pairs                                                |Medium  |
+|	        |676| Implement Magic Dictionary                                   |Medium  |
+|	        |675| Cut Off Trees for Golf Event                                 |Hard    |
+|	        |674| Longest Continuous Increasing Subsequence                    |Easy    |
+|	        |673| Number of Longest Increasing Subsequence                     |Medium  |
+|	        |672| Bulb Switcher II                                             |Medium  |
+|	        |671| Second Minimum Node In a Binary Tree                         |Easy    |
+|	        |670| Maximum Swap                                                 |Medium  |
+|	        |669| Trim a Binary Search Tree                                    |Easy    |
+|	        |668| Kth Smallest Number in Multiplication Table                  |Hard    |
+|	        |667| Beautiful Arrangement II                                     |Medium  |
+|:lock:     |666| Path Sum IV                                                  |Medium  |
+|	        |665| Non-decreasing Array                                         |Easy    |
+|	        |664| Strange Printer                                              |Hard    |
+|:lock:     |663| Equal Tree Partition                                         |Medium  |
 |           |664| Strange Printer                                              |Hard   |
 |           |663| Equal Tree Partition                                         |Medium |
 |[:o:][a662]|662| Maximum Width of Binary Tree                                 |Medium |
@@ -15,7 +65,7 @@
 |           |654| Maximum Binary Tree                                          |Medium |
 |[:o:][a653]|653| Two Sum IV - Input is a BST                                  |Easy   |
 |           |652| Find Duplicate Subtrees                                      |Medium |
-|  :lock:   |651| 4 Keys Keyboard                                              |Medium |
+|:lock: [:o:][a651]|651| 4 Keys Keyboard                                              |Medium |
 |           |650| 2 Keys Keyboard                                              |Medium |
 |           |649| Dota2 Senate                                                 |Medium |
 |[:o:][a648]|648| Replace Words                                                |Medium |
@@ -48,7 +98,7 @@
 |           |609| Find Duplicate File in System                                |Medium |
 |[:o:][a606]|606| Construct String from Binary Tree                            |Easy   |
 |[:o:][a605]|605| Can Place Flowers                                            |Easy   |
-|  :lock:   |604| Design Compressed String Iterator                            |Easy   |
+|:lock: [:o:][a604]|604| Design Compressed String Iterator                            |Easy   |
 |           |600| Non-negative Integers without Consecutive Ones               |Hard   |
 |[:o:][a599]|599| Minimum Index Sum of Two Lists                               |Easy   |
 |[:o:][a598]|598| Range Addition II                                            |Easy   |
@@ -86,7 +136,7 @@
 |[:o:][a547]|547| Friend Circles                                               |Medium |
 |           |546| Remove Boxes                                                 |Hard   |
 |  :lock:   |545| Boundary of Binary Tree                                      |Medium |
-|  :lock:   |544| Output Contest Matches                                       |Medium |
+|:lock: [:o:][a544]|544| Output Contest Matches                                       |Medium |
 |[:o:][a543]|543| Diameter of Binary Tree                                      |Easy   |
 |[:o:][a542]|542| 01 Matrix                                                    |Medium |
 |[:o:][a541]|541| Reverse String II                                            |Easy   |
@@ -97,7 +147,7 @@
 |           |535| Encode and Decode TinyURL                                    |Medium |
 |  :lock:   |533| Lonely Pixel II                                              |Medium |
 |[:one:][a532-1][:two:][a532-2]|532| K-diff Pairs in an Array                                     |Easy   |
-|  :lock:   |531| Lonely Pixel I                                               |Medium |           |530| Minimum Absolute Difference in BST                           |Easy   |
+|:lock: [:o:][a531]|531| Lonely Pixel I                                               |Medium |           |530| Minimum Absolute Difference in BST                           |Easy   |
 |[:o:][a530]|530| Minimum Absolute Difference in BST                           |Easy   |
 |  :lock:   |527| Word Abbreviation                                            |Hard   |
 |[:o:][a526]|526| Beautiful Arrangement                                        |Medium |
@@ -115,7 +165,7 @@
 |[:o:][a508]|508| Most Frequent Subtree Sum                                    |Medium |
 |[:o:][a507]|507| Perfect Number                                               |Easy   |
 |[:o:][a506]|506| Relative Ranks                                               |Easy   |
-|  :lock:   |505| The Maze II                                                  |Medium |
+|:lock: [:o:][a505]|505| The Maze II                                                  |Medium |
 |[:o:][a504]|504| Base 7                                                       |Easy   |
 |           |503| Next Greater Element II                                      |Medium |
 |           |502| IPO                                                          |Hard   |
@@ -129,12 +179,12 @@
 |           |493| Reverse Pairs                                                |Hard   |
 |[:o:][a492]|492| Construct the Rectangle                                      |Easy   |
 |           |491| Increasing Subsequences                                      |Medium |
-|  :lock:   |490| The Maze                                                     |Medium |
+|:lock: [:o:][a490]|490| The Maze                                                     |Medium |
 |           |488| Zuma Game                                                    |Hard   |
-|  :lock:   |487| Max Consecutive Ones II                                      |Medium |
+|:lock: [:o:][a487]|487| Max Consecutive Ones II                                      |Medium |
 |[:o:][a486]|486| Predict the Winner                                           |Medium |
 |[:o:][a485]|485| Max Consecutive Ones                                         |Easy   |
-|  :lock:   |484| Find Permutation                                             |Medium |
+|:lock: [:o:][a484]|484| Find Permutation                                             |Medium |
 |           |483| Smallest Good Base                                           |Hard   |
 |           |482| License Key Formatting                                       |Medium |
 |           |481| Magical String                                               |Medium |
@@ -146,7 +196,7 @@
 |           |473| Matchsticks to Square                                        |Medium |
 |           |472| Concatenated Words                                           |Hard   |
 |  :lock:   |471| Encode String with Shortest Length                           |Hard   |
-|  :lock:   |469| Convex Polygon                                               |Medium |
+|:lock: [:o:][a469]|469| Convex Polygon                                               |Medium |
 |           |468| Validate IP Address                                          |Medium |
 |[:o:][a467]|467| Unique Substrings in Wraparound String                       |Medium |
 |           |466| Count The Repetitions                                        |Hard   |
@@ -187,7 +237,7 @@
 |           |421| Maximum XOR of Two Numbers in an Array                       |Medium |
 |           |420| Strong Password Checker                                      |Hard   |
 |           |419| Battleships in a Board                                       |Medium |
-|  :lock:   |418| Sentence Screen Fitting                                      |Medium |
+|:lock: [:o:][a418]|418| Sentence Screen Fitting                                      |Medium |
 |           |417| Pacific Atlantic Water Flow                                  |Medium |
 |[:o:][a416]|416| Partition Equal Subset Sum                                   |Medium |
 |[:o:][a415]|415| Add Strings                                                  |Easy   |
@@ -197,7 +247,7 @@
 |  :lock:   |411| Minimum Unique Word Abbreviation                             |Hard   |
 |           |410| Split Array Largest Sum                                      |Hard   |
 |[:o:][a409]|409| Longest Palindrome                                           |Easy   |
-|  :lock:   |408| Valid Word Abbreviation                                      |Easy   |
+|:lock:[:one:][a408-1][:two:][a408-2]|408| Valid Word Abbreviation                                      |Easy   |
 |           |407| Trapping Rain Water II                                       |Hard   |
 |           |406| Queue Reconstruction by Height                               |Medium |
 |[:o:][a405]|405| Convert a Number to Hexadecimal                              |Easy   |
@@ -226,7 +276,7 @@
 |[:one:][a382-1][:two:][a382-2]|382| Linked List Random Node                                      |Medium |
 |[:o:][a381]|381| Insert Delete GetRandom O(1)                                 |Medium |
 |[:o:][a380]|380| Insert Delete GetRandom O(1) - Duplicates allowed            |Hard   |
-|  :lock:   |379| Design Phone Directory                                       |Medium |
+|:lock: [:one:][a379-1][:two:][a379-2]|379| Design Phone Directory                                       |Medium |
 |           |378| Kth Smallest Element in a Sorted Matrix                      |Medium |
 |[:o:][a377]|377| Combination Sum IV                                           |Medium |
 |           |376| Wiggle Subsequence                                           |Medium |
@@ -235,8 +285,8 @@
 |[:one:][a373-1][:two:][a373-2]|373| Find K Pairs with Smallest Sums                              |Medium |
 |[:o:][a372]|372| Super Pow                                                    |Medium |
 |[:o:][a371]|371| Sum of Two Integers                                          |Easy   |
-|  :lock:   |370| Range Addition                                               |Medium |
-|  :lock:   |369| Plus One Linked List                                         |Medium |
+|:lock: [:o:][a370]|370| Range Addition                                               |Medium |
+|:lock: [:o:][a369]|369| Plus One Linked List                                         |Medium |
 |[:o:][a368]|368| Largest Divisible Subset                                     |Medium |
 |[:o:][a367]|367| Valid Perfect Square                                         |Easy   |
 |  :lock:   |366| Find Leaves of Binary Tree                                   |Medium |
@@ -244,12 +294,12 @@
 |  :lock:   |364| Nested List Weight Sum II                                    |Medium |
 |           |363| Max Sum of Rectangle No Larger Than K                        |Hard   |
 |:lock:[:o:][a362]|362| Design Hit Counter                                           |Medium |
-|  :lock:   |361| Bomb Enemy                                                   |Medium |
-|  :lock:   |360| Sort Transformed Array                                       |Medium |
-|  :lock:   |359| Logger Rate Limiter                                          |Easy   |
-|  :lock:   |358| Rearrange String k Distance Apart                            |Hard   |
+|:lock: [:o:][a361]|361| Bomb Enemy                                                   |Medium |
+|:lock: [:o:][a360]|360| Sort Transformed Array                                       |Medium |
+|:lock: [:o:][a359]|359| Logger Rate Limiter                                          |Easy   |
+|:lock: [:o:][a358]|358| Rearrange String k Distance Apart                            |Hard   |
 |[:o:][a357]|357| Count Numbers with Unique Digits                             |Medium |
-|  :lock:   |356| Line Reflection                                              |Medium |
+|:lock: [:o:][a356]|356| Line Reflection                                              |Medium |
 |[:o:][a355]|355| Design Twitter                                               |Medium |
 |[:o:][a354]|354| Russian Doll Envelopes                                       |Hard   |
 |  :lock:   |353| Design Snake Game                                            |Medium |
@@ -259,7 +309,7 @@
 |[:o:][a349]|349| Intersection of Two Arrays                                   |Easy   |
 |  :lock:   |348| Design Tic-Tac-Toe                                           |Medium |
 |[:one:][a347-1][:two:][a347-2]|347| Top K Frequent Elements                                      |Medium |
-|  :lock:   |346| Moving Average from Data Stream                              |Easy   |
+|:lock: [:o:][a346]|346| Moving Average from Data Stream                              |Easy   |
 |[:o:][a345]|345| Reverse Vowels of a String                                   |Easy   |
 |[:o:][a344]|344| Reverse String                                               |Easy   |
 |[:one:][a343-1][:two:][a343-2]|343| Integer Break                                                |Medium |
@@ -282,7 +332,7 @@
 |[:one:][a326-1][:two:][a326-2][:three:][a326-3]|326| Power of Three                                               |Easy   |
 |  :lock:   |325| Maximum Size Subarray Sum Equals k                           |Medium |
 |           |324| Wiggle Sort II                                               |Medium |
-|  :lock:   |323| Number of Connected Components in an Undirected Graph        |Medium |
+|:lock: [:o:][a323]|323| Number of Connected Components in an Undirected Graph        |Medium |
 |[:o:][a322]|322| Coin Change                                                  |Medium |
 |           |321| Create Maximum Number                                        |Hard   |
 |  :lock:   |320| Generalized Abbreviation                                     |Medium |
@@ -291,7 +341,7 @@
 |  :lock:   |317| Shortest Distance from All Buildings                         |Hard   |
 |           |316| Remove Duplicate Letters                                     |Hard   |
 |           |315| Count of Smaller Numbers After Self                          |Hard   |
-|  :lock:   |314| Binary Tree Vertical Order Traversal                         |Medium |
+|:lock: [:o:][a314]|314| Binary Tree Vertical Order Traversal                         |Medium |
 |[:o:][a313]|313| Super Ugly Number                                            |Medium |
 |           |312| Burst Balloons                                               |Hard   |
 |  :lock:   |311| Sparse Matrix Multiplication                                 |Medium |
@@ -312,7 +362,7 @@
 |  :lock:   |296| Best Meeting Point                                           |Hard   |
 |[:o:][a295]|295| Find Median from Data Stream                                 |Hard   |
 |  :lock:   |294| Flip Game II                                                 |Medium |
-|  :lock:   |293| Flip Game                                                    |Easy   |
+|:lock: [:o:][a293]|293| Flip Game                                                    |Easy   |
 |[:o:][a292]|292| Nim Game                                                     |Easy   |
 |  :lock:   |291| Word Pattern II                                              |Hard   |
 |[:o:][a290]|290| Word Pattern                                                 |Easy   |
@@ -325,33 +375,33 @@
 |[:o:][a283]|283| Move Zeroes                                                  |Easy   |
 |           |282| Expression Add Operators                                     |Hard   |
 |  :lock:   |281| Zigzag Iterator                                              |Medium |
-|  :lock:   |280| Wiggle Sort                                                  |Medium |
+|:lock: [:one:][a280-1][:two:][a280-2]|280| Wiggle Sort                                                  |Medium |
 |[:one:][a279-1][:two:][a279-2][:three:][a279-3]|279| Perfect Squares                                              |Medium |
 |[:o:][a278]|278| First Bad Version                                            |Easy   |
 |  :lock:   |277| Find the Celebrity                                           |Medium |
-|  :lock:   |276| Paint Fence                                                  |Easy   |
+|:lock: [:o:][a276]|276| Paint Fence                                                  |Easy   |
 |[:o:][a275]|275| H-Index II                                                   |Medium |
 |[:o:][a274]|274| H-Index                                                      |Medium |
 |           |273| Integer to English Words                                     |Hard   |
 |  :lock:   |272| Closest Binary Search Tree Value II                          |Hard   |
 |  :lock:   |271| Encode and Decode Strings                                    |Medium |
-|  :lock:   |270| Closest Binary Search Tree Value                             |Easy   |
+|:lock: [:o:][a270]|270| Closest Binary Search Tree Value                             |Easy   |
 |  :lock:   |269| Alien Dictionary                                             |Hard   |
 |[:one:][a268-1][:two:][a268-2]|268| Missing Number                                               |Easy   |
 |  :lock:   |267| Palindrome Permutation II                                    |Medium |
-|  :lock:   |266| Palindrome Permutation                                       |Easy   |
+|:lock: [:o:][a266]|266| Palindrome Permutation                                       |Easy   |
 |  :lock:   |265| Paint House II                                               |Hard   |
 |[:o:][a264]|264| Ugly Number II                                               |Medium |
 |[:o:][a263]|263| Ugly Number                                                  |Easy   |
 |  :lock:   |261| Graph Valid Tree                                             |Medium |
 |[:o:][a260]|260| Single Number III                                            |Medium |
-|  :lock:   |259| 3Sum Smaller                                                 |Medium |
+|:lock: [:o:][a259]|259| 3Sum Smaller                                                 |Medium |
 |[:one:][a258-1][:two:][a258-2]|258| Add Digits                                                   |Easy   |
 |[:o:][a257]|257| Binary Tree Paths                                            |Easy   |
 |:lock:[:o:][a256]|256| Paint House                                                  |Easy   |
 |  :lock:   |255| Verify Preorder Sequence in Binary Search Tree               |Medium |
 |  :lock:   |254| Factor Combinations                                          |Medium |
-|  :lock:   |253| Meeting Rooms II                                             |Medium |
+|:lock: [:o:][a253]|253| Meeting Rooms II                                             |Medium |
 |  :lock:   |252| Meeting Rooms                                                |Easy   |
 |  :lock:   |251| Flatten 2D Vector                                            |Medium |
 |  :lock:   |250| Count Univalue Subtrees                                      |Medium |
@@ -1011,3 +1061,38 @@
 [a170]:./accepted/170.two-sum-iii-data-structure-design.py
 [a186]:./accepted/186.reverse-words-in-a-string-ii.py
 [a256]:./accepted/256.paint-house.py
+
+[a259]:./accepted/259.3sum-smaller.py
+[a266]:./accepted/266.palindrome-permutation.py
+[a270]:./accepted/270.closest-binary-search-tree-value.py
+[a276]:./accepted/276.paint-fence.py
+[a293]:./accepted/293.flip-game.py
+[a346]:./accepted/346.moving-average-from-data-stream.py
+[a408-1]:./accepted/408.valid-word-abbreviation.py
+[a408-2]:./accepted/408.valid-word-abbreviation.2.py
+[a418]:./accepted/418.sentence-screen-fitting.py
+[a469]:./accepted/469.convex-polygon.py
+[a681]:./accepted/681.next-closest-time.py
+
+[a604]:./accepted/604.design-compressed-string-iterator.py
+[a484]:./accepted/484.find-permutation.py
+[a370]:./accepted/370.range-addition.py
+[a361]:./accepted/361.bomb-enemy.py
+[a359]:./accepted/359.logger-rate-limiter.py
+[a360]:./accepted/360.sort-transformed-array.py
+[a356]:./accepted/356.line-reflection.py
+[a369]:./accepted/369.plus-one-linked-list.py
+[a490]:./accepted/490.the-maze.py
+[a379-2]:./accepted/379.design-phone-directory.2.py
+[a379-1]:./accepted/379.design-phone-directory.py
+[a531]:./accepted/531.lonely-pixel-i.py
+[a358]:./accepted/358.rearrange-string-k-distance-apart.py
+[a544]:./accepted/544.output-contest-matches.py
+[a651]:./accepted/651.4-keys-keyboard.py
+[a505]:./accepted/505.the-maze-ii.py
+[a314]:./accepted/314.binary-tree-vertical-order-traversal.py
+[a280-2]:./accepted/280.wiggle-sort.2.py
+[a280-1]:./accepted/280.wiggle-sort.py
+[a253]:./accepted/253.meeting-rooms-ii.py
+[a323]:./accepted/323.number-of-connected-components-in-an-undirected-graph.py
+[a487]:./accepted/487.max-consecutive-ones-ii.py
