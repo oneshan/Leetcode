@@ -31,7 +31,7 @@
 |	        |686| Repeated String Match                                        |Easy    |
 |	        |685| Redundant Connection II                                      |Hard    |
 |	        |684| Redundant Connection                                         |Medium  |
-|:lock:     |683| K Empty Slots                                                |Hard    |
+| :lock: [:o:][a683]|683| K Empty Slots                                                |Hard    |
 |	        |682| Baseball Game                                                |Easy    |
 |:lock:[:o:][a681]|681| Next Closest Time                                      |Medium  |
 |	        |680| Valid Palindrome II                                          |Easy    |
@@ -93,7 +93,7 @@
 |[:o:][a623]|623| Add One Row to Tree                                          |Medium |
 |           |621| Task Scheduler                                               |Medium |
 |[:o:][a617]|617| Merge Two Binary Trees                                       |Easy   |
-|  :lock:   |616| Add Bold Tag in String                                       |Medium |
+|:lock: [:one:][a616-1][:two:][a616-2]|616| Add Bold Tag in String                                       |Medium |
 |[:o:][a611]|611| Valid Triangle Number                                        |Medium |
 |           |609| Find Duplicate File in System                                |Medium |
 |[:o:][a606]|606| Construct String from Binary Tree                            |Easy   |
@@ -135,7 +135,7 @@
 |  :lock:   |548| Split Array with Equal Sum                                   |Medium |
 |[:o:][a547]|547| Friend Circles                                               |Medium |
 |           |546| Remove Boxes                                                 |Hard   |
-|  :lock:   |545| Boundary of Binary Tree                                      |Medium |
+|:lock: [:o:][a545]|545| Boundary of Binary Tree                                      |Medium |
 |:lock: [:o:][a544]|544| Output Contest Matches                                       |Medium |
 |[:o:][a543]|543| Diameter of Binary Tree                                      |Easy   |
 |[:o:][a542]|542| 01 Matrix                                                    |Medium |
@@ -233,7 +233,7 @@
 |  :lock:   |425| Word Squares                                                 |Hard   |
 |           |424| Longest Repeating Character Replacement                      |Medium |
 |[:o:][a423]|423| Reconstruct Original Digits from English                     |Medium |
-|  :lock:   |422| Valid Word Square                                            |Easy   |
+|:lock: [:o:][a422]|422| Valid Word Square                                            |Easy   |
 |           |421| Maximum XOR of Two Numbers in an Array                       |Medium |
 |           |420| Strong Password Checker                                      |Hard   |
 |           |419| Battleships in a Board                                       |Medium |
@@ -304,7 +304,7 @@
 |[:o:][a354]|354| Russian Doll Envelopes                                       |Hard   |
 |  :lock:   |353| Design Snake Game                                            |Medium |
 |           |352| Data Stream as Disjoint Intervals                            |Hard   |
-|  :lock:   |351| Android Unlock Patterns                                      |Medium |
+|:lock: [:o:][a351]|351| Android Unlock Patterns                                      |Medium |
 |[:one:][a350-1][:two:][a350-2]|350| Intersection of Two Arrays II                                |Easy   |
 |[:o:][a349]|349| Intersection of Two Arrays                                   |Easy   |
 |  :lock:   |348| Design Tic-Tac-Toe                                           |Medium |
@@ -315,7 +315,7 @@
 |[:one:][a343-1][:two:][a343-2]|343| Integer Break                                                |Medium |
 |[:one:][a342-1][:two:][a342-2]|342| Power of Four                                                |Easy   |
 |[:o:][a341]|341| Flatten Nested List Iterator                                 |Medium |
-|  :lock:   |340| Longest Substring with At Most K Distinct Characters         |Hard   |
+|:lock: [:one:][a340-1][:two:][a340-2]|340| Longest Substring with At Most K Distinct Characters         |Hard   |
 |  :lock:   |339| Nested List Weight Sum                                       |Easy   |
 |[:o:][a338]|338| Counting Bits                                                |Medium |
 |[:one:][a337-1][:two:][a337-2]|337| House Robber III                                             |Medium |
@@ -350,7 +350,7 @@
 |  :lock:   |308| Range Sum Query 2D - Mutable                                 |Hard   |
 |[:o:][a307]|307| Range Sum Query - Mutable                                    |Medium |
 |           |306| Additive Number                                              |Medium |
-|  :lock:   |305| Number of Islands II                                         |Hard   |
+|:lock: [:o:][a305]|305| Number of Islands II                                         |Hard   |
 |[:o:][a304]|304| Range Sum Query 2D - Immutable                               |Medium |
 |[:o:][a303]|303| Range Sum Query - Immutable                                  |Easy   |
 |  :lock:   |302| Smallest Rectangle Enclosing Black Pixels                    |Hard   |
@@ -367,7 +367,7 @@
 |  :lock:   |291| Word Pattern II                                              |Hard   |
 |[:o:][a290]|290| Word Pattern                                                 |Easy   |
 |[:one:][a289-1][:two:][a289-2]|289| Game of Life                                                 |Medium |
-|  :lock:   |288| Unique Word Abbreviation                                     |Medium |
+|:lock: [:o:][a288]|288| Unique Word Abbreviation                                     |Medium |
 |[:one:][a287-1][:two:][a287-2]|287| Find the Duplicate Number                                    |Medium |
 |  :lock:   |286| Walls and Gates                                              |Medium |
 |  :lock:   |285| Inorder Successor in BST                                     |Medium |
@@ -383,8 +383,8 @@
 |[:o:][a275]|275| H-Index II                                                   |Medium |
 |[:o:][a274]|274| H-Index                                                      |Medium |
 |           |273| Integer to English Words                                     |Hard   |
-|  :lock:   |272| Closest Binary Search Tree Value II                          |Hard   |
-|  :lock:   |271| Encode and Decode Strings                                    |Medium |
+|:lock: [:o:][a272]|272| Closest Binary Search Tree Value II                          |Hard   |
+|:lock: [:o:][a271]|271| Encode and Decode Strings                                    |Medium |
 |:lock: [:o:][a270]|270| Closest Binary Search Tree Value                             |Easy   |
 |  :lock:   |269| Alien Dictionary                                             |Hard   |
 |[:one:][a268-1][:two:][a268-2]|268| Missing Number                                               |Easy   |
@@ -393,7 +393,7 @@
 |  :lock:   |265| Paint House II                                               |Hard   |
 |[:o:][a264]|264| Ugly Number II                                               |Medium |
 |[:o:][a263]|263| Ugly Number                                                  |Easy   |
-|  :lock:   |261| Graph Valid Tree                                             |Medium |
+|:lock: [:o:][a261]|261| Graph Valid Tree                                             |Medium |
 |[:o:][a260]|260| Single Number III                                            |Medium |
 |:lock: [:o:][a259]|259| 3Sum Smaller                                                 |Medium |
 |[:one:][a258-1][:two:][a258-2]|258| Add Digits                                                   |Easy   |
@@ -479,7 +479,7 @@
 |[:o:][a162]|162| Find Peak Element                                            |Medium |
 |:lock:[:o:][a161]|161| One Edit Distance                                            |Medium |
 |[:o:][a160]|160| Intersection of Two Linked Lists                             |Easy   |
-|  :lock:   |159| Longest Substring with At Most Two Distinct Characters       |Hard   |
+|:lock: [:o:][a159]|159| Longest Substring with At Most Two Distinct Characters       |Hard   |
 |  :lock:   |158| Read N Characters Given Read4 II - Call multiple times       |Hard   |
 |  :lock:   |157| Read N Characters Given Read4                                |Easy   |
 |  :lock:   |156| Binary Tree Upside Down                                      |Medium |
@@ -1096,3 +1096,18 @@
 [a253]:./accepted/253.meeting-rooms-ii.py
 [a323]:./accepted/323.number-of-connected-components-in-an-undirected-graph.py
 [a487]:./accepted/487.max-consecutive-ones-ii.py
+[a272]:./accepted/272.closest-binary-search-tree-value-ii.py
+[a616-2]:./accepted/616.add-bold-tag-in-string.2.py
+[a616-1]:./accepted/616.add-bold-tag-in-string.py
+[a261]:./accepted/261.graph-valid-tree.py
+[a545]:./accepted/545.boundary-of-binary-tree.py
+[a683]:./accepted/683.k-empty-slots.py
+[a340-2]:./accepted/340.longest-substring-with-at-most-k-distinct-characters.2.py
+[a340-1]:./accepted/340.longest-substring-with-at-most-k-distinct-characters.py
+[a271]:./accepted/271.encode-and-decode-strings.py
+[a351]:./accepted/351.android-unlock-patterns.py
+[a288]:./accepted/288.unique-word-abbreviation.py
+
+[a305]:./accepted/305.number-of-islands-ii.py
+[a159]:./accepted/159.longest-substring-with-at-most-two-distinct-characters.py
+[a422]:./accepted/422.valid-word-square.py
