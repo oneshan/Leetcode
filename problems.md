@@ -115,7 +115,7 @@
 |[:o:][a575]|575| Distribute Candies                                           |Easy   |
 |  :lock:   |573| Squirrel Simulation                                          |Medium |
 |[:o:][a572]|572| Subtree of Another Tree                                      |Easy   |
-|  :lock:   |568| Maximum Vacation Days                                        |Hard   |
+|:lock: [:o:][a568]|568| Maximum Vacation Days                                        |Hard   |
 |[:o:][a567]|567| Permutation in String                                        |Medium |
 |[:o:][a566]|566| Reshape the Matrix                                           |Easy   |
 |           |565| Array Nesting                                                |Medium |
@@ -264,7 +264,7 @@
 |           |394| Decode String                                                |Medium |
 |[:o:][a393]|393| UTF-8 Validation                                             |Medium |
 |[:one:][a392-1][:two:][a392-2]|392| Is Subsequence                                               |Medium |
-|           |391| Perfect Rectangle                                            |Hard   |
+|[:o:][a391]|391| Perfect Rectangle                                            |Hard   |
 |           |390| Elimination Game                                             |Medium |
 |[:o:][a389]|389| Find the Difference                                          |Easy   |
 |           |388| Longest Absolute File Path                                   |Medium |
@@ -436,7 +436,7 @@
 |[:o:][a221]|221| Maximal Square                                               |Medium |
 |[:o:][a220]|220| Contains Duplicate III                                       |Medium |
 |[:o:][a219]|219| Contains Duplicate II                                        |Easy   |
-|           |218| The Skyline Problem                                          |Hard   |
+|[:o:][a218]|218| The Skyline Problem                                          |Hard   |
 |[:o:][a217]|217| Contains Duplicate                                           |Easy   |
 |[:o:][a216]|216| Combination Sum III                                          |Medium |
 |[:o:][a215]|215| Kth Largest Element in an Array                              |Medium |
@@ -1111,3 +1111,6 @@
 [a305]:./accepted/305.number-of-islands-ii.py
 [a159]:./accepted/159.longest-substring-with-at-most-two-distinct-characters.py
 [a422]:./accepted/422.valid-word-square.py
+[a568]:./accepted/568.maximum-vacation-days.py
+[a218]:./accepted/218.the-skyline-problem.py
+[a391]:./accepted/391.perfect-rectangle.py
