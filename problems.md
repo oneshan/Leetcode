@@ -30,7 +30,7 @@
 |	        |687| Longest Univalue Path                                        |Easy    |
 |	        |686| Repeated String Match                                        |Easy    |
 |	        |685| Redundant Connection II                                      |Hard    |
-|	        |684| Redundant Connection                                         |Medium  |
+|[:o:][a684]|684| Redundant Connection                                         |Medium  |
 | :lock: [:o:][a683]|683| K Empty Slots                                                |Hard    |
 |	        |682| Baseball Game                                                |Easy    |
 |:lock:[:o:][a681]|681| Next Closest Time                                      |Medium  |
@@ -186,8 +186,8 @@
 |[:o:][a485]|485| Max Consecutive Ones                                         |Easy   |
 |:lock: [:o:][a484]|484| Find Permutation                                             |Medium |
 |           |483| Smallest Good Base                                           |Hard   |
-|           |482| License Key Formatting                                       |Medium |
-|           |481| Magical String                                               |Medium |
+|[:o:][a482]|482| License Key Formatting                                       |Medium |
+|[:o:][a481]|481| Magical String                                               |Medium |
 |           |480| Sliding Window Median                                        |Hard   |
 |           |477| Total Hamming Distance                                       |Medium |
 |[:o:][a476]|476| Number Complement                                            |Easy   |
@@ -234,7 +234,7 @@
 |           |424| Longest Repeating Character Replacement                      |Medium |
 |[:o:][a423]|423| Reconstruct Original Digits from English                     |Medium |
 |:lock: [:o:][a422]|422| Valid Word Square                                            |Easy   |
-|           |421| Maximum XOR of Two Numbers in an Array                       |Medium |
+|[:o:][a421]|421| Maximum XOR of Two Numbers in an Array                       |Medium |
 |           |420| Strong Password Checker                                      |Hard   |
 |           |419| Battleships in a Board                                       |Medium |
 |:lock: [:o:][a418]|418| Sentence Screen Fitting                                      |Medium |
@@ -261,7 +261,7 @@
 |           |397| Integer Replacement                                          |Medium |
 |[:o:][a396]|396| Rotate Function                                              |Medium |
 |           |395| Longest Substring with At Least K Repeating Characters       |Medium |
-|           |394| Decode String                                                |Medium |
+|[:o:][a394]|394| Decode String                                                |Medium |
 |[:o:][a393]|393| UTF-8 Validation                                             |Medium |
 |[:one:][a392-1][:two:][a392-2]|392| Is Subsequence                                               |Medium |
 |[:o:][a391]|391| Perfect Rectangle                                            |Hard   |
@@ -321,7 +321,7 @@
 |[:one:][a337-1][:two:][a337-2]|337| House Robber III                                             |Medium |
 |           |336| Palindrome Pairs                                             |Hard   |
 |           |335| Self Crossing                                                |Hard   |
-|           |334| Increasing Triplet Subsequence                               |Medium |
+|[:o:][a334]|334| Increasing Triplet Subsequence                               |Medium |
 |  :lock:   |333| Largest BST Subtree                                          |Medium |
 |[:one:][a332-1][:two:][a332-2]|332| Reconstruct Itinerary                                        |Medium |
 |           |331| Verify Preorder Serialization of a Binary Tree               |Medium |
@@ -339,11 +339,11 @@
 |[:o:][a319]|319| Bulb Switcher                                                |Medium |
 |[:o:][a318]|318| Maximum Product of Word Lengths                              |Medium |
 |  :lock:   |317| Shortest Distance from All Buildings                         |Hard   |
-|           |316| Remove Duplicate Letters                                     |Hard   |
+|[:o:][a316]|316| Remove Duplicate Letters                                     |Hard   |
 |           |315| Count of Smaller Numbers After Self                          |Hard   |
 |:lock: [:o:][a314]|314| Binary Tree Vertical Order Traversal                         |Medium |
 |[:o:][a313]|313| Super Ugly Number                                            |Medium |
-|           |312| Burst Balloons                                               |Hard   |
+|[:o:][a312]|312| Burst Balloons                                               |Hard   |
 |  :lock:   |311| Sparse Matrix Multiplication                                 |Medium |
 |           |310| Minimum Height Trees                                         |Medium |
 |[:o:][a309]|309| Best Time to Buy and Sell Stock with Cooldown                |Medium |
@@ -430,7 +430,7 @@
 |           |227| Basic Calculator II                                          |Medium |
 |[:one:][a226-1][:two:][a226-2]|226| Invert Binary Tree                                           |Easy   |
 |[:o:][a225]|225| Implement Stack using Queues                                 |Easy   |
-|           |224| Basic Calculator                                             |Hard   |
+|[:o:][a224]|224| Basic Calculator                                             |Hard   |
 |[:o:][a223]|223| Rectangle Area                                               |Medium |
 |           |222| Count Complete Tree Nodes                                    |Medium |
 |[:o:][a221]|221| Maximal Square                                               |Medium |
@@ -1114,3 +1114,12 @@
 [a568]:./accepted/568.maximum-vacation-days.py
 [a218]:./accepted/218.the-skyline-problem.py
 [a391]:./accepted/391.perfect-rectangle.py
+[a481]:./accepted/481.magical-string.py
+[a684]:./accepted/684.redundant-connection.py
+[a316]:./accepted/316.remove-duplicate-letters.py
+[a421]:./accepted/421.maximum-xor-of-two-numbers-in-an-array.py
+[a312]:./accepted/312.burst-balloons.py
+[a482]:./accepted/482.license-key-formatting.py
+[a224]:./accepted/224.basic-calculator.py
+[a394]:./accepted/394.decode-string.py
+[a334]:./accepted/334.increasing-triplet-subsequence.py

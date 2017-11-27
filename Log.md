@@ -1,5 +1,22 @@
 # Log
 
+## 2017.11.23
+
+312.burst-balloons.py
+> - ✔ 70/70 cases passed (1189 ms)
+> - ✔ Your runtime beats 11.9 % of python submissions
+
+421.maximum-xor-of-two-numbers-in-an-array.py
+> - ✔ 29/29 cases passed (112 ms)
+> - ✔ Your runtime beats 86.33 % of python submissions
+
+## 2017.11.22
+
+316.remove-duplicate-letters.py
+> - ✔ 286/286 cases passed (45 ms)
+> - ✔ Your runtime beats 84.77 % of python submissions
+> - stack
+
 ## 2017.11.08
 
 163.missing-ranges.py
