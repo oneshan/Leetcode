@@ -1,5 +1,23 @@
 # Log
 
+## 2017.12.03
+
+697.degree-of-an-array.py 
+> - ✔ 89/89 cases passed (148 ms)
+> - ✔ Your runtime beats 35.73 % of python submissions
+
+717.1-bit-and-2-bit-characters.py 
+> - ✔ 93/93 cases passed (32 ms)
+> - ✔ Your runtime beats 82.21 % of python submissions
+
+720.longest-word-in-dictionary.py
+> - ✔ 57/57 cases passed (262 ms)
+> - ✔ Your runtime beats 18.74 % of python submissions
+
+690.employee-importance.py 
+> - ✔ 108/108 cases passed (409 ms)
+
+
 ## 2017.11.23
 
 312.burst-balloons.py

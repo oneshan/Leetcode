@@ -5,10 +5,10 @@
 |:lock:     |723| Candy Crush                                                  |Medium  |
 |	        |722| Remove Comments                                              |Medium  |
 |	        |721| Accounts Merge                                               |Medium  |
-|	        |720| Longest Word in Dictionary                                   |Easy    |
+|[:o:][a720]|720| Longest Word in Dictionary                                   |Easy    |
 |	        |719| Find K-th Smallest Pair Distance                             |Hard    |
 |	        |718| Maximum Length of Repeated Subarray                          |Medium  |
-|	        |717| 1-bit and 2-bit Characters                                   |Easy    |
+|[:o:][a717]|717| 1-bit and 2-bit Characters                                   |Easy    |
 |:lock:     |716| Max Stack                                                    |Easy    |
 |	        |715| Range Module                                                 |Hard    |
 |	        |714| Best Time to Buy and Sell Stock with Transaction Fee         |Medium  |
@@ -17,14 +17,14 @@
 |:lock:     |711| Number of Distinct Islands II                                |Hard    |
 |	        |699| Falling Squares                                              |Hard    |
 |	        |698| Partition to K Equal Sum Subsets                             |Medium  |
-|	        |697| Degree of an Array                                           |Easy    |
+|[:o:][a697]|697| Degree of an Array                                           |Easy    |
 |	        |696| Count Binary Substrings                                      |Easy    |
 |	        |695| Max Area of Island                                           |Easy    |
 |:lock:     |694| Number of Distinct Islands                                   |Medium  |
 |	        |693| Binary Number with Alternating Bits                          |Easy    |
 |  	        |692| Top K Frequent Words                                         |Medium  |
 |  	        |691| Stickers to Spell Word                                       |Hard    |
-|	        |690| Employee Importance                                          |Easy    |
+|[:o:][a690]|690| Employee Importance                                          |Easy    |
 |	        |689| Maximum Sum of 3 Non-Overlapping Subarrays                   |Hard    |
 |	        |688| Knight Probability in Chessboard                             |Medium  |
 |	        |687| Longest Univalue Path                                        |Easy    |
@@ -1123,3 +1123,7 @@
 [a224]:./accepted/224.basic-calculator.py
 [a394]:./accepted/394.decode-string.py
 [a334]:./accepted/334.increasing-triplet-subsequence.py
+[a690]:./accepted/690.employee-importance.py 
+[a720]:./accepted/720.longest-word-in-dictionary.py
+[a717]:./accepted/717.1-bit-and-2-bit-characters.py
+[a697]:./accepted/697.degree-of-an-array.py
